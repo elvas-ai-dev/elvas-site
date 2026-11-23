@@ -68,18 +68,13 @@ Não é câmera nova. Não é mais um software de gestão.
 
 ---
 
-## SEÇÃO 5 — PROJEÇÃO DE FUTURO IDEAL
+## SEÇÃO 5 — IMAGINE A SUA OPERAÇÃO ASSIM
 
-### Imagine fechar o mês assim:
+Você abre o painel. Cada ocorrência está documentada — com vídeo, horário e dados da operação.
 
-Você abre o painel. Tem uma lista.
-Cada item na lista é uma divergência — com vídeo, horário e dado da operação.
-Você sabe exatamente o que aconteceu, quando aconteceu e onde aconteceu.
+Sem "acho que foi o fulano". Sem depender da palavra de alguém para entender o que aconteceu.
 
-Sem achismo. Sem "acho que foi o fulano". Sem depender da confissão de alguém.
-Sem perder horas revisando câmera manualmente.
-
-Você tem prova. Com prova, você age. Com ação, você recupera.
+Uma perda que você não identifica pode continuar acontecendo. Uma perda documentada permite agir para evitar que se repita.
 
 **Perda que você não consegue provar, não consegue recuperar.**
 Perda documentada — você decide o que fazer com ela.
