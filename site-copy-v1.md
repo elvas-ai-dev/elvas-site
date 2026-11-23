@@ -26,10 +26,9 @@ Cancelamento sem motivo. Item passado sem leitura. Descontos sem autorização. 
 
 ---
 
-**Carne de primeira pesada como osso.**
+**Filé-mignon pesado como osso para sopa.**
 
-R$ 8 por quilo de diferença. Quarenta vezes por dia.
-Não aparece em nenhum relatório. Aparece no fechamento do mês como "quebra operacional" — um número bonito para encobrir o que você não consegue provar.
+R$ 80 de diferença por quilo. O prejuízo se acumula, a margem de lucro diminui. Como evitar uma perda que você não consegue identificar?
 
 ---
 
