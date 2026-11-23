@@ -214,22 +214,6 @@ Nestlé · Unilever · Philips · iFood · Super Bock Group
 
 ---
 
-## SEÇÃO 12 — PRIVACIDADE
-
-### A ELVAS não acusa ninguém. Ela documenta.
-
-Nenhum reconhecimento facial.
-Nenhum nome próprio nos alertas.
-Nenhuma atribuição automática de culpa.
-
-O sistema detecta divergência operacional — peso que não bateu, item não registrado, caixa que não fechou. Um revisor humano valida antes de qualquer informação chegar ao gestor.
-
-Você recebe evidência. O que fazer com ela é decisão sua.
-
-*LGPD: a ELVAS processa apenas dados operacionais da loja. Nenhum dado pessoal de consumidor é coletado ou armazenado.*
-
----
-
 ## SEÇÃO 13 — COMO COMEÇAR
 
 ### Quatro passos. Sem paralisia. Sem obra na loja.
