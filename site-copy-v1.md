@@ -42,16 +42,17 @@ A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente de
 
 ## SEÇÃO 3 — PARA QUEM É
 
-### Isso foi feito para você — se você se reconhecer aqui.
+A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias. Você se reconhece aqui?
 
-Você tem câmera instalada.
-Você usa sistema de gestão — ERP, software de frente de caixa, qualquer um.
-Você tem balcão próprio, açougue, frios ou recebimento com pesagem.
-E todo mês, o fechamento tem uma diferença que ninguém explica.
+✓ Você já tem câmeras instaladas.
 
-Se você leu isso e pensou *"é exatamente o meu caso"* — a ELVAS foi construída para você.
+✓ Você utiliza um sistema de gestão.
 
-Se você ainda não tem sistema de gestão ou câmeras: ainda não é a hora. Mas vai ser.
+✓ Sua operação tem caixas, açougue, balcões de frios ou recebimento de mercadorias.
+
+✓ E, mesmo com toda essa estrutura, o balanço continua apresentando diferenças que ninguém consegue explicar.
+
+Se você pensou “é exatamente o meu caso”, a ELVAS foi feita para você.
 
 ---
 
