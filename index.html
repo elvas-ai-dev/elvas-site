@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://elvas-ai.com/assets/ELVAS_logo.jpg">
   <meta property="og:url" content="https://elvas-ai.com/">
   <link rel="icon" href="/ui/logos/elvas-simbolo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/ui/index.css?v=20261123-18">
-  <link rel="stylesheet" href="/css/site.css?v=20261123-18">
+  <link rel="stylesheet" href="/ui/index.css?v=20261123-19">
+  <link rel="stylesheet" href="/css/site.css?v=20261123-19">
 </head>
 <body class="ev">
 <div class="site-shell">
@@ -105,6 +105,18 @@
             <p class="t-body">Seu conferente deu o aceite. Sem evidências, como identificar onde aconteceu a perda?</p>
           </article>
         </div>
+        <!-- Seta ilustrativa (só no computador): cauda larga à esquerda, ponta fina à direita -->
+        <svg class="s-swoosh" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="swoosh-cor" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" style="stop-color: var(--brand); stop-opacity: .08"/>
+              <stop offset=".55" style="stop-color: var(--brand); stop-opacity: .45"/>
+              <stop offset="1" style="stop-color: var(--brand-text); stop-opacity: 1"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#swoosh-cor)" d="M0,18 C260,104 620,112 1118,60 L1120,68 C640,126 250,128 0,92 Z"/>
+          <path fill="var(--brand-text)" d="M1102,38 L1196,64 L1102,90 C1116,74 1116,54 1102,38 Z"/>
+        </svg>
       </div>
     </section>
 
