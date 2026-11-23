@@ -445,17 +445,34 @@
       out.hidden = false;
     });
 
-    // Carrossel das telas de evento: arrastar, setas e bolinhas
+    // Carrossel das telas de evento: gira sozinho para a direita, para 3 s em cada tela, sem fim.
+    // Uma cópia da 1ª tela no fim deixa a volta contínua; setas, bolinhas e arrastar também funcionam.
     document.querySelectorAll('.s-carousel').forEach(function (c) {
       var track = c.querySelector('.s-carousel__track');
       var slides = c.querySelectorAll('.s-carousel__slide');
       var dots = c.querySelectorAll('.s-carousel__dots button');
-      function atual() { return Math.round(track.scrollLeft / track.clientWidth); }
-      function ir(i) { i = Math.max(0, Math.min(slides.length - 1, i)); track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' }); }
-      c.querySelectorAll('[data-dir]').forEach(function (b) { b.addEventListener('click', function () { ir(atual() + Number(b.getAttribute('data-dir'))); }); });
-      dots.forEach(function (d, i) { d.addEventListener('click', function () { ir(i); }); });
-      track.addEventListener('scroll', function () { var i = atual(); dots.forEach(function (d, j) { d.setAttribute('aria-selected', String(i === j)); }); });
-      track.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') ir(atual() + 1); if (e.key === 'ArrowLeft') ir(atual() - 1); });
+      var n = slides.length, PAUSA = 3000, timer = null;
+      var copia = slides[0].cloneNode(true);
+      copia.setAttribute('aria-hidden', 'true'); copia.removeAttribute('aria-label');
+      track.appendChild(copia);
+      function pos() { return Math.round(track.scrollLeft / track.clientWidth); }
+      function salto(i) { track.scrollTo({ left: i * track.clientWidth, behavior: 'instant' }); }
+      function ir(i) {
+        if (i < 0) { salto(n); i = n - 1; }
+        track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
+        agendar();
+      }
+      function marcar() { var i = pos() % n; dots.forEach(function (d, j) { d.setAttribute('aria-selected', String(i === j)); }); }
+      function voltaContinua() { if (pos() >= n) salto(0); }
+      function agendar() { clearTimeout(timer); timer = setTimeout(function () { voltaContinua(); ir(pos() + 1); }, PAUSA); }
+      c.querySelectorAll('[data-dir]').forEach(function (b) { b.addEventListener('click', function () { voltaContinua(); ir(pos() + Number(b.getAttribute('data-dir'))); }); });
+      dots.forEach(function (d, i) { d.addEventListener('click', function () { voltaContinua(); ir(i); }); });
+      track.addEventListener('scroll', marcar);
+      if ('onscrollend' in window) track.addEventListener('scrollend', voltaContinua);
+      track.addEventListener('pointerdown', agendar);
+      track.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') { voltaContinua(); ir(pos() + 1); } if (e.key === 'ArrowLeft') ir(pos() - 1); });
+      window.addEventListener('resize', function () { salto(pos() % n); });
+      agendar();
     });
 
     // Menu expansível: abre e fecha pelo botão; fecha com Esc, clique fora ou ao escolher uma seção
