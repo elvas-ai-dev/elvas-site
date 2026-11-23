@@ -114,6 +114,28 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-nots li { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 16px; color: var(--ink-muted); }
 .s-nots .ev-icon { font-size: 18px; color: var(--critical); }
 
+/* O que é: duas colunas, texto + carrossel das telas de evento */
+.s-oque { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-12); align-items: start; }
+.s-oque .s-cross { margin: var(--space-8) 0 var(--space-6) !important; max-width: 420px; }
+.s-oque .s-proofs, .s-oque .s-nots { justify-content: flex-start; }
+.s-oque .t-statement--sm { margin-top: var(--space-8) !important; }
+.s-carousel { position: sticky; top: calc(64px + var(--space-6)); display: flex; flex-direction: column; gap: var(--space-4); }
+.s-carousel__track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: var(--radius-lg); border: 1px solid var(--line); background: var(--surface-container); box-shadow: var(--shadow-modal); }
+.s-carousel__track::-webkit-scrollbar { display: none; }
+.s-carousel__track:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.s-carousel__slide { flex: 0 0 100%; scroll-snap-align: center; margin: 0; display: flex; align-items: flex-start; justify-content: center; max-height: 680px; overflow: hidden; }
+.s-carousel__slide img { width: 100%; height: auto; display: block; }
+.s-carousel__nav { display: flex; align-items: center; justify-content: center; gap: var(--space-3); }
+.s-carousel__dots { display: flex; gap: var(--space-2); }
+.s-carousel__dots button { width: 8px; height: 8px; padding: 0; border: 0; border-radius: var(--radius-full); background: var(--outline); cursor: pointer; transition: width 150ms; }
+.s-carousel__dots button[aria-selected="true"] { width: 24px; background: var(--brand); }
+@media (max-width: 1023px) {
+  .s-oque { grid-template-columns: 1fr; gap: var(--space-8); }
+  .s-carousel { position: static; max-width: 460px; width: 100%; margin: 0 auto; }
+}
+@media (pointer: coarse) { .s-carousel__dots button { width: 10px; height: 10px; } .s-carousel__dots button[aria-selected="true"] { width: 28px; } }
+@media (prefers-reduced-motion: reduce) { .s-carousel__dots button { transition: none; } }
+
 /* ---------- Imagine (contraste) ---------- */
 .s-versus { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
 .s-versus__item { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-4); padding: var(--space-8); border-radius: var(--radius-lg); }

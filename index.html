@@ -129,27 +129,47 @@
 
     <!-- 4 · O QUE É: o mecanismo -->
     <section class="s-band s-band--glow" id="o-que-e" aria-labelledby="t-oque">
-      <div class="wrap">
-        <p class="ev-section__title">O que é a ELVAS</p>
-        <h2 class="t-statement" id="t-oque">O ELVAS cruza <span class="hl">o que suas câmeras viram</span> com <span class="hl">o que seu sistema registrou.</span></h2>
-        <div class="s-cross" aria-hidden="true">
-          <span class="s-cross__node"><span class="ev-icon">videocam</span></span>
-          <span class="s-cross__line"></span>
-          <span class="s-cross__node s-cross__node--brand"><span class="ev-icon">join</span></span>
-          <span class="s-cross__line"></span>
-          <span class="s-cross__node"><span class="ev-icon">receipt_long</span></span>
+      <div class="wrap s-oque">
+        <div class="s-oque__text">
+          <p class="ev-section__title">O que é a ELVAS</p>
+          <h2 class="t-statement" id="t-oque">O ELVAS cruza <span class="hl">o que suas câmeras viram</span> com <span class="hl">o que seu sistema registrou.</span></h2>
+          <div class="s-cross" aria-hidden="true">
+            <span class="s-cross__node"><span class="ev-icon">videocam</span></span>
+            <span class="s-cross__line"></span>
+            <span class="s-cross__node s-cross__node--brand"><span class="ev-icon">join</span></span>
+            <span class="s-cross__line"></span>
+            <span class="s-cross__node"><span class="ev-icon">receipt_long</span></span>
+          </div>
+          <p class="t-lead">Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências.</p>
+          <ul class="s-proofs">
+            <li><span class="ev-icon" aria-hidden="true">videocam</span>Com vídeo.</li>
+            <li><span class="ev-icon" aria-hidden="true">schedule</span>Com hora.</li>
+            <li><span class="ev-icon" aria-hidden="true">database</span>Com dados da operação.</li>
+          </ul>
+          <ul class="s-nots">
+            <li><span class="ev-icon" aria-hidden="true">close</span>Não é câmera nova.</li>
+            <li><span class="ev-icon" aria-hidden="true">close</span>Não é mais um software de gestão.</li>
+          </ul>
+          <p class="t-statement t-statement--sm">É a inteligência que conecta os sistemas que você já tem e revela <span class="hl">o que antes passava despercebido.</span></p>
         </div>
-        <p class="t-lead s-center">Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências.</p>
-        <ul class="s-proofs">
-          <li><span class="ev-icon" aria-hidden="true">videocam</span>Com vídeo.</li>
-          <li><span class="ev-icon" aria-hidden="true">schedule</span>Com hora.</li>
-          <li><span class="ev-icon" aria-hidden="true">database</span>Com dados da operação.</li>
-        </ul>
-        <ul class="s-nots">
-          <li><span class="ev-icon" aria-hidden="true">close</span>Não é câmera nova.</li>
-          <li><span class="ev-icon" aria-hidden="true">close</span>Não é mais um software de gestão.</li>
-        </ul>
-        <p class="t-statement t-statement--sm s-center">É a inteligência que conecta os sistemas que você já tem e revela <span class="hl">o que antes passava despercebido.</span></p>
+
+        <!-- Carrossel: telas de evento do ELVAS (rostos desfocados) -->
+        <div class="s-carousel" aria-roledescription="carrossel" aria-label="Telas de evento do ELVAS">
+          <div class="s-carousel__track" tabindex="0">
+            <figure class="s-carousel__slide" aria-label="1 de 3"><img src="/assets/secao-4/evento-camara-fria.jpg" width="782" height="1188" loading="lazy" alt="Tela de evento do ELVAS: câmara fria aberta acima do limite, com o vídeo da porta e o que a IA indicou."></figure>
+            <figure class="s-carousel__slide" aria-label="2 de 3"><img src="/assets/secao-4/evento-pdv.jpg" width="636" height="1100" loading="lazy" alt="Tela de evento do ELVAS: volume visto no caixa sem item correspondente no cupom, com o vídeo e os dados do cupom."></figure>
+            <figure class="s-carousel__slide" aria-label="3 de 3"><img src="/assets/secao-4/evento-moedor.jpg" width="764" height="1374" loading="lazy" alt="Tela de evento do ELVAS: possível produto esquecido no moedor, com o vídeo do açougue e o que a IA indicou."></figure>
+          </div>
+          <div class="s-carousel__nav">
+            <button class="ev-btn ev-btn--icon" type="button" data-dir="-1" aria-label="Tela anterior"><span class="ev-icon" aria-hidden="true">chevron_left</span></button>
+            <div class="s-carousel__dots" role="tablist" aria-label="Escolher tela">
+              <button type="button" role="tab" aria-selected="true" aria-label="Tela 1"></button>
+              <button type="button" role="tab" aria-selected="false" aria-label="Tela 2"></button>
+              <button type="button" role="tab" aria-selected="false" aria-label="Tela 3"></button>
+            </div>
+            <button class="ev-btn ev-btn--icon" type="button" data-dir="1" aria-label="Próxima tela"><span class="ev-icon" aria-hidden="true">chevron_right</span></button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -411,6 +431,19 @@
       document.getElementById('o-red-mes').textContent = brl.format(red);
       document.getElementById('o-red-ano').textContent = brl.format(red * 12);
       out.hidden = false;
+    });
+
+    // Carrossel das telas de evento: arrastar, setas e bolinhas
+    document.querySelectorAll('.s-carousel').forEach(function (c) {
+      var track = c.querySelector('.s-carousel__track');
+      var slides = c.querySelectorAll('.s-carousel__slide');
+      var dots = c.querySelectorAll('.s-carousel__dots button');
+      function atual() { return Math.round(track.scrollLeft / track.clientWidth); }
+      function ir(i) { i = Math.max(0, Math.min(slides.length - 1, i)); track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' }); }
+      c.querySelectorAll('[data-dir]').forEach(function (b) { b.addEventListener('click', function () { ir(atual() + Number(b.getAttribute('data-dir'))); }); });
+      dots.forEach(function (d, i) { d.addEventListener('click', function () { ir(i); }); });
+      track.addEventListener('scroll', function () { var i = atual(); dots.forEach(function (d, j) { d.setAttribute('aria-selected', String(i === j)); }); });
+      track.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') ir(atual() + 1); if (e.key === 'ArrowLeft') ir(atual() - 1); });
     });
 
     // Menu expansível: abre e fecha pelo botão; fecha com Esc, clique fora ou ao escolher uma seção
