@@ -8,7 +8,7 @@ Site institucional do ELVAS AI, publicado em https://elvas-ai.com (projeto `site
 - `css/site.css`: ajustes do site com `var(--token)`: cabeçalho fixo (logo, "Acesso ao ELVAS", "Fale Conosco" e botão de menu) e menu expansível à direita com as seções. Os blocos de conteúdo usam os componentes do app (`ev-panel`, `ev-header`, `ev-card`, `ev-kpi`, `ev-numbered`, `ev-table`, `ev-alert`, `ev-pill`, `ev-field`, `ev-nav__item`).
 - Tema escuro, fonte Geist. Funciona em computador, tablet e celular.
 
-Site estático, sem etapa de build. Para ver no computador:
+Site estático, sem etapa de build. **Ao mudar qualquer CSS, troque o `?v=` dos dois `<link rel="stylesheet">` do `index.html`** (ex.: `?v=20261123-2`), para o navegador não usar a cópia antiga guardada. Para ver no computador:
 
 ```bash
 python3 -m http.server 4173
