@@ -256,14 +256,13 @@ Quatro passos simples. Sem obras na loja.
 
 ## SEÇÃO 14 — CTA FINAL
 
-Você já sabe o que está perdendo.
-Agora você sabe que tem como provar.
+### Cansado de perdas sem explicação?
 
-A única pergunta que resta é: **por quanto tempo mais você vai deixar isso acontecer sem evidência?**
+Agora você tem como identificar o que antes passava despercebido.
 
----
+Por quanto tempo mais vai deixar sua operação perder dinheiro sem saber onde e por quê?
 
-**Fale com a ELVAS.**
-Diagnóstico sem compromisso. Retorno em até 48h.
+**Fale com o ELVAS.**
+Agende o início do monitoramento e comece a transformar informações em resultados.
 
-`[ Quero o diagnóstico gratuito ]`
+`[ QUERO REDUZIR MINHAS PERDAS AGORA! ]`
