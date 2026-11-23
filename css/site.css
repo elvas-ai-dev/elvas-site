@@ -90,9 +90,10 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-pain__hook { font-size: 40px; line-height: 1.05; font-weight: 600; letter-spacing: -0.03em; color: var(--brand-text); font-variant-numeric: tabular-nums; }
 .s-pain__hook span { display: block; font-size: 17px; line-height: 24px; letter-spacing: -0.01em; color: var(--ink); margin-top: var(--space-1); }
 
-/* Seta ilustrativa abaixo dos cards da dor (só no computador) */
-.s-swoosh { display: block; width: 100%; height: 88px; margin-top: var(--space-8); filter: drop-shadow(0 0 18px color-mix(in srgb, var(--brand) 25%, transparent)); }
-@media (max-width: 1023px) { .s-swoosh { display: none; } }
+/* Seta ilustrativa sobre os cards da dor (só no computador; a curva é calculada no script) */
+.s-pains { position: relative; padding-bottom: 72px; }
+.s-swoosh { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; z-index: 1; filter: drop-shadow(0 0 16px color-mix(in srgb, var(--brand) 28%, transparent)); }
+@media (max-width: 1023px) { .s-swoosh { display: none; } .s-pains { padding-bottom: 0; } }
 
 /* ---------- Para quem é ---------- */
 .s-quem__lead { margin-top: var(--space-6) !important; }
