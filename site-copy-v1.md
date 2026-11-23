@@ -126,12 +126,36 @@ Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Aco
 
 Dados precisos para decidir. Controle da operação de onde você estiver.
 
-Acompanhe a eficiência dos caixas, identifique operações abaixo da meta e receba informações para agir.
+Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba informações para agir.
 
-<!-- Imagens dos painéis de eficiência da ELVAS -->
+---
+
+### Galeria do painel ELVAS
+
+**1. Saúde da operação** — Visão geral das lojas, setores e alertas.
+
+<!-- assets/secao-8/painel-saude-lojas.jpg — tabela de saúde por loja: Verde/Amarelo/Vermelho por setor (PDVs, açougue, recebimento, ERP, balanças) -->
+
+*Cada loja recebe uma classificação em tempo real: Verde (tudo OK), Amarelo (1–4 alertas) ou Vermelho (5 ou mais). Setores monitorados: Classificação em dia, Eventos suspeitos, Eficiência dos PDVs, Açougue, PDV/Caixas, Recebimento, ERP e Balanças.*
+
+---
+
+**2. Eficiência dos PDVs** — Comparação de produtividade e desempenho.
+
 <!-- assets/secao-8/painel-eficiencia-caixas-grafico.jpg — gráfico de barras itens/min por PDV -->
 <!-- assets/secao-8/painel-eficiencia-caixas-tabela.jpg — tabela detalhe por PDV -->
+
+*Veja quais caixas estão dentro da meta e quais puxam a média para baixo — sem esperar o relatório de segunda-feira.*
+
+---
+
+**3. Detalhamento por PDV** — Indicadores individuais e evolução semanal.
+
 <!-- assets/secao-8/painel-eficiencia-pdv-detalhe.jpg — card detalhe PDV 03 -->
+
+*Do consolidado ao individual: evolução semanal, pico de movimento e performance por operador.*
+
+---
 
 Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.
 
