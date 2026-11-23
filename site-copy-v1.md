@@ -137,23 +137,21 @@ Não espere pelo relatório de segunda-feira. Identifique problemas sem depender
 
 ---
 
-## SEÇÃO 9 — POR QUE O ELVAS É DIFERENTE
+## SEÇÃO 9 — POR QUE A ELVAS É DIFERENTE
 
-### Existem outras soluções. Nenhuma faz isso.
+Mais inteligência. Menos complexidade.
 
-A maior parte do mercado vende câmera, vende sistema de gestão, ou vende relatório periódico.
-Nenhum cruza os três.
+A ELVAS aproveita a estrutura que você já possui para transformar imagens e dados em informações para agir.
 
-| | ELVAS | Concorrência típica |
-|--|--|--|
-| Hardware novo | Não precisa | Exige instalação |
-| Servidor local | Não precisa | Exige TI |
-| Acesso aos dados | 24/7, tempo real | Relatório semanal |
-| Reconhecimento facial | Não usa | Padrão no mercado |
-| Revisão humana antes do alerta | Sim | Raro |
-
-A ELVAS não é mais tecnologia empilhada em cima da sua operação.
-É o cruzamento que transforma o que você já tem em prova.
+| Diferenciais | ELVAS |
+|---|---|
+| Novas câmeras | Não exige* |
+| Servidor local | Não necessita |
+| Monitoramento | 24 horas, 7 dias por semana |
+| Inteligência artificial | Vigilância contínua, sem distrações |
+| Revisão humana | Nossa equipe valida as ocorrências |
+| Indicadores de eficiência | A saúde da operação em tempo real |
+| Gestão integrada | PDV, açougue, recebimento e administrativo de todas as lojas em um só lugar |
 
 ---
 
