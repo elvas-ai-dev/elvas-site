@@ -48,6 +48,9 @@ A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente de
 
 A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.
 
+**Saúde da operação** — Visão geral das lojas, setores e alertas.
+Cada loja recebe uma classificação em tempo real: Verde (tudo OK), Amarelo (1–4 alertas) ou Vermelho (5 ou mais). Setores monitorados: Classificação em dia, Eventos suspeitos, Eficiência dos PDVs, Açougue, PDV/Caixas, Recebimento, ERP e Balanças.
+
 Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
 ✓ Você já tem câmeras instaladas.
