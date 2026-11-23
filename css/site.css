@@ -236,8 +236,15 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   main section { padding: 64px 0; scroll-margin-top: var(--topbar-h); }
   .wrap { padding: 0 var(--space-4); }
   .s-hero { padding: 38px 0 40px; }
+  .s-hero__title { margin-bottom: var(--space-4); }
   .s-hero__title .t-hero { font-size: clamp(22.68px, 3.276vw, 40.32px); text-align: center; }
+  .s-hero > .wrap + .wrap { margin-top: var(--space-4); }
+  .s-hero__grid { gap: var(--space-6); }
+  .s-hero__text { gap: var(--space-4); }
+  .s-hero__text .ev-section__title { display: none; }
+  .s-hero__ctas { margin-top: 0; }
   .s-hero__ctas .ev-btn { flex: 1 1 100%; }
+  .s-hero__stats { margin-top: var(--space-8) !important; }
   .s-hero__stats > div { padding: var(--space-4) var(--space-3); }
   .s-pain, .s-versus__item, .s-money__col, .s-calc { padding: var(--space-5); }
   .s-versus { grid-template-columns: 1fr; }
