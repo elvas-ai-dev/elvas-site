@@ -186,6 +186,11 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-shot__pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
 .s-shot__n { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--brand); color: var(--on-brand); font-size: 12px; margin-right: var(--space-2); vertical-align: 2px; }
 .s-shot .ev-pill { vertical-align: 1px; }
+.t-statement.s-shot__fecho {
+  margin-top: var(--space-3) !important;
+  text-align: left;
+  max-width: none;
+}
 
 /* ---------- Diferenciais ---------- */
 .s-table td:first-child { color: var(--ink-muted); width: 42%; }
