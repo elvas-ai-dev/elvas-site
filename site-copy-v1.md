@@ -122,19 +122,18 @@ Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Aco
 
 ---
 
-## SEÇÃO 8 — AS INFORMAÇÕES CHEGAM ONDE VOCÊ ESTÁ
+## SEÇÃO 8 — AS INFORMAÇÕES CHEGAM ATÉ VOCÊ
 
-### Não é só alerta. É controle total — de onde você estiver.
+Dados precisos para decidir. Controle da operação de onde você estiver.
 
-Quando uma divergência é detectada: você recebe o trecho do vídeo, o dado da operação e o horário — no celular, no momento em que aconteceu.
+Acompanhe a eficiência dos caixas, identifique operações abaixo da meta e receba informações para agir.
 
-Quando quiser revisar: o painel está aberto. Histórico. Relatório por período. Ranking por tipo de ocorrência. Comparativo entre unidades.
+<!-- Imagens dos painéis de eficiência da ELVAS -->
+<!-- assets/secao-8/painel-eficiencia-caixas-grafico.jpg — gráfico de barras itens/min por PDV -->
+<!-- assets/secao-8/painel-eficiencia-caixas-tabela.jpg — tabela detalhe por PDV -->
+<!-- assets/secao-8/painel-eficiencia-pdv-detalhe.jpg — card detalhe PDV 03 -->
 
-Você não precisa estar na loja para saber o que está acontecendo nela.
-Você não precisa esperar o relatório de segunda de manhã.
-Você não precisa perguntar para ninguém.
-
-**A operação não para para te informar. A informação chega até você.**
+Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.
 
 ---
 
