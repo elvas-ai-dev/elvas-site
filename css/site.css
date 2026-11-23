@@ -88,6 +88,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-pain__hook span { display: block; font-size: 17px; line-height: 24px; letter-spacing: -0.01em; color: var(--ink); margin-top: var(--space-1); }
 
 /* ---------- Para quem é ---------- */
+.s-quem__lead { margin-top: var(--space-6) !important; }
 .s-checks { display: flex; flex-direction: column; gap: var(--space-3); }
 .s-checks li { display: flex; gap: var(--space-3); align-items: flex-start; font-size: 17px; line-height: 26px; padding: var(--space-4) var(--space-5); border-radius: var(--radius-md); background: var(--surface); border: 1px solid var(--line); }
 .s-checks .ev-icon { color: var(--success); margin-top: 3px; }

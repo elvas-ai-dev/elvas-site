@@ -18,7 +18,7 @@ O varejo perde R$ 59 milhões por dia em furtos e perdas sem explicação.¹
 
 ## SEÇÃO 2 — A DOR
 
-### Você sabe que está perdendo. Só não consegue provar.
+### Você sabe que está perdendo. Agora é possível localizar essa perda.
 
 ---
 
@@ -44,7 +44,9 @@ A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente de
 
 ## SEÇÃO 3 — PARA QUEM É
 
-A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias. Você se reconhece aqui?
+### Para quem é o ELVAS
+
+A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.
 
 ✓ Você já tem câmeras instaladas.
 
@@ -54,7 +56,7 @@ A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfre
 
 ✓ E, mesmo com toda essa estrutura, o balanço continua apresentando diferenças que ninguém consegue explicar.
 
-Se você pensou “é exatamente o meu caso”, a ELVAS foi feita para você.
+Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
 ---
 
@@ -258,7 +260,7 @@ Quatro passos simples. Sem obras na loja.
 
 ## SEÇÃO 14 — CTA FINAL
 
-### Cansado de perdas sem explicação?
+### As perdas sem explicação são um grande incômodo.
 
 Agora você tem como identificar o que antes passava despercebido.
 
