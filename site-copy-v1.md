@@ -240,14 +240,17 @@ Nestlé · Unilever · Philips · iFood · Super Bock Group
 
 ## SEÇÃO 13 — COMO COMEÇAR
 
-### Quatro passos. Sem paralisia. Sem obra na loja.
+Quatro passos simples. Sem obras na loja.
 
-**1. Diagnóstico** — Mapeamos suas câmeras e seu sistema de gestão. Sem compromisso.
-**2. Ligação** — Conectamos a ELVAS ao que você já tem. Sem câmera nova. Sem servidor local.
-**3. Calibração** — Ajustamos para a operação da sua loja. Começa por um módulo.
-**4. Avisos ativos** — A partir daí, as divergências chegam até você.
+**1. Reunião inicial** — Uma breve conversa para conhecer sua operação e alinhar o início do acompanhamento pela ELVAS.
 
-**Da conversa aos primeiros alertas: dias, não meses.**
+**2. Integração** — Conectamos seu ERP e suas câmeras à ELVAS. Sem investimento inicial em equipamentos.
+
+**3. Calibração** — Ajustamos a solução à sua operação. Começamos pelo PDV e evoluímos módulo a módulo.
+
+**4. Monitoramento ativo** — Em até uma semana, seus indicadores e alertas começam a funcionar.
+
+**Da primeira conversa aos primeiros alertas: dias, não meses.**
 
 ---
 
