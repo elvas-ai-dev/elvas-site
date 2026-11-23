@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://elvas-ai.com/assets/ELVAS_logo.jpg">
   <meta property="og:url" content="https://elvas-ai.com/">
   <link rel="icon" href="/ui/logos/elvas-simbolo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/ui/index.css?v=20261123-1">
-  <link rel="stylesheet" href="/css/site.css?v=20261123-1">
+  <link rel="stylesheet" href="/ui/index.css?v=20261123-2">
+  <link rel="stylesheet" href="/css/site.css?v=20261123-2">
 </head>
 <body class="ev">
 <div class="site-shell">
@@ -30,193 +30,240 @@
 
   <!-- Menu expansível (abre pelo botão de menu) -->
   <nav class="site-menu" id="site-menu" aria-label="Seções do site" hidden>
-      <a class="ev-nav__item" href="#inicio" aria-current="page"><span class="ev-icon" aria-hidden="true">space_dashboard</span><span>Início</span></a>
-      <a class="ev-nav__item" href="#o-problema"><span class="ev-icon" aria-hidden="true">report</span><span>O problema</span></a>
-      <a class="ev-nav__item" href="#o-que-e"><span class="ev-icon" aria-hidden="true">join</span><span>O que é a ELVAS</span></a>
-      <a class="ev-nav__item" href="#como-funciona"><span class="ev-icon" aria-hidden="true">account_tree</span><span>Como funciona</span></a>
-      <a class="ev-nav__item" href="#o-que-recebe"><span class="ev-icon" aria-hidden="true">inventory_2</span><span>O que você recebe</span></a>
-      <a class="ev-nav__item" href="#painel"><span class="ev-icon" aria-hidden="true">insights</span><span>O painel</span></a>
-      <div class="ev-nav__group">Para decidir</div>
-      <a class="ev-nav__item" href="#diferenciais"><span class="ev-icon" aria-hidden="true">verified</span><span>Diferenciais</span></a>
-      <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
-      <a class="ev-nav__item" href="#quem-somos"><span class="ev-icon" aria-hidden="true">group</span><span>Quem somos</span></a>
-      <a class="ev-nav__item" href="#como-comecar"><span class="ev-icon" aria-hidden="true">flag</span><span>Como começar</span></a>
+    <a class="ev-nav__item" href="#inicio" aria-current="page"><span class="ev-icon" aria-hidden="true">space_dashboard</span><span>Início</span></a>
+    <a class="ev-nav__item" href="#o-problema"><span class="ev-icon" aria-hidden="true">report</span><span>O problema</span></a>
+    <a class="ev-nav__item" href="#o-que-e"><span class="ev-icon" aria-hidden="true">join</span><span>O que é a ELVAS</span></a>
+    <a class="ev-nav__item" href="#como-funciona"><span class="ev-icon" aria-hidden="true">account_tree</span><span>Como funciona</span></a>
+    <a class="ev-nav__item" href="#o-que-recebe"><span class="ev-icon" aria-hidden="true">inventory_2</span><span>O que você recebe</span></a>
+    <a class="ev-nav__item" href="#painel"><span class="ev-icon" aria-hidden="true">insights</span><span>O painel</span></a>
+    <div class="ev-nav__group">Para decidir</div>
+    <a class="ev-nav__item" href="#diferenciais"><span class="ev-icon" aria-hidden="true">verified</span><span>Diferenciais</span></a>
+    <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
+    <a class="ev-nav__item" href="#quem-somos"><span class="ev-icon" aria-hidden="true">group</span><span>Quem somos</span></a>
+    <a class="ev-nav__item" href="#como-comecar"><span class="ev-icon" aria-hidden="true">flag</span><span>Como começar</span></a>
   </nav>
 
-  <div class="ev-panel site-panel">
-    <main class="ev-main">
+  <main>
 
-      <!-- HERO -->
-      <section class="ev-stack site-sec" id="inicio" aria-labelledby="t-inicio">
-        <header class="ev-header">
-          <div class="site-lede">
-            <p class="ev-section__title">Inteligência artificial para o varejo</p>
-            <h1 class="ev-header__title" id="t-inicio">O varejo perde R$ 115 milhões por dia em furtos e perdas sem explicação.</h1>
-            <p class="site-text"><strong>O ELVAS IA acaba com isso.</strong></p>
-          </div>
-          <div class="ev-header__tools">
-            <a class="ev-btn" href="#como-funciona">Ver como funciona</a>
-            <a class="ev-btn ev-btn--primary" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener">Quero reduzir minhas perdas</a>
-          </div>
-        </header>
-        <div class="ev-grid">
-          <div class="ev-span-4 ev-card ev-kpi">
-            <span class="ev-kpi__label"><span class="ev-icon" aria-hidden="true">trending_down</span>Perdas no varejo</span>
-            <span class="ev-kpi__value">R$ 115 mi</span>
-            <span class="ev-kpi__delta">por dia, no Brasil¹</span>
-          </div>
-          <div class="ev-span-4 ev-card ev-kpi">
-            <span class="ev-kpi__label"><span class="ev-icon" aria-hidden="true">videocam</span>Novas câmeras</span>
-            <span class="ev-kpi__value">Não exige*</span>
-            <span class="ev-kpi__delta">usa a estrutura que você já tem</span>
-          </div>
-          <div class="ev-span-4 ev-card ev-kpi">
-            <span class="ev-kpi__label"><span class="ev-icon" aria-hidden="true">schedule</span>Monitoramento</span>
-            <span class="ev-kpi__value">24/7</span>
-            <span class="ev-kpi__delta">nossa equipe valida as ocorrências</span>
+    <!-- HERO: o número e a promessa -->
+    <section class="s-hero" id="inicio" aria-labelledby="t-inicio">
+      <div class="wrap s-hero__grid">
+        <div class="s-hero__text">
+          <p class="ev-section__title">Inteligência artificial para o varejo</p>
+          <h1 class="t-hero" id="t-inicio">O varejo perde <span class="hl">R$&nbsp;115 milhões por dia</span> em furtos e perdas sem explicação.<sup>¹</sup></h1>
+          <p class="t-claim"><strong>O ELVAS IA acaba com isso.</strong></p>
+          <div class="s-hero__ctas">
+            <a class="ev-btn ev-btn--primary ev-btn--lg" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener">Quero reduzir minhas perdas</a>
+            <a class="ev-btn ev-btn--lg" href="#como-funciona">Ver como funciona</a>
           </div>
         </div>
-        <p class="ev-card__meta">¹ Fonte: ABRAPPE e Protiviti — 9ª Pesquisa de Perdas no Varejo Brasileiro (dados de 2025, divulgados em 2026).</p>
-      </section>
+        <figure class="s-hero__shot">
+          <img src="/assets/secao-8/painel-saude-lojas.jpg" width="1280" height="578" alt="Painel Saúde do ELVAS: situação de cada loja em Verde, Amarelo ou Vermelho, por setor.">
+        </figure>
+      </div>
+      <div class="wrap">
+        <dl class="s-hero__stats">
+          <div><dt>Novas câmeras</dt><dd>Não exige*</dd></div>
+          <div><dt>Servidor local</dt><dd>Não necessita</dd></div>
+          <div><dt>Monitoramento</dt><dd>24 horas, 7 dias por semana</dd></div>
+          <div><dt>Revisão humana</dt><dd>Nossa equipe valida as ocorrências</dd></div>
+        </dl>
+        <p class="t-note">¹ Fonte: ABRAPPE e Protiviti — 9ª Pesquisa de Perdas no Varejo Brasileiro (dados de 2025, divulgados em 2026).</p>
+      </div>
+    </section>
 
-      <!-- 2 · A DOR -->
-      <section class="ev-stack site-sec" id="o-problema" aria-labelledby="t-dor">
-        <p class="ev-section__title">O problema</p>
-        <h2 class="site-h2" id="t-dor">Você sabe que está perdendo. Só não consegue provar.</h2>
-        <div class="ev-grid">
-          <article class="ev-span-4 ev-card ev-stack site-card">
-            <span class="ev-icon site-ico" aria-hidden="true">point_of_sale</span>
-            <h3 class="ev-card__title">Seu PDV não registra tudo que sai.</h3>
-            <p class="site-text site-muted">Cancelamento sem motivo. Item passado sem leitura. Descontos sem autorização. O seu sistema nem sempre revela tudo.</p>
+    <!-- 2 · A DOR: a frase-tensão em destaque -->
+    <section class="s-band" id="o-problema" aria-labelledby="t-dor">
+      <div class="wrap">
+        <h2 class="t-statement" id="t-dor">Você sabe que está perdendo. <span class="hl">Só não consegue provar.</span></h2>
+        <div class="s-pains">
+          <article class="s-pain">
+            <span class="ev-icon s-pain__icon" aria-hidden="true">point_of_sale</span>
+            <h3 class="t-h3">Seu PDV não registra tudo que sai.</h3>
+            <ul class="s-pain__list">
+              <li>Cancelamento sem motivo.</li>
+              <li>Item passado sem leitura.</li>
+              <li>Descontos sem autorização.</li>
+            </ul>
+            <p class="t-body">O seu sistema nem sempre revela tudo.</p>
           </article>
-          <article class="ev-span-4 ev-card ev-stack site-card">
-            <span class="ev-icon site-ico" aria-hidden="true">scale</span>
-            <h3 class="ev-card__title">Filé-mignon pesado como osso para sopa.</h3>
-            <p class="site-text site-muted">R$ 80 de diferença por quilo. O prejuízo se acumula, a margem de lucro diminui. Como evitar uma perda que você não consegue identificar?</p>
+          <article class="s-pain">
+            <span class="ev-icon s-pain__icon" aria-hidden="true">scale</span>
+            <h3 class="t-h3">Filé-mignon pesado como osso para sopa.</h3>
+            <p class="s-pain__hook">R$&nbsp;80 <span>de diferença por quilo.</span></p>
+            <p class="t-body">O prejuízo se acumula, a margem de lucro diminui. Como evitar uma perda que você não consegue identificar?</p>
           </article>
-          <article class="ev-span-4 ev-card ev-stack site-card">
-            <span class="ev-icon site-ico" aria-hidden="true">local_shipping</span>
-            <h3 class="ev-card__title">O que acontece nas docas, fica nas docas.</h3>
-            <p class="site-text site-muted">Sabe exatamente o que acontece nas docas?</p>
-            <p class="site-text site-muted">A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente deu o aceite. Sem evidências, como identificar onde aconteceu a perda?</p>
+          <article class="s-pain">
+            <span class="ev-icon s-pain__icon" aria-hidden="true">local_shipping</span>
+            <h3 class="t-h3">O que acontece nas docas, fica nas docas.</h3>
+            <p class="t-body">Sabe exatamente o que acontece nas docas?</p>
+            <p class="t-body">A nota registra 100 caixas. Apenas 94 chegaram.</p>
+            <p class="s-pain__hook">E as outras 6?</p>
+            <p class="t-body">Seu conferente deu o aceite. Sem evidências, como identificar onde aconteceu a perda?</p>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- 3 · PARA QUEM É -->
-      <section class="ev-stack site-sec" aria-labelledby="t-quem">
-        <p class="ev-section__title">Para quem é</p>
-        <h2 class="site-h2" id="t-quem">Você se reconhece aqui?</h2>
-        <p class="site-text site-muted">A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.</p>
-        <div class="ev-card">
-          <ul class="ev-plain site-checks">
-            <li><span class="ev-icon" aria-hidden="true">check_circle</span>Você já tem câmeras instaladas.</li>
-            <li><span class="ev-icon" aria-hidden="true">check_circle</span>Você utiliza um sistema de gestão.</li>
-            <li><span class="ev-icon" aria-hidden="true">check_circle</span>Sua operação tem caixas, açougue, balcões de frios ou recebimento de mercadorias.</li>
-            <li><span class="ev-icon" aria-hidden="true">check_circle</span>E, mesmo com toda essa estrutura, o balanço continua apresentando diferenças que ninguém consegue explicar.</li>
-          </ul>
+    <!-- 3 · PARA QUEM É: identificação -->
+    <section class="s-plain" aria-labelledby="t-quem">
+      <div class="wrap s-split">
+        <div>
+          <p class="ev-section__title">Para quem é</p>
+          <p class="t-lead">A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.</p>
+          <h2 class="t-h2" id="t-quem">Você se reconhece aqui?</h2>
         </div>
-        <div class="ev-alert ev-alert--ok"><span class="ev-icon" aria-hidden="true">thumb_up</span><div><span class="ev-alert__text">Se você pensou “é exatamente o meu caso”, a ELVAS foi feita para você.</span></div></div>
-      </section>
+        <ul class="s-checks">
+          <li><span class="ev-icon" aria-hidden="true">check_circle</span>Você já tem câmeras instaladas.</li>
+          <li><span class="ev-icon" aria-hidden="true">check_circle</span>Você utiliza um sistema de gestão.</li>
+          <li><span class="ev-icon" aria-hidden="true">check_circle</span>Sua operação tem caixas, açougue, balcões de frios ou recebimento de mercadorias.</li>
+          <li class="s-checks__last"><span class="ev-icon" aria-hidden="true">error</span>E, mesmo com toda essa estrutura, o balanço continua apresentando diferenças que ninguém consegue explicar.</li>
+        </ul>
+      </div>
+      <div class="wrap">
+        <p class="t-quote">Se você pensou <span class="hl">“é exatamente o meu caso”</span>, a ELVAS foi feita para você.</p>
+      </div>
+    </section>
 
-      <!-- 4 · O QUE É -->
-      <section class="ev-stack site-sec" id="o-que-e" aria-labelledby="t-oque">
+    <!-- 4 · O QUE É: o mecanismo -->
+    <section class="s-band s-band--glow" id="o-que-e" aria-labelledby="t-oque">
+      <div class="wrap">
         <p class="ev-section__title">O que é a ELVAS</p>
-        <h2 class="site-h2" id="t-oque">O ELVAS cruza o que suas câmeras viram com o que seu sistema registrou.</h2>
-        <p class="site-text site-muted">Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências. <strong>Com vídeo. Com hora. Com dados da operação.</strong></p>
-        <p class="site-text site-muted">Não é câmera nova. Não é mais um software de gestão.</p>
-        <div class="ev-alert ev-alert--neutral"><span class="ev-icon" aria-hidden="true">join</span><div><span class="ev-alert__text">É a inteligência que conecta os sistemas que você já tem e revela o que antes passava despercebido.</span></div></div>
-      </section>
-
-      <!-- 5 · IMAGINE -->
-      <section class="ev-stack site-sec" aria-labelledby="t-imagine">
-        <p class="ev-section__title">Imagine a sua operação assim</p>
-        <h2 class="site-h2" id="t-imagine">Você abre o painel. Cada ocorrência está documentada — com vídeo, horário e dados da operação.</h2>
-        <p class="site-text site-muted">Sem “acho que foi o fulano”. Sem depender da palavra de alguém para entender o que aconteceu.</p>
-        <p class="site-text site-muted">Uma perda que você não identifica pode continuar acontecendo. Uma perda documentada permite agir para evitar que se repita.</p>
-        <div class="ev-grid">
-          <div class="ev-span-6 ev-card ev-stack site-card">
-            <span class="ev-pill ev-pill--critical">Sem evidência</span>
-            <p class="site-text"><strong>Perda que você não consegue provar, não consegue recuperar.</strong></p>
-          </div>
-          <div class="ev-span-6 ev-card ev-stack site-card">
-            <span class="ev-pill ev-pill--ok">Com a ELVAS</span>
-            <p class="site-text"><strong>Perda documentada — você decide o que fazer com ela.</strong></p>
-          </div>
+        <h2 class="t-statement" id="t-oque">O ELVAS cruza <span class="hl">o que suas câmeras viram</span> com <span class="hl">o que seu sistema registrou.</span></h2>
+        <div class="s-cross" aria-hidden="true">
+          <span class="s-cross__node"><span class="ev-icon">videocam</span></span>
+          <span class="s-cross__line"></span>
+          <span class="s-cross__node s-cross__node--brand"><span class="ev-icon">join</span></span>
+          <span class="s-cross__line"></span>
+          <span class="s-cross__node"><span class="ev-icon">receipt_long</span></span>
         </div>
-      </section>
+        <p class="t-lead s-center">Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências.</p>
+        <ul class="s-proofs">
+          <li><span class="ev-icon" aria-hidden="true">videocam</span>Com vídeo.</li>
+          <li><span class="ev-icon" aria-hidden="true">schedule</span>Com hora.</li>
+          <li><span class="ev-icon" aria-hidden="true">database</span>Com dados da operação.</li>
+        </ul>
+        <ul class="s-nots">
+          <li><span class="ev-icon" aria-hidden="true">close</span>Não é câmera nova.</li>
+          <li><span class="ev-icon" aria-hidden="true">close</span>Não é mais um software de gestão.</li>
+        </ul>
+        <p class="t-statement t-statement--sm s-center">É a inteligência que conecta os sistemas que você já tem e revela <span class="hl">o que antes passava despercebido.</span></p>
+      </div>
+    </section>
 
-      <!-- 6 · COMO FUNCIONA -->
-      <section class="ev-stack site-sec" id="como-funciona" aria-labelledby="t-como">
+    <!-- 5 · IMAGINE: o contraste -->
+    <section class="s-plain" aria-labelledby="t-imagine">
+      <div class="wrap s-split">
+        <div>
+          <p class="ev-section__title">Imagine a sua operação assim</p>
+          <h2 class="t-h2" id="t-imagine">Você abre o painel. Cada ocorrência está documentada — com vídeo, horário e dados da operação.</h2>
+        </div>
+        <div class="s-stack">
+          <p class="t-lead">Sem “acho que foi o fulano”. Sem depender da palavra de alguém para entender o que aconteceu.</p>
+          <p class="t-lead">Uma perda que você não identifica pode continuar acontecendo. Uma perda documentada permite agir para evitar que se repita.</p>
+        </div>
+      </div>
+      <div class="wrap s-versus">
+        <div class="s-versus__item s-versus__item--bad">
+          <span class="ev-pill ev-pill--critical">Sem evidência</span>
+          <p>Perda que você não consegue provar, não consegue recuperar.</p>
+        </div>
+        <div class="s-versus__item s-versus__item--good">
+          <span class="ev-pill ev-pill--ok">Com a ELVAS</span>
+          <p>Perda documentada — você decide o que fazer com ela.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · COMO FUNCIONA -->
+    <section class="s-band" id="como-funciona" aria-labelledby="t-como">
+      <div class="wrap">
         <p class="ev-section__title">Como o ELVAS funciona</p>
-        <h2 class="site-h2" id="t-como">Três movimentos. Sem mistério.</h2>
-        <ol class="ev-numbered">
-          <li><span class="ev-numbered__n">1</span><div><strong>Suas câmeras registram o que aconteceu.</strong><br><span class="site-muted">No balcão, no caixa, nas docas ou na câmara fria.</span></div></li>
-          <li><span class="ev-numbered__n">2</span><div><strong>Seu sistema registra os dados da operação.</strong><br><span class="site-muted">Peso, produto, valor e quantidade.</span></div></li>
-          <li><span class="ev-numbered__n">3</span><div><strong>A ELVAS cruza as informações automaticamente.</strong><br><span class="site-muted">Quando identifica uma divergência, reúne vídeo, dados e horário para análise.</span></div></li>
+        <h2 class="t-statement" id="t-como">Três movimentos. <span class="hl">Sem mistério.</span></h2>
+        <ol class="s-steps">
+          <li><span class="s-steps__n">01</span><h3 class="t-h3">Suas câmeras registram o que aconteceu.</h3><p class="t-body">No balcão, no caixa, nas docas ou na câmara fria.</p></li>
+          <li><span class="s-steps__n">02</span><h3 class="t-h3">Seu sistema registra os dados da operação.</h3><p class="t-body">Peso, produto, valor e quantidade.</p></li>
+          <li><span class="s-steps__n s-steps__n--brand">03</span><h3 class="t-h3">A ELVAS cruza as informações automaticamente.</h3><p class="t-body">Quando identifica uma divergência, reúne vídeo, dados e horário para análise.</p></li>
         </ol>
-        <div class="site-pills">
-          <span class="ev-pill ev-pill--ok">Sem trocar suas câmeras</span>
-          <span class="ev-pill ev-pill--ok">Sem instalar novos servidores</span>
-          <span class="ev-pill ev-pill--ok">Sem complicar sua operação</span>
-        </div>
-        <p class="site-text site-muted">A ELVAS conecta os sistemas que você já utiliza e revela divergências que antes passavam despercebidas.</p>
-        <p class="site-text"><strong>A ELVAS conecta o que você já tem — e faz o cruzamento que nunca foi feito.</strong></p>
-      </section>
+        <ul class="s-sems">
+          <li><span class="ev-icon" aria-hidden="true">check</span>Sem trocar suas câmeras.</li>
+          <li><span class="ev-icon" aria-hidden="true">check</span>Sem instalar novos servidores.</li>
+          <li><span class="ev-icon" aria-hidden="true">check</span>Sem complicar sua operação.</li>
+        </ul>
+        <p class="t-lead s-center">A ELVAS conecta os sistemas que você já utiliza e revela divergências que antes passavam despercebidas.</p>
+        <p class="t-statement t-statement--sm s-center">A ELVAS conecta o que você já tem — e faz <span class="hl">o cruzamento que nunca foi feito.</span></p>
+      </div>
+    </section>
 
-      <!-- 7 · O QUE VOCÊ RECEBE -->
-      <section class="ev-stack site-sec" id="o-que-recebe" aria-labelledby="t-recebe">
+    <!-- 7 · O QUE VOCÊ RECEBE -->
+    <section class="s-plain" id="o-que-recebe" aria-labelledby="t-recebe">
+      <div class="wrap">
         <p class="ev-section__title">O que você recebe</p>
-        <h2 class="site-h2" id="t-recebe">Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Acompanhamento para prevenir.</h2>
-        <div class="ev-grid site-feats">
-          <div class="ev-span-3 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">set_meal</span><h3 class="ev-card__title">Balcão e açougue</h3><p class="ev-card__meta">Divergências de produtos e pesagens.</p></div>
-          <div class="ev-span-3 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">notifications_active</span><h3 class="ev-card__title">Alertas operacionais</h3><p class="ev-card__meta">Câmara fria aberta, câmeras desligadas e falhas no ERP.</p></div>
-          <div class="ev-span-3 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">point_of_sale</span><h3 class="ev-card__title">Frente de caixa</h3><p class="ev-card__meta">Operação real vs. registro no PDV.</p></div>
-          <div class="ev-span-3 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">insights</span><h3 class="ev-card__title">Relatórios de eficiência</h3><p class="ev-card__meta">Indicadores por PDV, loja e tipo de ocorrência.</p></div>
-          <div class="ev-span-4 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">inventory_2</span><h3 class="ev-card__title">Recebimento</h3><p class="ev-card__meta">Nota fiscal vs. mercadoria entregue.</p></div>
-          <div class="ev-span-4 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">space_dashboard</span><h3 class="ev-card__title">Painel 24/7</h3><p class="ev-card__meta">Histórico, relatórios e ocorrências.</p></div>
-          <div class="ev-span-4 ev-card ev-stack site-card"><span class="ev-icon site-ico" aria-hidden="true">videocam</span><h3 class="ev-card__title">Evidências</h3><p class="ev-card__meta">Vídeo, data, hora e dados da operação.</p></div>
-        </div>
-      </section>
+        <h2 class="s-verbs" id="t-recebe">
+          <span><b>Apoio</b> para solucionar.</span>
+          <span><b>Visibilidade</b> para identificar.</span>
+          <span><b>Evidências</b> para agir.</span>
+          <span><b>Acompanhamento</b> para prevenir.</span>
+        </h2>
+        <ul class="s-feats">
+          <li><span class="ev-icon" aria-hidden="true">set_meal</span><div><h3 class="t-h3">Balcão e açougue</h3><p class="t-body">Divergências de produtos e pesagens.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">notifications_active</span><div><h3 class="t-h3">Alertas operacionais</h3><p class="t-body">Câmara fria aberta, câmeras desligadas e falhas no ERP.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">point_of_sale</span><div><h3 class="t-h3">Frente de caixa</h3><p class="t-body">Operação real vs. registro no PDV.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">insights</span><div><h3 class="t-h3">Relatórios de eficiência</h3><p class="t-body">Indicadores por PDV, loja e tipo de ocorrência.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">inventory_2</span><div><h3 class="t-h3">Recebimento</h3><p class="t-body">Nota fiscal vs. mercadoria entregue.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">space_dashboard</span><div><h3 class="t-h3">Painel 24/7</h3><p class="t-body">Histórico, relatórios e ocorrências.</p></div></li>
+          <li><span class="ev-icon" aria-hidden="true">videocam</span><div><h3 class="t-h3">Evidências</h3><p class="t-body">Vídeo, data, hora e dados da operação.</p></div></li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- 8 · PAINEL -->
-      <section class="ev-stack site-sec" id="painel" aria-labelledby="t-painel">
+    <!-- 8 · PAINEL -->
+    <section class="s-band" id="painel" aria-labelledby="t-painel">
+      <div class="wrap">
         <p class="ev-section__title">As informações chegam até você</p>
-        <h2 class="site-h2" id="t-painel">Dados precisos para decidir. Controle da operação de onde você estiver.</h2>
-        <p class="site-text site-muted">Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba informações para agir.</p>
+        <h2 class="t-statement" id="t-painel">Dados precisos para decidir. <span class="hl">Controle da operação de onde você estiver.</span></h2>
+        <p class="t-lead">Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba informações para agir.</p>
 
-        <figure class="ev-card ev-stack site-shot">
-          <figcaption><h3 class="ev-card__title site-shot__title"><span class="ev-numbered__n">1</span>Saúde da operação</h3><p class="ev-card__meta">Visão geral das lojas, setores e alertas.</p></figcaption>
-          <img src="/assets/secao-8/painel-saude-lojas.jpg" width="1280" height="578" loading="lazy" alt="Painel Saúde do ELVAS: tabela com seis lojas de exemplo e a situação de cada uma em Verde, Amarelo ou Vermelho, por setor.">
-          <div class="ev-legend"><span><span class="ev-pill ev-pill--ok">Verde</span> tudo OK</span><span><span class="ev-pill ev-pill--warn">Amarelo</span> 1–4 alertas</span><span><span class="ev-pill ev-pill--critical">Vermelho</span> 5 ou mais</span></div>
-          <p class="ev-card__meta">Cada loja recebe uma classificação em tempo real. Setores monitorados: Classificação em dia, Eventos suspeitos, Eficiência dos PDVs, Açougue, PDV/Caixas, Recebimento, ERP e Balanças.</p>
-        </figure>
+        <div class="s-gallery">
+          <figure class="s-shot s-shot--wide">
+            <img src="/assets/secao-8/painel-saude-lojas.jpg" width="1280" height="578" loading="lazy" alt="Painel Saúde do ELVAS: tabela com seis lojas de exemplo e a situação de cada uma em Verde, Amarelo ou Vermelho, por setor.">
+            <figcaption>
+              <h3 class="t-h3"><span class="s-shot__n">1</span>Saúde da operação — <span class="t-muted">Visão geral das lojas, setores e alertas.</span></h3>
+              <p class="t-body">Cada loja recebe uma classificação em tempo real: <span class="ev-pill ev-pill--ok">Verde (tudo OK)</span>, <span class="ev-pill ev-pill--warn">Amarelo (1–4 alertas)</span> ou <span class="ev-pill ev-pill--critical">Vermelho (5 ou mais)</span>. Setores monitorados: Classificação em dia, Eventos suspeitos, Eficiência dos PDVs, Açougue, PDV/Caixas, Recebimento, ERP e Balanças.</p>
+            </figcaption>
+          </figure>
+          <figure class="s-shot">
+            <div class="s-shot__pair">
+              <img src="/assets/secao-8/painel-eficiencia-caixas-grafico.jpg" width="1280" height="765" loading="lazy" alt="Gráfico de barras com itens por minuto de cada PDV.">
+              <img src="/assets/secao-8/painel-eficiencia-caixas-tabela.jpg" width="1280" height="827" loading="lazy" alt="Tabela com o detalhe de eficiência de cada PDV.">
+            </div>
+            <figcaption>
+              <h3 class="t-h3"><span class="s-shot__n">2</span>Eficiência dos PDVs — <span class="t-muted">Comparação de produtividade e desempenho.</span></h3>
+              <p class="t-body">Veja quais caixas estão dentro da meta e quais puxam a média para baixo — sem esperar o relatório de segunda-feira.</p>
+            </figcaption>
+          </figure>
+          <figure class="s-shot">
+            <img src="/assets/secao-8/painel-eficiencia-pdv-detalhe.jpg" width="696" height="582" loading="lazy" alt="Card com o detalhe de um PDV: evolução semanal, pico de movimento e desempenho.">
+            <figcaption>
+              <h3 class="t-h3"><span class="s-shot__n">3</span>Detalhamento por PDV — <span class="t-muted">Indicadores individuais e evolução semanal.</span></h3>
+              <p class="t-body">Do consolidado ao individual: evolução semanal, pico de movimento e performance por operador.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="t-statement t-statement--sm s-center"><span class="hl">Não espere pelo relatório de segunda-feira.</span> Identifique problemas sem depender de alguém para contar o que aconteceu.</p>
+      </div>
+    </section>
 
-        <figure class="ev-card ev-stack site-shot">
-          <figcaption><h3 class="ev-card__title site-shot__title"><span class="ev-numbered__n">2</span>Eficiência dos PDVs</h3><p class="ev-card__meta">Comparação de produtividade e desempenho.</p></figcaption>
-          <div class="ev-grid">
-            <img class="ev-span-6" src="/assets/secao-8/painel-eficiencia-caixas-grafico.jpg" width="1280" height="765" loading="lazy" alt="Gráfico de barras com itens por minuto de cada PDV.">
-            <img class="ev-span-6" src="/assets/secao-8/painel-eficiencia-caixas-tabela.jpg" width="1280" height="827" loading="lazy" alt="Tabela com o detalhe de eficiência de cada PDV.">
-          </div>
-          <p class="ev-card__meta">Veja quais caixas estão dentro da meta e quais puxam a média para baixo — sem esperar o relatório de segunda-feira.</p>
-        </figure>
-
-        <figure class="ev-card ev-stack site-shot">
-          <figcaption><h3 class="ev-card__title site-shot__title"><span class="ev-numbered__n">3</span>Detalhamento por PDV</h3><p class="ev-card__meta">Indicadores individuais e evolução semanal.</p></figcaption>
-          <img class="site-shot__half" src="/assets/secao-8/painel-eficiencia-pdv-detalhe.jpg" width="696" height="582" loading="lazy" alt="Card com o detalhe de um PDV: evolução semanal, pico de movimento e desempenho.">
-          <p class="ev-card__meta">Do consolidado ao individual: evolução semanal, pico de movimento e performance por operador.</p>
-        </figure>
-
-        <div class="ev-alert ev-alert--neutral"><span class="ev-icon" aria-hidden="true">event_upcoming</span><div><span class="ev-alert__text">Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.</span></div></div>
-      </section>
-
-      <!-- 9 · DIFERENCIAIS -->
-      <section class="ev-stack site-sec" id="diferenciais" aria-labelledby="t-dif">
-        <p class="ev-section__title">Por que a ELVAS é diferente</p>
-        <h2 class="site-h2" id="t-dif">Mais inteligência. Menos complexidade.</h2>
-        <p class="site-text site-muted">A ELVAS aproveita a estrutura que você já possui para transformar imagens e dados em informações para agir.</p>
+    <!-- 9 · DIFERENCIAIS -->
+    <section class="s-plain" id="diferenciais" aria-labelledby="t-dif">
+      <div class="wrap s-split">
+        <div class="s-stack">
+          <p class="ev-section__title">Por que a ELVAS é diferente</p>
+          <h2 class="t-statement" id="t-dif">Mais inteligência.<br><span class="hl">Menos complexidade.</span></h2>
+          <p class="t-lead">A ELVAS aproveita a estrutura que você já possui para transformar imagens e dados em informações para agir.</p>
+        </div>
         <div class="ev-table-wrap">
-          <table class="ev-table ev-table--static site-table">
+          <table class="ev-table ev-table--static s-table">
             <thead><tr><th scope="col">Diferenciais</th><th scope="col">ELVAS</th></tr></thead>
             <tbody>
               <tr><td class="ev-cell-wrap">Novas câmeras</td><td class="ev-cell-wrap"><span class="ev-pill ev-pill--ok">Não exige*</span></td></tr>
@@ -229,55 +276,67 @@
             </tbody>
           </table>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- 10 · QUANTO CUSTA -->
-      <section class="ev-stack site-sec" id="quanto-custa" aria-labelledby="t-custo">
+    <!-- 10 · QUANTO CUSTA: os números grandes -->
+    <section class="s-band s-band--glow" id="quanto-custa" aria-labelledby="t-custo">
+      <div class="wrap">
         <p class="ev-section__title">Quanto custa não ter a ELVAS?</p>
-        <h2 class="site-h2" id="t-custo">Todo mês que passa sem identificar suas perdas tem um preço.</h2>
-        <div class="ev-grid site-custo">
-          <div class="ev-span-6 ev-stack">
-            <p class="site-text site-muted">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <strong>R$ 71.700 mensais</strong>, considerando o índice de 2,39% da ABRAPPE.¹</p>
-            <p class="site-text site-muted">São mais de R$ 860 mil por ano.</p>
-            <p class="site-text site-muted">Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.</p>
-            <div class="ev-grid">
-              <div class="ev-span-6 ev-card ev-kpi"><span class="ev-kpi__label">Por mês</span><span class="ev-kpi__value">R$ 17.925</span><span class="ev-kpi__delta ev-kpi__delta--good"><b>−25%</b> das perdas</span></div>
-              <div class="ev-span-6 ev-card ev-kpi"><span class="ev-kpi__label">Por ano</span><span class="ev-kpi__value">R$ 215.100</span><span class="ev-kpi__delta ev-kpi__delta--good"><b>−25%</b> das perdas</span></div>
-            </div>
-            <p class="site-text"><strong>Dinheiro que pode deixar de sair da sua operação.</strong></p>
+        <h2 class="t-statement" id="t-custo">Todo mês que passa sem identificar suas perdas <span class="hl">tem um preço.</span></h2>
+        <div class="s-money">
+          <div class="s-money__col s-money__col--loss">
+            <p class="t-lead">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <span class="s-money__inline">R$&nbsp;71.700 mensais</span>, considerando o índice de 2,39% da ABRAPPE.¹</p>
+            <p class="s-money__big">São mais de R$&nbsp;860 mil <span>por ano.</span></p>
           </div>
-          <form class="ev-span-6 ev-card ev-stack site-calc" id="calc" novalidate>
-            <div>
-              <h3 class="ev-card__title">E na sua loja, quanto as perdas podem estar custando?</h3>
-              <p class="ev-card__meta">Usamos o índice de perdas de 2,39% da ABRAPPE.</p>
-            </div>
+          <div class="s-money__arrow" aria-hidden="true"><span class="ev-icon">arrow_forward</span></div>
+          <div class="s-money__col s-money__col--gain">
+            <p class="t-lead">Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.</p>
+            <p class="s-money__big">R$&nbsp;17.925 <span>por mês.</span></p>
+            <p class="s-money__big s-money__big--sm">R$&nbsp;215.100 <span>por ano.</span></p>
+          </div>
+        </div>
+        <p class="t-statement t-statement--sm s-center">Dinheiro que pode <span class="hl">deixar de sair da sua operação.</span></p>
+
+        <form class="s-calc" id="calc" novalidate>
+          <h3 class="t-h2">E na sua loja, quanto as perdas podem estar custando?</h3>
+          <div class="s-calc__row">
             <label class="ev-field">
               <span class="ev-field__label">Faturamento mensal (R$)</span>
               <input class="ev-input" id="fat" name="fat" inputmode="numeric" autocomplete="off" placeholder="Ex.: 3.000.000">
               <span class="ev-field__error" id="fat-erro" hidden>Digite o faturamento mensal da loja.</span>
             </label>
             <button class="ev-btn ev-btn--primary ev-btn--lg" type="submit">Calcular minhas perdas estimadas</button>
-            <dl class="ev-facts" id="calc-out" hidden aria-live="polite">
-              <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
-              <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
-              <div><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
-              <div><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
-            </dl>
-          </form>
-        </div>
-        <p class="ev-card__meta">¹ Fonte: ABRAPPE/KPMG — 8ª Pesquisa de Perdas no Varejo Brasileiro, dados de 2024. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
-      </section>
+          </div>
+          <dl class="s-calc__out" id="calc-out" hidden aria-live="polite">
+            <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
+            <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
+            <div class="s-calc__good"><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
+            <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
+          </dl>
+        </form>
+        <p class="t-note">¹ Fonte: ABRAPPE/KPMG — 8ª Pesquisa de Perdas no Varejo Brasileiro, dados de 2024. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
+      </div>
+    </section>
 
-      <!-- 11 · QUEM SOMOS -->
-      <section class="ev-stack site-sec" id="quem-somos" aria-labelledby="t-somos">
-        <p class="ev-section__title">Quem somos</p>
-        <h2 class="site-h2" id="t-somos">Construída dentro do varejo. Não em laboratório.</h2>
-        <p class="site-text site-muted">A ELVAS nasceu da experiência de quem conhece a frustração de saber que existem perdas na operação, mas não ter ferramentas capazes de identificar onde e como acontecem.</p>
-        <p class="site-text site-muted">Não somos mais uma empresa de tecnologia que descobriu o varejo. Somos empresários que conhecem o varejo e a indústria alimentar, unidos à experiência em tecnologia para usar a inteligência artificial na solução de problemas reais do dia a dia.</p>
-        <figure class="site-team">
+    <!-- 11 · QUEM SOMOS -->
+    <section class="s-plain" id="quem-somos" aria-labelledby="t-somos">
+      <div class="wrap s-split">
+        <div>
+          <p class="ev-section__title">Quem somos</p>
+          <h2 class="t-statement" id="t-somos">Construída dentro do varejo. <span class="hl">Não em laboratório.</span></h2>
+        </div>
+        <div class="s-stack">
+          <p class="t-lead">A ELVAS nasceu da experiência de quem conhece a frustração de saber que existem perdas na operação, mas não ter ferramentas capazes de identificar onde e como acontecem.</p>
+          <p class="t-lead"><strong>Não somos mais uma empresa de tecnologia que descobriu o varejo.</strong></p>
+          <p class="t-lead">Somos empresários que conhecem o varejo e a indústria alimentar, unidos à experiência em tecnologia para usar a inteligência artificial na solução de problemas reais do dia a dia.</p>
+        </div>
+      </div>
+      <div class="wrap">
+        <figure class="s-team">
           <img src="/assets/secao-11/quem-somos-equipe.jpg" width="1280" height="391" loading="lazy" alt="Fundadores e experiência da equipe.">
         </figure>
-        <div class="site-sr">
+        <div class="s-sr">
           <h3>Fundadores</h3>
           <ul>
             <li>Felipe Vieira — Sócio fundador da Scala. Ex-CEO da Networkme. Partner da WE Heart Impact.</li>
@@ -289,41 +348,44 @@
           <h3>Nossos profissionais já trabalharam com</h3>
           <p>Nestlé, Unilever, Philips, iFood, Super Bock Group.</p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- 13 · COMO COMEÇAR -->
-      <section class="ev-stack site-sec" id="como-comecar" aria-labelledby="t-comecar">
+    <!-- 13 · COMO COMEÇAR -->
+    <section class="s-band" id="como-comecar" aria-labelledby="t-comecar">
+      <div class="wrap">
         <p class="ev-section__title">Como começar</p>
-        <h2 class="site-h2" id="t-comecar">Quatro passos simples. Sem obras na loja.</h2>
-        <ol class="ev-numbered site-passos">
-          <li><span class="ev-numbered__n">1</span><div><strong>Reunião inicial</strong><br><span class="site-muted">Uma breve conversa para conhecer sua operação e alinhar o início do acompanhamento pela ELVAS.</span></div></li>
-          <li><span class="ev-numbered__n">2</span><div><strong>Integração</strong><br><span class="site-muted">Conectamos seu ERP e suas câmeras à ELVAS. Sem investimento inicial em equipamentos.</span></div></li>
-          <li><span class="ev-numbered__n">3</span><div><strong>Calibração</strong><br><span class="site-muted">Ajustamos a solução à sua operação. Começamos pelo PDV e evoluímos módulo a módulo.</span></div></li>
-          <li><span class="ev-numbered__n">4</span><div><strong>Monitoramento ativo</strong><br><span class="site-muted">Em até uma semana, seus indicadores e alertas começam a funcionar.</span></div></li>
+        <h2 class="t-statement" id="t-comecar">Quatro passos simples. <span class="hl">Sem obras na loja.</span></h2>
+        <ol class="s-steps s-steps--4">
+          <li><span class="s-steps__n">01</span><h3 class="t-h3">Reunião inicial</h3><p class="t-body">Uma breve conversa para conhecer sua operação e alinhar o início do acompanhamento pela ELVAS.</p></li>
+          <li><span class="s-steps__n">02</span><h3 class="t-h3">Integração</h3><p class="t-body">Conectamos seu ERP e suas câmeras à ELVAS. Sem investimento inicial em equipamentos.</p></li>
+          <li><span class="s-steps__n">03</span><h3 class="t-h3">Calibração</h3><p class="t-body">Ajustamos a solução à sua operação. Começamos pelo PDV e evoluímos módulo a módulo.</p></li>
+          <li><span class="s-steps__n s-steps__n--brand">04</span><h3 class="t-h3">Monitoramento ativo</h3><p class="t-body">Em até uma semana, seus indicadores e alertas começam a funcionar.</p></li>
         </ol>
-        <div class="ev-alert ev-alert--ok"><span class="ev-icon" aria-hidden="true">bolt</span><div><span class="ev-alert__text">Da primeira conversa aos primeiros alertas: dias, não meses.</span></div></div>
-      </section>
+        <p class="t-statement s-center">Da primeira conversa aos primeiros alertas: <span class="hl">dias, não meses.</span></p>
+      </div>
+    </section>
 
-      <!-- 14 · CTA FINAL -->
-      <section class="ev-card ev-stack site-final" id="contato" aria-labelledby="t-final">
-        <p class="ev-section__title">Fale com o ELVAS</p>
-        <h2 class="ev-header__title" id="t-final">Cansado de perdas sem explicação?</h2>
-        <p class="site-text site-muted">Agora você tem como identificar o que antes passava despercebido.</p>
-        <p class="site-text site-muted">Por quanto tempo mais vai deixar sua operação perder dinheiro sem saber onde e por quê?</p>
-        <p class="site-text"><strong>Fale com o ELVAS.</strong> Agende o início do monitoramento e comece a transformar informações em resultados.</p>
-        <div class="site-final__actions">
+    <!-- 14 · CTA FINAL -->
+    <section class="s-final" id="contato" aria-labelledby="t-final">
+      <div class="wrap s-final__in">
+        <h2 class="t-hero" id="t-final">Cansado de perdas <span class="hl">sem explicação?</span></h2>
+        <p class="t-lead">Agora você tem como identificar o que antes passava despercebido.</p>
+        <p class="t-claim">Por quanto tempo mais vai deixar sua operação perder dinheiro sem saber onde e por quê?</p>
+        <p class="t-lead"><strong>Fale com o ELVAS.</strong> Agende o início do monitoramento e comece a transformar informações em resultados.</p>
+        <div class="s-final__ctas">
           <a class="ev-btn ev-btn--primary ev-btn--lg" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener"><span class="ev-icon" aria-hidden="true">chat</span>Quero reduzir minhas perdas agora!</a>
-          <a class="ev-btn ev-btn--lg" href="https://v0.elvas-ai.com/"><span class="ev-icon" aria-hidden="true">login</span>Acessar ELVAS</a>
         </div>
-      </section>
+      </div>
+    </section>
+  </main>
 
-      <footer class="site-foot">
-        <img src="/ui/logos/elvas-ai-logo-escuro-recortado.png" alt="ELVAS AI — Environment &amp; Location Video Analytics System" width="862" height="170">
-        <p class="ev-card__meta">© 2026 ELVAS AI.</p>
-      </footer>
-    </main>
-  </div>
-
+  <footer class="s-foot">
+    <div class="wrap s-foot__in">
+      <img src="/ui/logos/elvas-ai-logo-escuro-recortado.png" alt="ELVAS AI — Environment &amp; Location Video Analytics System" width="862" height="170">
+      <p class="t-note">© 2026 ELVAS AI.</p>
+    </div>
+  </footer>
 </div>
 
 <script>
