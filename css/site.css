@@ -1,23 +1,40 @@
 /* Site institucional ELVAS AI.
-   A casca e os componentes são os mesmos do app (elvas-principal): ev-shell, ev-nav, ev-panel, ev-main,
-   ev-topbar, ev-bottomnav, ev-header, ev-card, ev-kpi, ev-numbered, ev-table, ev-alert, ev-pill, ev-field.
+   Componentes do app (elvas-principal/packages/ui): ev-panel, ev-main, ev-nav__item, ev-btn, ev-header,
+   ev-card, ev-kpi, ev-numbered, ev-table, ev-alert, ev-pill, ev-field. Cabeçalho fixo e menu expansível são do site.
    Aqui ficam só ajustes de página longa, com var(--token). Nada de cor, fonte ou tamanho novo. */
 
-html { scroll-behavior: smooth; scroll-padding-top: var(--space-4); }
+html { scroll-behavior: smooth; scroll-padding-top: calc(64px + var(--space-4)); }
 html, body { margin: 0; background: var(--bg); }
 .site-shell { min-height: 100vh; }
 .ev-main img { max-width: 100%; height: auto; display: block; }
 .ev-main p { margin: 0; }
 
-/* Menu lateral fixo enquanto a página rola */
-.site-nav { position: sticky; top: 0; height: 100vh; overflow-y: auto; }
-.site-nav .ev-nav__item { text-decoration: none; }
-.site-nav__foot { margin-top: auto; padding-top: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); }
-.site-nav__btn { width: 100%; }
+/* Página sem menu lateral: cabeçalho fixo + painel de conteúdo */
+.site-shell { background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px); background-size: 24px 24px; }
+.site-panel { margin: var(--space-2); overflow: visible; }
+
+/* Cabeçalho fixo */
+.site-header { position: sticky; top: 0; z-index: 20; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-3);
+  padding: 0 var(--space-4) 0 var(--space-6); background: var(--surface); border-bottom: 1px solid var(--line); }
+.site-header__brand { flex: none; display: flex; }
+.site-header__brand img { height: 22px; width: auto; display: block; }
+.site-header__brand .site-header__simbolo { display: none; height: 32px; border-radius: var(--radius-sm); }
+.site-header__actions > * { flex: none; }
+.site-header__actions { display: flex; align-items: center; gap: var(--space-2); min-width: 0; }
+.site-header__menu[aria-expanded="true"] { background: var(--selected); color: var(--selected-ink); }
+
+/* Menu expansível: abaixo do cabeçalho, à direita da tela */
+.site-menu { position: fixed; z-index: 19; top: 64px; right: var(--space-2); width: 300px; max-height: calc(100dvh - 64px - var(--space-4)); overflow-y: auto;
+  display: flex; flex-direction: column; align-items: stretch; gap: 2px; text-align: left; padding: var(--space-3);
+  background: var(--surface-container); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--radius-lg) var(--radius-lg); box-shadow: var(--shadow-pop); }
+.site-menu[hidden] { display: none; }
+.site-menu .ev-nav__item { width: 100%; height: 40px; justify-content: flex-start; padding: 0 10px; text-decoration: none; }
+.site-menu .ev-nav__item > :not(.ev-icon) { display: inline; }
+.site-menu .ev-nav__group { height: auto; width: auto; margin: 0; background: none; font-size: 11px; padding: var(--space-4) 10px var(--space-2); }
 
 /* Seções */
 .ev-main { gap: var(--space-12); }
-.site-sec { scroll-margin-top: var(--space-4); }
+.site-sec { scroll-margin-top: calc(64px + var(--space-4)); }
 .site-lede { min-width: 0; max-width: 760px; display: flex; flex-direction: column; gap: var(--space-3); }
 .site-h2 { font-size: 20px; line-height: 28px; font-weight: 600; letter-spacing: -0.01em; margin: 0; max-width: 820px; }
 .site-text { font-size: 14px; line-height: 22px; max-width: 760px; }
@@ -76,17 +93,28 @@ html, body { margin: 0; background: var(--bg); }
   .site-feats > .ev-span-3, .site-feats > .ev-span-4, .site-feats > :last-child { grid-column: span 12; }
 }
 
-/* Tablet: trilho de 80px, botões do rodapé do menu só com ícone */
-@media (max-width: 1023px) {
-  .site-nav__btn { width: 48px; padding: 0; }
-  .site-nav__btn > span:not(.ev-icon) { display: none; }
-  .site-nav__btn .ev-icon { margin: 0; }
+/* Celular estreito: logo menor; abaixo de 360px, símbolo no lugar do logo completo */
+@media (max-width: 399px) {
+  .site-header__brand .site-header__logo { height: 16px; }
+  .site-header__actions { gap: var(--space-1); }
+}
+@media (max-width: 359px) {
+  .site-header__brand .site-header__logo { display: none; }
+  .site-header__brand .site-header__simbolo { display: block; }
 }
 
-/* Celular: barra superior + barra inferior, como no app */
+/* Celular: cabeçalho de 56px, "Acesso ao ELVAS" só com ícone, menu em largura total */
 @media (max-width: 767px) {
-  .ev-topbar > a:first-child { flex: none; }
-  .ev-topbar .ev-btn { flex: none; }
+  .site-header { height: var(--topbar-h); padding: 0 var(--space-2) 0 var(--space-4); }
+  .site-header__brand img { height: 18px; }
+  .site-header__brand .site-header__simbolo { height: 32px; }
+  .site-header__label { display: none; }
+  .site-header__acesso { width: var(--touch-min); padding: 0; }
+  .site-header__acesso .ev-icon { margin: 0; }
+  .site-header__actions .ev-btn { padding-left: var(--space-3); padding-right: var(--space-3); }
+  .site-header__actions .site-header__acesso, .site-header__actions .site-header__menu { padding: 0; }
+  .site-panel { margin: 0; }
+  .site-menu { top: var(--topbar-h); left: 0; right: 0; width: auto; max-height: calc(100dvh - var(--topbar-h)); border-radius: 0 0 var(--radius-lg) var(--radius-lg); border-left: 0; border-right: 0; }
   .ev-main { gap: var(--space-8); }
   .ev-header__tools .ev-btn { flex: 1 1 auto; white-space: normal; text-align: center; }
   .site-final__actions .ev-btn { width: 100%; }

@@ -16,38 +16,34 @@
   <link rel="stylesheet" href="/css/site.css">
 </head>
 <body class="ev">
-<div class="ev-shell site-shell">
+<div class="site-shell">
 
-  <!-- Menu lateral (mesma casca do app) -->
-  <nav class="ev-nav site-nav" aria-label="Seções do site">
-    <a class="ev-nav__brand" href="#inicio">
-      <img class="ev-logo--dark" src="/ui/logos/elvas-ai-marca-escuro.png" alt="ELVAS AI">
-      <img class="ev-logo--symbol" src="/ui/logos/elvas-simbolo.svg" alt="ELVAS AI">
-    </a>
-    <a class="ev-nav__item" href="#inicio" aria-current="page"><span class="ev-icon" aria-hidden="true">space_dashboard</span><span>Início</span></a>
-    <a class="ev-nav__item" href="#o-problema"><span class="ev-icon" aria-hidden="true">report</span><span>O problema</span></a>
-    <a class="ev-nav__item" href="#o-que-e"><span class="ev-icon" aria-hidden="true">join</span><span>O que é a ELVAS</span></a>
-    <a class="ev-nav__item" href="#como-funciona"><span class="ev-icon" aria-hidden="true">account_tree</span><span>Como funciona</span></a>
-    <a class="ev-nav__item" href="#o-que-recebe"><span class="ev-icon" aria-hidden="true">inventory_2</span><span>O que você recebe</span></a>
-    <a class="ev-nav__item" href="#painel"><span class="ev-icon" aria-hidden="true">insights</span><span>O painel</span></a>
-    <div class="ev-nav__group">Para decidir</div>
-    <a class="ev-nav__item" href="#diferenciais"><span class="ev-icon" aria-hidden="true">verified</span><span>Diferenciais</span></a>
-    <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
-    <a class="ev-nav__item" href="#quem-somos"><span class="ev-icon" aria-hidden="true">group</span><span>Quem somos</span></a>
-    <a class="ev-nav__item" href="#como-comecar"><span class="ev-icon" aria-hidden="true">flag</span><span>Como começar</span></a>
-    <div class="site-nav__foot">
-      <a class="ev-btn site-nav__btn" href="https://v0.elvas-ai.com/" aria-label="Acessar ELVAS"><span class="ev-icon" aria-hidden="true">login</span><span>Acessar ELVAS</span></a>
-      <a class="ev-btn ev-btn--primary site-nav__btn" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener" aria-label="Fale com o ELVAS"><span class="ev-icon" aria-hidden="true">chat</span><span>Fale com o ELVAS</span></a>
+  <!-- Cabeçalho fixo -->
+  <header class="site-header">
+    <a class="site-header__brand" href="#inicio"><img class="site-header__logo" src="/ui/logos/elvas-ai-marca-escuro.png" alt="ELVAS AI" width="861" height="118"><img class="site-header__simbolo" src="/ui/logos/elvas-simbolo.svg" alt="ELVAS AI" width="32" height="32"></a>
+    <div class="site-header__actions">
+      <a class="ev-btn site-header__acesso" href="https://v0.elvas-ai.com/" aria-label="Acesso ao ELVAS"><span class="ev-icon" aria-hidden="true">login</span><span class="site-header__label">Acesso ao ELVAS</span></a>
+      <a class="ev-btn ev-btn--primary" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener">Fale Conosco</a>
+      <button class="ev-btn ev-btn--icon ev-btn--ghost site-header__menu" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Abrir menu"><span class="ev-icon" aria-hidden="true">menu</span></button>
     </div>
+  </header>
+
+  <!-- Menu expansível (abre pelo botão de menu) -->
+  <nav class="site-menu" id="site-menu" aria-label="Seções do site" hidden>
+      <a class="ev-nav__item" href="#inicio" aria-current="page"><span class="ev-icon" aria-hidden="true">space_dashboard</span><span>Início</span></a>
+      <a class="ev-nav__item" href="#o-problema"><span class="ev-icon" aria-hidden="true">report</span><span>O problema</span></a>
+      <a class="ev-nav__item" href="#o-que-e"><span class="ev-icon" aria-hidden="true">join</span><span>O que é a ELVAS</span></a>
+      <a class="ev-nav__item" href="#como-funciona"><span class="ev-icon" aria-hidden="true">account_tree</span><span>Como funciona</span></a>
+      <a class="ev-nav__item" href="#o-que-recebe"><span class="ev-icon" aria-hidden="true">inventory_2</span><span>O que você recebe</span></a>
+      <a class="ev-nav__item" href="#painel"><span class="ev-icon" aria-hidden="true">insights</span><span>O painel</span></a>
+      <div class="ev-nav__group">Para decidir</div>
+      <a class="ev-nav__item" href="#diferenciais"><span class="ev-icon" aria-hidden="true">verified</span><span>Diferenciais</span></a>
+      <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
+      <a class="ev-nav__item" href="#quem-somos"><span class="ev-icon" aria-hidden="true">group</span><span>Quem somos</span></a>
+      <a class="ev-nav__item" href="#como-comecar"><span class="ev-icon" aria-hidden="true">flag</span><span>Como começar</span></a>
   </nav>
 
-  <div class="ev-panel">
-    <!-- Barra superior no celular -->
-    <header class="ev-topbar">
-      <a href="#inicio"><img class="ev-logo--dark" src="/ui/logos/elvas-ai-marca-escuro.png" alt="ELVAS AI"></a>
-      <a class="ev-btn ev-btn--primary ev-btn--sm" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener">Fale com o ELVAS</a>
-    </header>
-
+  <div class="ev-panel site-panel">
     <main class="ev-main">
 
       <!-- HERO -->
@@ -328,13 +324,6 @@
     </main>
   </div>
 
-  <!-- Barra inferior no celular (mesma do app) -->
-  <nav class="ev-bottomnav" aria-label="Menu principal">
-    <a class="ev-bottomnav__item" href="#inicio" aria-current="page"><span class="ev-bottomnav__pill"><span class="ev-icon" aria-hidden="true">space_dashboard</span></span>Início</a>
-    <a class="ev-bottomnav__item" href="#como-funciona"><span class="ev-bottomnav__pill"><span class="ev-icon" aria-hidden="true">account_tree</span></span>Como funciona</a>
-    <a class="ev-bottomnav__item" href="#quanto-custa"><span class="ev-bottomnav__pill"><span class="ev-icon" aria-hidden="true">calculate</span></span>Quanto custa</a>
-    <a class="ev-bottomnav__item" href="https://v0.elvas-ai.com/"><span class="ev-bottomnav__pill"><span class="ev-icon" aria-hidden="true">login</span></span>Acessar</a>
-  </nav>
 </div>
 
 <script>
@@ -360,8 +349,22 @@
       out.hidden = false;
     });
 
+    // Menu expansível: abre e fecha pelo botão; fecha com Esc, clique fora ou ao escolher uma seção
+    var botao = document.querySelector('.site-header__menu');
+    var menu = document.getElementById('site-menu');
+    function abrir(sim) {
+      menu.hidden = !sim;
+      botao.setAttribute('aria-expanded', String(sim));
+      botao.setAttribute('aria-label', sim ? 'Fechar menu' : 'Abrir menu');
+      botao.querySelector('.ev-icon').textContent = sim ? 'close' : 'menu';
+    }
+    botao.addEventListener('click', function () { abrir(menu.hidden); });
+    menu.addEventListener('click', function (e) { if (e.target.closest('a')) abrir(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { abrir(false); botao.focus(); } });
+    document.addEventListener('click', function (e) { if (!menu.hidden && !menu.contains(e.target) && !botao.contains(e.target)) abrir(false); });
+
     // Item ativo do menu conforme a seção na tela
-    var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav .ev-nav__item, .ev-bottomnav__item'));
+    var links = Array.prototype.slice.call(menu.querySelectorAll('.ev-nav__item'));
     function marcar(id) {
       links.forEach(function (a) {
         if (a.getAttribute('href') === '#' + id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
@@ -369,7 +372,7 @@
     }
     if ('IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (es) {
-        es.forEach(function (e) { if (e.isIntersecting && document.querySelector('.ev-nav__item[href="#' + e.target.id + '"]')) marcar(e.target.id); });
+        es.forEach(function (e) { if (e.isIntersecting && menu.querySelector('[href="#' + e.target.id + '"]')) marcar(e.target.id); });
       }, { rootMargin: '-30% 0px -60% 0px' });
       document.querySelectorAll('main section[id]').forEach(function (s) { io.observe(s); });
     }
