@@ -104,13 +104,21 @@ A ELVAS conecta o que você já tem — e faz o cruzamento que nunca foi feito.
 
 ## SEÇÃO 7 — O QUE VOCÊ RECEBE
 
-### Não é um sistema. É visibilidade sobre o que sempre foi cego.
+Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Acompanhamento para prevenir.
 
-✔ **Check de balcão e açougue** — peso registrado vs. peso vendido, em tempo real.
-✔ **Check de frente de caixa** — operação real vs. o que o PDV registrou.
-✔ **Check de recebimento** — nota fiscal vs. o que entrou de fato nas docas.
-✔ **Painel 24/7** — histórico completo, relatório por período, ranking por tipo de ocorrência.
-✔ **Cada divergência documentada** — vídeo, data, hora, dado operacional. Arquivado. Disponível. Pronto para você usar.
+✔ **Balcão e açougue** — Divergências de produtos e pesagens.
+
+✔ **Alertas operacionais** — Câmara fria aberta, câmeras desligadas e falhas no ERP.
+
+✔ **Frente de caixa** — Operação real vs. registro no PDV.
+
+✔ **Relatórios de eficiência** — Indicadores por PDV, loja e tipo de ocorrência.
+
+✔ **Recebimento** — Nota fiscal vs. mercadoria entregue.
+
+✔ **Painel 24/7** — Histórico, relatórios e ocorrências.
+
+✔ **Evidências** — Vídeo, data, hora e dados da operação.
 
 ---
 
