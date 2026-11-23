@@ -182,14 +182,35 @@ E na sua loja, quanto as perdas podem estar custando?
 
 ### Construída dentro do varejo. Não em laboratório.
 
-A ELVAS não nasceu de uma ideia de startup.
-Nasceu de um problema real — câmera e sistema de gestão que nunca conversaram.
+A ELVAS nasceu da experiência de quem conhece a frustração de saber que existem perdas na operação, mas não ter ferramentas capazes de identificar onde e como acontecem.
 
-O piloto rodou com 61 câmeras em operação real.
-Cada caso documentado com hora, data e tipo de divergência desde outubro de 2026.
+Não somos mais uma empresa de tecnologia que descobriu o varejo.
 
-Não somos mais uma empresa de tecnologia que "descobriu o varejo".
-Somos uma ferramenta construída para resolver um problema específico — e só esse.
+Somos empresários que conhecem o varejo e a indústria alimentar, unidos à experiência em tecnologia para usar a inteligência artificial na solução de problemas reais do dia a dia.
+
+---
+
+### Fundadores
+
+| Fundador | Cargo | Histórico |
+|----------|-------|----------|
+| **Felipe Vieira** | Sócio fundador da Scala | Ex-CEO da Networkme. Partner da WE Heart Impact. |
+| **Jadson Vieira** | Sócio fundador da Scala | Ex-diretor da Associação dos Lojistas do Recife e da Aloshop. |
+| **Bruno Vieira** | CEO da Naturalle Produtos | Empresário do varejo e da indústria alimentar. |
+
+---
+
+### Experiência em tecnologia
+
+- **+1.000.000 €** em desenvolvimento
+- **+1.600** empresas usam nossos softwares
+- **3** países
+
+### Nossos profissionais já trabalharam com
+
+Nestlé · Unilever · Philips · iFood · Super Bock Group
+
+*[Imagem: assets/secao-11/quem-somos-equipe.jpg]*
 
 ---
 
