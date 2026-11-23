@@ -169,10 +169,20 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-sems .ev-icon { font-size: 18px; }
 
 /* ---------- O que você recebe ---------- */
-.s-verbs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); margin-bottom: var(--space-12) !important; }
-.s-verbs span { font-size: 18px; line-height: 1.3; font-weight: 400; color: var(--ink-muted); padding-top: var(--space-4); border-top: 2px solid var(--line); }
-.s-verbs b { display: block; font-size: clamp(22px, 2.2vw, 28px); line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); margin-bottom: var(--space-1); }
-.s-verbs span:first-child { border-top-color: var(--brand); }
+.s-recebe__stats {
+  position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: var(--space-12) !important;
+  background: var(--surface-container); border: 1px solid var(--border-control); border-radius: var(--radius-md);
+  background-image: linear-gradient(var(--surface-sheen), transparent 55%);
+}
+.s-recebe__stats > div { padding: var(--space-5) var(--space-4); border-left: 1px solid var(--border-control); }
+.s-recebe__stats > div:first-child { border-left: 0; }
+.s-recebe__stats dt {
+  font-size: clamp(20px, 2vw, 26px); line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: var(--ink);
+}
+.s-recebe__stats dd {
+  margin: var(--space-1) 0 0; font-size: 16px; line-height: 22px; font-weight: 400; color: var(--ink-muted);
+}
 .s-feats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2) var(--space-6); }
 .s-feats li { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-4) 0; border-bottom: 1px solid var(--line); }
 .s-feats .ev-icon { color: var(--brand-text); font-size: 22px; margin-top: 1px; }
@@ -288,7 +298,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-pains { grid-template-columns: 1fr; }
   .s-steps { grid-template-columns: 1fr; }
   .s-steps--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .s-verbs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .s-recebe__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .s-recebe__stats > div:nth-child(3) { border-left: 0; }
+  .s-recebe__stats > div:nth-child(n+3) { border-top: 1px solid var(--border-control); }
   .s-gallery__cols {
     grid-template-columns: 1fr;
     grid-template-rows: none;
@@ -416,10 +428,11 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-versus__item p { font-size: clamp(15px, 3.8vw, 17px); line-height: 1.28; }
   .s-steps li { padding: var(--space-4); gap: var(--space-2); }
   .s-steps__n { font-size: 24px; margin-bottom: var(--space-2); }
-  .s-steps--4, .s-verbs, .s-feats { grid-template-columns: 1fr; }
-  .s-verbs { gap: var(--space-3); margin-bottom: var(--space-6) !important; }
-  .s-verbs span { font-size: 14px; line-height: 1.35; padding-top: var(--space-3); }
-  .s-verbs b { font-size: clamp(16px, 4vw, 18px); line-height: 1.25; }
+  .s-steps--4, .s-feats { grid-template-columns: 1fr; }
+  .s-recebe__stats { margin-bottom: var(--space-6) !important; }
+  .s-recebe__stats > div { padding: var(--space-4) var(--space-3); }
+  .s-recebe__stats dt { font-size: clamp(16px, 4vw, 20px); }
+  .s-recebe__stats dd { font-size: 14px; line-height: 20px; }
   .s-feats { gap: var(--space-1) var(--space-4); }
   .s-feats li { padding: var(--space-3) 0; gap: var(--space-2); }
   .s-feats .ev-icon { font-size: 18px; }
@@ -560,9 +573,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 
   /* Do título ao conteúdo: sempre 40 */
   .t-statement + .s-pains, .t-statement + .s-steps, .t-statement + .ev-grid, .t-lead + .s-gallery,
-  .t-lead + .ev-table-wrap, .t-lead + .s-money, .s-verbs, .t-statement + .s-cross { margin-top: 40px !important; }
-  .s-verbs { margin-bottom: 40px !important; }
-  .s-verbs b { font-size: 24px; line-height: 1.25; }
+  .t-lead + .ev-table-wrap, .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 40px !important; }
+  .s-recebe__stats { margin-bottom: 40px !important; }
+  .s-recebe__stats dt { font-size: 24px; line-height: 1.25; }
   .s-sems { margin: 32px 0 0 !important; justify-content: flex-start; }
   .s-sems + .t-lead { margin-top: 24px !important; }
 
