@@ -7,10 +7,10 @@ Baseado em: análise de concorrência (Veesion, Sesami/Gatecash, CISS) + benchma
 
 ## HERO
 
-O varejo perde R$ 195 milhões por dia em furtos e perdas sem explicação.¹
+O varejo perde R$ 115 milhões por dia em furtos e perdas sem explicação.¹
 **O ELVAS IA acaba com isso.**
 
-¹ *ABRAPPE — Índice de Perdas 2024/2025. R$ 71 bilhões/ano ÷ 365 dias.*
+¹ *Fonte: ABRAPPE e Protiviti — 9ª Pesquisa de Perdas no Varejo Brasileiro (dados de 2025, divulgados em 2026).*
 
 ---
 
