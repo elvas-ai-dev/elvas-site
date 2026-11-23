@@ -48,7 +48,7 @@
     <!-- HERO: o número e a promessa -->
     <section class="s-hero" id="inicio" aria-labelledby="t-inicio">
       <div class="wrap s-hero__title">
-        <h1 class="t-hero" id="t-inicio">O varejo perde <span class="hl">R$&nbsp;115 milhões por dia</span> em furtos e perdas sem explicação.<sup>¹</sup></h1>
+        <h1 class="t-hero" id="t-inicio">O varejo perde <span class="hl">R$&nbsp;59 milhões por dia</span> em furtos e perdas sem explicação.<sup>¹</sup></h1>
       </div>
       <div class="wrap s-hero__grid">
         <div class="s-hero__text">
@@ -70,7 +70,7 @@
           <div><dt>Monitoramento</dt><dd>24 horas, 7 dias por semana</dd></div>
           <div><dt>Revisão humana</dt><dd>Nossa equipe valida as ocorrências</dd></div>
         </dl>
-        <p class="t-note">¹ Fonte: ABRAPPE e Protiviti — 9ª Pesquisa de Perdas no Varejo Brasileiro (dados de 2025, divulgados em 2026).</p>
+        <p class="t-note">¹ Estimativa ELVAS com dados da ABRAS: faturamento do varejo alimentar de R$ 1,14 trilhão em 2025 (Ranking ABRAS 2026) × índice de perdas de 1,89% (25ª Pesquisa de Eficiência Operacional da ABRAS, divulgada em 2025).</p>
       </div>
     </section>
 
@@ -288,14 +288,14 @@
         <h2 class="t-statement" id="t-custo">Todo mês que passa sem identificar suas perdas <span class="hl">tem um preço.</span></h2>
         <div class="s-money">
           <div class="s-money__col s-money__col--loss">
-            <p class="t-lead">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <span class="s-money__inline">R$&nbsp;71.700 mensais</span>, considerando o índice de 2,39% da ABRAPPE.¹</p>
-            <p class="s-money__big">São mais de R$&nbsp;860 mil <span>por ano.</span></p>
+            <p class="t-lead">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <span class="s-money__inline">R$&nbsp;56.700 mensais</span>, considerando o índice de 1,89% da ABRAS.¹</p>
+            <p class="s-money__big">São mais de R$&nbsp;680 mil <span>por ano.</span></p>
           </div>
           <div class="s-money__arrow" aria-hidden="true"><span class="ev-icon">arrow_forward</span></div>
           <div class="s-money__col s-money__col--gain">
             <p class="t-lead">Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.</p>
-            <p class="s-money__big">R$&nbsp;17.925 <span>por mês.</span></p>
-            <p class="s-money__big s-money__big--sm">R$&nbsp;215.100 <span>por ano.</span></p>
+            <p class="s-money__big">R$&nbsp;14.175 <span>por mês.</span></p>
+            <p class="s-money__big s-money__big--sm">R$&nbsp;170.100 <span>por ano.</span></p>
           </div>
         </div>
         <p class="t-statement t-statement--sm s-center">Dinheiro que pode <span class="hl">deixar de sair da sua operação.</span></p>
@@ -317,7 +317,7 @@
             <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
           </dl>
         </form>
-        <p class="t-note">¹ Fonte: ABRAPPE/KPMG — 8ª Pesquisa de Perdas no Varejo Brasileiro, dados de 2024. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
+        <p class="t-note">¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
       </div>
     </section>
 
@@ -405,7 +405,7 @@
       var v = valor();
       if (!v) { input.setAttribute('aria-invalid', 'true'); erro.hidden = false; input.focus(); return; }
       input.removeAttribute('aria-invalid'); erro.hidden = true;
-      var mes = v * 0.0239, red = mes * 0.25;
+      var mes = v * 0.0189, red = mes * 0.25;
       document.getElementById('o-mes').textContent = brl.format(mes);
       document.getElementById('o-ano').textContent = brl.format(mes * 12);
       document.getElementById('o-red-mes').textContent = brl.format(red);

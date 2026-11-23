@@ -9,10 +9,10 @@ Baseado em: análise de concorrência (Veesion, Sesami/Gatecash, CISS) + benchma
 
 *(Layout: título H1 em faixa full-width acima das duas colunas; coluna esquerda = eyebrow + claim + CTAs; coluna direita = painel.)*
 
-O varejo perde R$ 115 milhões por dia em furtos e perdas sem explicação.¹
+O varejo perde R$ 59 milhões por dia em furtos e perdas sem explicação.¹
 **O ELVAS IA acaba com isso.**
 
-¹ *Fonte: ABRAPPE e Protiviti — 9ª Pesquisa de Perdas no Varejo Brasileiro (dados de 2025, divulgados em 2026).*
+¹ *Estimativa ELVAS com dados da ABRAS: faturamento do varejo alimentar de R$ 1,14 trilhão em 2025 (Ranking ABRAS 2026) × índice de perdas de 1,89% (25ª Pesquisa de Eficiência Operacional da ABRAS, divulgada em 2025).*
 
 ---
 
@@ -185,14 +185,14 @@ A ELVAS aproveita a estrutura que você já possui para transformar imagens e da
 
 Todo mês que passa sem identificar suas perdas tem um preço.
 
-Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de R$ 71.700 mensais, considerando o índice de 2,39% da ABRAPPE.¹
+Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de R$ 56.700 mensais, considerando o índice de 1,89% da ABRAS.¹
 
-São mais de R$ 860 mil por ano.
+São mais de R$ 680 mil por ano.
 
 Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.
 
-**R$ 17.925 por mês.**
-**R$ 215.100 por ano.**
+**R$ 14.175 por mês.**
+**R$ 170.100 por ano.**
 
 Dinheiro que pode deixar de sair da sua operação.
 
@@ -200,7 +200,7 @@ E na sua loja, quanto as perdas podem estar custando?
 
 `[ Calcular minhas perdas estimadas ]`
 
-*¹ Fonte: ABRAPPE/KPMG — 8ª Pesquisa de Perdas no Varejo Brasileiro, dados de 2024. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.*
+*¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.*
 
 ---
 
