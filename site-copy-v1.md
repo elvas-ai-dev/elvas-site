@@ -83,18 +83,20 @@ Perda documentada — você decide o que fazer com ela.
 
 ## SEÇÃO 6 — COMO O ELVAS FUNCIONA
 
-### Três movimentos. Sem mistério.
+Três movimentos. Sem mistério.
 
-**1. A câmera registra** o que aconteceu — balcão, caixa, docas, câmara fria.
+**1. Suas câmeras registram o que aconteceu.**
+No balcão, no caixa, nas docas ou na câmara fria.
 
-**2. Seu sistema de gestão diz** o que deveria ter acontecido — peso, item, valor, quantidade.
+**2. Seu sistema registra os dados da operação.**
+Peso, produto, valor e quantidade.
 
-**3. A ELVAS cruza os dois.** Onde não bateu: vídeo + dado + horário. Automaticamente.
+**3. A ELVAS cruza as informações automaticamente.**
+Quando identifica uma divergência, reúne vídeo, dados e horário para análise.
 
-Você não muda nada na sua operação.
-Não compra câmera nova.
-Não instala servidor.
-Não chama TI.
+Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
+
+A ELVAS conecta os sistemas que você já utiliza e revela divergências que antes passavam despercebidas.
 
 A ELVAS conecta o que você já tem — e faz o cruzamento que nunca foi feito.
 
