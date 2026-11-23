@@ -60,6 +60,22 @@ html, body { margin: 0; background: var(--bg); }
 .site-foot { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: var(--space-6); }
 .site-foot img { height: 32px; width: auto; }
 
+/* Grades por tamanho de tela */
+.site-passos { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1279px) {
+  .site-passos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-custo > .ev-span-6 { grid-column: span 12; }
+}
+.site-custo .ev-kpi__value { white-space: nowrap; }
+@media (max-width: 1279px) {
+  .site-feats > .ev-span-3, .site-feats > .ev-span-4 { grid-column: span 6; }
+  .site-feats > :last-child { grid-column: span 12; }
+}
+@media (max-width: 599px) {
+  .site-passos { grid-template-columns: 1fr; }
+  .site-feats > .ev-span-3, .site-feats > .ev-span-4, .site-feats > :last-child { grid-column: span 12; }
+}
+
 /* Tablet: trilho de 80px, botões do rodapé do menu só com ícone */
 @media (max-width: 1023px) {
   .site-nav__btn { width: 48px; padding: 0; }
