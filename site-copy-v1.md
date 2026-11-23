@@ -48,6 +48,8 @@ A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente de
 
 A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.
 
+Se este é exatamente o seu caso, o ELVAS foi feito para você.
+
 ✓ Você já tem câmeras instaladas.
 
 ✓ Você utiliza um sistema de gestão.
@@ -55,8 +57,6 @@ A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfre
 ✓ Sua operação tem caixas, açougue, balcões de frios ou recebimento de mercadorias.
 
 ✓ E, mesmo com toda essa estrutura, o balanço continua apresentando diferenças que ninguém consegue explicar.
-
-Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
 ---
 
@@ -99,8 +99,6 @@ Peso, produto, valor e quantidade.
 Quando identifica uma divergência, reúne vídeo, dados e horário para análise.
 
 Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
-
-A ELVAS conecta os sistemas que você já utiliza e revela divergências que antes passavam despercebidas.
 
 A ELVAS conecta o que você já tem — e faz o cruzamento que nunca foi feito.
 
