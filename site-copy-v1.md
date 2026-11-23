@@ -149,8 +149,6 @@ Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba
 
 *Veja quais caixas estão dentro da meta e quais puxam a média para baixo — sem esperar o relatório de segunda-feira.*
 
-Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.
-
 ---
 
 **3. Detalhamento por PDV** — Indicadores individuais e evolução semanal.
@@ -158,6 +156,10 @@ Não espere pelo relatório de segunda-feira. Identifique problemas sem depender
 <!-- assets/secao-8/painel-eficiencia-pdv-detalhe.jpg — card detalhe PDV 03 -->
 
 *Do consolidado ao individual: evolução semanal, pico de movimento e performance por operador.*
+
+---
+
+Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.
 
 ---
 
