@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://elvas-ai.com/assets/ELVAS_logo.jpg">
   <meta property="og:url" content="https://elvas-ai.com/">
   <link rel="icon" href="/ui/logos/elvas-simbolo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/ui/index.css?v=20261123-42">
-  <link rel="stylesheet" href="/css/site.css?v=20261123-42">
+  <link rel="stylesheet" href="/ui/index.css?v=20261123-43">
+  <link rel="stylesheet" href="/css/site.css?v=20261123-43">
 </head>
 <body class="ev">
 <div class="site-shell">
@@ -34,12 +34,12 @@
     <a class="ev-nav__item" href="#inicio" aria-current="page"><span class="ev-icon" aria-hidden="true">space_dashboard</span><span>Início</span></a>
     <a class="ev-nav__item" href="#o-problema"><span class="ev-icon" aria-hidden="true">report</span><span>O problema</span></a>
     <a class="ev-nav__item" href="#o-que-e"><span class="ev-icon" aria-hidden="true">join</span><span>O que é a ELVAS</span></a>
+    <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
     <a class="ev-nav__item" href="#como-funciona"><span class="ev-icon" aria-hidden="true">account_tree</span><span>Como funciona</span></a>
     <a class="ev-nav__item" href="#o-que-recebe"><span class="ev-icon" aria-hidden="true">inventory_2</span><span>O que você recebe</span></a>
     <a class="ev-nav__item" href="#painel"><span class="ev-icon" aria-hidden="true">insights</span><span>O painel</span></a>
     <div class="ev-nav__group">Para decidir</div>
     <a class="ev-nav__item" href="#diferenciais"><span class="ev-icon" aria-hidden="true">verified</span><span>Diferenciais</span></a>
-    <a class="ev-nav__item" href="#quanto-custa"><span class="ev-icon" aria-hidden="true">calculate</span><span>Quanto custa</span></a>
     <a class="ev-nav__item" href="#quem-somos"><span class="ev-icon" aria-hidden="true">group</span><span>Quem somos</span></a>
     <a class="ev-nav__item" href="#como-comecar"><span class="ev-icon" aria-hidden="true">flag</span><span>Como começar</span></a>
   </nav>
@@ -268,7 +268,47 @@
       </div>
     </section>
 
-    <!-- 6 · COMO FUNCIONA -->
+    <!-- 6 · QUANTO CUSTA: os números grandes -->
+    <section class="s-band s-band--glow" id="quanto-custa" aria-labelledby="t-custo">
+      <div class="wrap">
+        <p class="ev-section__title">Quanto custa não ter a ELVAS?</p>
+        <h2 class="t-statement" id="t-custo">Todo mês que passa sem identificar suas perdas <span class="hl">tem um preço.</span></h2>
+        <div class="s-money">
+          <div class="s-money__col s-money__col--loss">
+            <p class="t-lead">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <span class="s-money__inline">R$&nbsp;56.700 mensais</span>, considerando o índice de 1,89% da ABRAS.¹</p>
+            <p class="s-money__big">São mais de R$&nbsp;680 mil <span>por ano.</span></p>
+          </div>
+          <div class="s-money__arrow" aria-hidden="true"><span class="ev-icon">arrow_forward</span></div>
+          <div class="s-money__col s-money__col--gain">
+            <p class="t-lead">Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.</p>
+            <p class="s-money__big">R$&nbsp;14.175 <span>por mês.</span></p>
+            <p class="s-money__big s-money__big--sm">R$&nbsp;170.100 <span>por ano.</span></p>
+          </div>
+        </div>
+        <p class="t-statement t-statement--sm s-center">Dinheiro que pode <span class="hl">deixar de sair da sua operação.</span></p>
+
+        <form class="s-calc" id="calc" novalidate>
+          <h3 class="t-h2">E na sua loja, quanto as perdas podem estar custando?</h3>
+          <div class="s-calc__row">
+            <label class="ev-field">
+              <span class="ev-field__label">Faturamento mensal (R$)</span>
+              <input class="ev-input" id="fat" name="fat" inputmode="numeric" autocomplete="off" placeholder="Ex.: 3.000.000">
+              <span class="ev-field__error" id="fat-erro" hidden>Digite o faturamento mensal da loja.</span>
+            </label>
+            <button class="ev-btn ev-btn--primary ev-btn--lg" type="submit">Calcular minhas perdas estimadas</button>
+          </div>
+          <dl class="s-calc__out" id="calc-out" hidden aria-live="polite">
+            <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
+            <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
+            <div class="s-calc__good"><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
+            <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
+          </dl>
+        </form>
+        <p class="t-note">¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
+      </div>
+    </section>
+
+    <!-- 7 · COMO FUNCIONA -->
     <section class="s-band" id="como-funciona" aria-labelledby="t-como">
       <div class="wrap">
         <p class="ev-section__title">Como o ELVAS funciona</p>
@@ -287,7 +327,7 @@
       </div>
     </section>
 
-    <!-- 7 · O QUE VOCÊ RECEBE -->
+    <!-- 8 · O QUE VOCÊ RECEBE -->
     <section class="s-plain" id="o-que-recebe" aria-labelledby="t-recebe">
       <div class="wrap">
         <p class="ev-section__title" id="t-recebe">O que você recebe</p>
@@ -309,7 +349,7 @@
       </div>
     </section>
 
-    <!-- 8 · PAINEL -->
+    <!-- 9 · PAINEL -->
     <section class="s-band" id="painel" aria-labelledby="t-painel">
       <div class="wrap">
         <p class="ev-section__title">As informações chegam até você</p>
@@ -348,7 +388,7 @@
       </div>
     </section>
 
-    <!-- 9 · DIFERENCIAIS -->
+    <!-- 10 · DIFERENCIAIS -->
     <section class="s-plain" id="diferenciais" aria-labelledby="t-dif">
       <div class="wrap s-split">
         <div class="s-stack">
@@ -370,46 +410,6 @@
             </tbody>
           </table>
         </div>
-      </div>
-    </section>
-
-    <!-- 10 · QUANTO CUSTA: os números grandes -->
-    <section class="s-band s-band--glow" id="quanto-custa" aria-labelledby="t-custo">
-      <div class="wrap">
-        <p class="ev-section__title">Quanto custa não ter a ELVAS?</p>
-        <h2 class="t-statement" id="t-custo">Todo mês que passa sem identificar suas perdas <span class="hl">tem um preço.</span></h2>
-        <div class="s-money">
-          <div class="s-money__col s-money__col--loss">
-            <p class="t-lead">Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de <span class="s-money__inline">R$&nbsp;56.700 mensais</span>, considerando o índice de 1,89% da ABRAS.¹</p>
-            <p class="s-money__big">São mais de R$&nbsp;680 mil <span>por ano.</span></p>
-          </div>
-          <div class="s-money__arrow" aria-hidden="true"><span class="ev-icon">arrow_forward</span></div>
-          <div class="s-money__col s-money__col--gain">
-            <p class="t-lead">Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.</p>
-            <p class="s-money__big">R$&nbsp;14.175 <span>por mês.</span></p>
-            <p class="s-money__big s-money__big--sm">R$&nbsp;170.100 <span>por ano.</span></p>
-          </div>
-        </div>
-        <p class="t-statement t-statement--sm s-center">Dinheiro que pode <span class="hl">deixar de sair da sua operação.</span></p>
-
-        <form class="s-calc" id="calc" novalidate>
-          <h3 class="t-h2">E na sua loja, quanto as perdas podem estar custando?</h3>
-          <div class="s-calc__row">
-            <label class="ev-field">
-              <span class="ev-field__label">Faturamento mensal (R$)</span>
-              <input class="ev-input" id="fat" name="fat" inputmode="numeric" autocomplete="off" placeholder="Ex.: 3.000.000">
-              <span class="ev-field__error" id="fat-erro" hidden>Digite o faturamento mensal da loja.</span>
-            </label>
-            <button class="ev-btn ev-btn--primary ev-btn--lg" type="submit">Calcular minhas perdas estimadas</button>
-          </div>
-          <dl class="s-calc__out" id="calc-out" hidden aria-live="polite">
-            <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
-            <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
-            <div class="s-calc__good"><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
-            <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
-          </dl>
-        </form>
-        <p class="t-note">¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
       </div>
     </section>
 
