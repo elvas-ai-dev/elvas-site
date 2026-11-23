@@ -155,36 +155,26 @@ A ELVAS aproveita a estrutura que você já possui para transformar imagens e da
 
 ---
 
-## SEÇÃO 10 — QUANTO CUSTA NÃO TER A ELVAS
+## SEÇÃO 10 — QUANTO CUSTA NÃO TER A ELVAS?
 
-### Todo mês que passa sem a ELVAS tem um preço.
+Todo mês que passa sem identificar suas perdas tem um preço.
 
-Um supermercado que fatura R$ 3 milhões por mês perde, em média, **R$ 71.700 todo mês.**
+Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas de R$ 71.700 mensais, considerando o índice de 2,39% da ABRAPPE.¹
 
-| | Valor |
-|--|--|
-| Faturamento mensal | R$ 3.000.000 |
-| Índice médio de perdas — ABRAPPE | 2,39% |
-| Perda mensal estimada | R$ 71.700 |
-| Perda anual | ~R$ 860.000 |
+São mais de R$ 860 mil por ano.
 
-A maior parte não tem explicação. O sistema fecha. A mercadoria não volta.
+Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiência operacional.
 
-Estimativa conservadora: a ELVAS identifica com evidência **25% dessas perdas.**
-Isso é **R$ 17.900/mês em divergências documentadas** — com vídeo e dado para você agir.
+**R$ 17.925 por mês.**
+**R$ 215.100 por ano.**
 
-**R$ 17.900 por mês. R$ 215.000 por ano.**
-Dinheiro que estava saindo em silêncio — e agora você sabe onde estava indo.
+Dinheiro que pode deixar de sair da sua operação.
 
-*¹ Projeção com base no Índice de Perdas ABRAPPE 2024/2025. Recuperação efetiva depende da ação do gestor.*
+E na sua loja, quanto as perdas podem estar custando?
 
----
+`[ Calcular minhas perdas estimadas ]`
 
-### → MICRO CTA
-
-**Quer saber quanto sua loja perde por mês?**
-
-`[ Calcular minha perda estimada ]`
+*¹ Fonte: ABRAPPE/KPMG — 8ª Pesquisa de Perdas no Varejo Brasileiro, dados de 2024. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.*
 
 ---
 
