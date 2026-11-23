@@ -22,9 +22,7 @@ O varejo perde R$ 115 milhões por dia em furtos e perdas sem explicação.¹
 
 **Seu PDV não registra tudo que sai.**
 
-Cancelamento sem motivo. Item passado sem leitura. Desconto que ninguém autorizou.
-O operador sabe. A câmera viu. O sistema não registrou.
-E no fim do mês, a diferença está lá — sem nome, sem hora, sem como agir.
+Cancelamento sem motivo. Item passado sem leitura. Descontos sem autorização. O seu sistema nem sempre revela tudo.
 
 ---
 
