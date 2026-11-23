@@ -28,6 +28,8 @@ main ul, main ol { padding: 0; list-style: none; }
 .site-menu .ev-nav__item { width: 100%; height: 40px; justify-content: flex-start; padding: 0 10px; text-decoration: none; }
 .site-menu .ev-nav__item > :not(.ev-icon) { display: inline; }
 .site-menu .ev-nav__group { height: auto; width: auto; margin: 0; background: none; font-size: 11px; padding: var(--space-4) 10px var(--space-2); }
+/* Acesso ao ELVAS: no desktop fica só no header; no mobile só no drawer */
+.site-menu__acesso { display: none !important; }
 
 /* ---------- Estrutura ---------- */
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-8); }
@@ -226,16 +228,15 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .site-header { height: var(--topbar-h); padding: 0 var(--space-2) 0 var(--space-4); }
   .site-header__brand img { height: 18px; }
   .site-header__brand .site-header__simbolo { height: 32px; }
-  .site-header__label { display: none; }
-  .site-header__acesso { width: var(--touch-min); padding: 0; }
-  .site-header__acesso .ev-icon { margin: 0; }
+  .site-header__acesso { display: none !important; }
   .site-header__actions .ev-btn { padding-left: var(--space-3); padding-right: var(--space-3); }
-  .site-header__actions .site-header__acesso, .site-header__actions .site-header__menu { padding: 0; }
+  .site-header__actions .site-header__menu { padding: 0; }
   .site-menu { top: var(--topbar-h); left: 0; right: 0; width: auto; max-height: calc(100dvh - var(--topbar-h)); border-left: 0; border-right: 0; }
+  .site-menu__acesso { display: flex !important; }
   html { scroll-padding-top: calc(var(--topbar-h) + var(--space-4)); }
   main section { padding: 64px 0; scroll-margin-top: var(--topbar-h); }
   .wrap { padding: 0 var(--space-4); }
-  .s-hero { padding: 38px 0 40px; }
+  .s-hero { padding: 38px 0 48px; overflow: visible; }
   .s-hero__title { margin-bottom: var(--space-4); }
   .s-hero__title .t-hero { font-size: clamp(22.68px, 3.276vw, 40.32px); text-align: center; }
   .s-hero > .wrap + .wrap { margin-top: var(--space-4); }
@@ -244,8 +245,20 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-hero__text .ev-section__title { display: none; }
   .s-hero__ctas { margin-top: 0; }
   .s-hero__ctas .ev-btn { flex: 1 1 100%; }
-  .s-hero__stats { margin-top: var(--space-8) !important; }
-  .s-hero__stats > div { padding: var(--space-4) var(--space-3); }
+  .s-hero__stats {
+    margin-top: var(--space-8) !important; margin-bottom: var(--space-5) !important;
+    align-items: stretch; grid-auto-rows: 1fr;
+  }
+  .s-hero__stats > div {
+    display: flex; flex-direction: column; gap: var(--space-2);
+    padding: var(--space-5) var(--space-3); min-height: 0; overflow: visible;
+  }
+  .s-hero__stats > div:nth-child(even) { padding-right: 0; }
+  .s-hero__stats dt { font-size: 10px; line-height: 14px; letter-spacing: .05em; flex: none; }
+  .s-hero__stats dd {
+    margin: 0; flex: none; font-size: 14px; line-height: 20px; font-weight: 600;
+    overflow: visible; overflow-wrap: break-word; hyphens: manual;
+  }
   .s-pain, .s-versus__item, .s-money__col, .s-calc { padding: var(--space-5); }
   .s-versus { grid-template-columns: 1fr; }
   .s-steps--4, .s-verbs, .s-feats { grid-template-columns: 1fr; }
