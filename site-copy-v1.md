@@ -50,8 +50,6 @@ A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfre
 
 Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
-Não espere pelo relatório de segunda-feira. Identifique problemas sem depender de alguém para contar o que aconteceu.
-
 ✓ Você já tem câmeras instaladas.
 
 ✓ Você utiliza um sistema de gestão.

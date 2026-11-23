@@ -102,13 +102,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   align-self: stretch; min-height: 100%; box-sizing: border-box;
 }
 .s-quem__lead { margin-top: 0 !important; }
-.s-quem__foot { display: flex; flex-direction: column; gap: var(--space-4); }
 .t-quote.s-quem__quote {
   margin-top: 0 !important; margin-left: 0 !important; margin-right: 0 !important;
   text-align: left; max-width: none;
-}
-.t-statement.s-quem__fecho {
-  margin-top: 0 !important; text-align: left; max-width: none;
 }
 .s-checks { display: flex; flex-direction: column; gap: var(--space-3); height: 100%; }
 .s-quem .s-checks { justify-content: space-between; gap: var(--space-2); }
