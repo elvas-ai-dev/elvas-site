@@ -1,0 +1,4 @@
+/* ELVAS AI — design system. Importe este arquivo uma vez, no ponto de entrada da aplicação. */
+@import "./fonts.css";
+@import "./tokens.css";
+@import "./components.css";

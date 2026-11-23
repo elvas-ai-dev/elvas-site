@@ -1,0 +1,7 @@
+<!-- O que é: ícone pequeno da Elvas AI para abas do navegador.
+     O que faz: usa a letra E e as cores da imagem original do Jadson quando o nome inteiro não cabe. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Elvas AI">
+  <rect width="64" height="64" rx="12" fill="#0d1d28"/>
+  <path d="M14 13h36v9H24v6h22v8H24v6h26v9H14z" fill="#fff"/>
+  <path d="M42 13h8v9h-8z" fill="#d60020"/>
+</svg>
