@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://elvas-ai.com/assets/ELVAS_logo.jpg">
   <meta property="og:url" content="https://elvas-ai.com/">
   <link rel="icon" href="/ui/logos/elvas-simbolo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/ui/index.css?v=20261123-21">
-  <link rel="stylesheet" href="/css/site.css?v=20261123-21">
+  <link rel="stylesheet" href="/ui/index.css?v=20261123-22">
+  <link rel="stylesheet" href="/css/site.css?v=20261123-22">
 </head>
 <body class="ev">
 <div class="site-shell">
@@ -168,27 +168,81 @@
         <!-- Carrossel: telas de evento do ELVAS (rostos desfocados) -->
         <div class="s-carousel" aria-roledescription="carrossel" aria-label="Telas de evento do ELVAS">
           <div class="s-carousel__track" tabindex="0">
-            <figure class="s-carousel__slide s-vcard" aria-label="1 de 3">
-              <div class="s-vcard__head"><h3 class="t-h3">Câmara fria aberta acima do limite</h3><span class="ev-pill ev-pill--warn">A classificar</span></div>
-              <p class="s-vcard__meta">Boa Vista · Açougue · Porta da câmara fria · 11/11 08:24</p>
-              <div class="s-vcard__media"><video class="s-vcard__video" src="/assets/secao-4/video/elvas-evento-camara-fria.mp4" muted playsinline loop preload="metadata"></video><span class="s-vcard__play" aria-hidden="true"></span></div>
-              <p class="s-vcard__label">O que a IA indicou</p>
-              <p class="s-vcard__ia">Porta do fundo aberta 15 min, das 08:24 às 08:39. No dia: 398 min aberta, 1 vez por 15 min ou mais.</p>
-            </figure>
-            <figure class="s-carousel__slide s-vcard" aria-label="2 de 3">
-              <div class="s-vcard__head"><h3 class="t-h3">Volume visto sem item correspondente no cupom</h3><span class="ev-pill ev-pill--warn">A classificar</span></div>
-              <p class="s-vcard__meta">Boa Vista · PDV · PDV 302 · 02/11 07:56</p>
-              <div class="s-vcard__media"><video class="s-vcard__video" src="/assets/secao-4/video/elvas-evento-pdv.mp4" muted playsinline loop preload="metadata"></video><span class="s-vcard__play" aria-hidden="true"></span></div>
-              <p class="s-vcard__label">O que a IA indicou</p>
-              <p class="s-vcard__ia">Cupom 37757, PDV 302: 8 pacotes de pipoca passaram pelo caixa e o cupom tem 1 (R$ 0,59); 7 a mais, R$ 4,13.</p>
-            </figure>
-            <figure class="s-carousel__slide s-vcard" aria-label="3 de 3">
-              <div class="s-vcard__head"><h3 class="t-h3">Possível produto esquecido no moedor</h3><span class="ev-pill ev-pill--warn">A classificar</span></div>
-              <p class="s-vcard__meta">Boa Vista · Açougue · Moedor da desossa · 11/11 12:26</p>
-              <div class="s-vcard__media"><video class="s-vcard__video" src="/assets/secao-4/video/elvas-evento-moedor.mp4" muted playsinline loop preload="metadata"></video><span class="s-vcard__play" aria-hidden="true"></span></div>
-              <p class="s-vcard__label">O que a IA indicou</p>
-              <p class="s-vcard__ia">Sem ninguém mexer de 12:26 a 13:08 (42 min). Carne no moedor de 09:50 a 13:11, mexida 34 vezes. Conferir no vídeo. Inclui 94 min sem gravação (câmera grava por movimento).</p>
-            </figure>
+            <article class="s-carousel__slide s-ecard" aria-label="1 de 3">
+              <header class="ev-detail__head">
+                <div class="s-ecard__titulo">
+                  <h3 class="ev-detail__title">Câmara fria aberta acima do limite</h3>
+                  <p class="s-ecard__meta">Boa Vista · Açougue · Porta da câmara fria · 11/11 08:24</p>
+                </div>
+                <div class="s-ecard__acoes">
+                  <span class="ev-pill ev-pill--warn">A classificar</span>
+                  <span class="ev-btn ev-btn--sm s-ecard__evid" aria-hidden="true"><span class="ev-icon">description</span>Evidência</span>
+                </div>
+              </header>
+              <figure class="ev-player s-ecard__player">
+                <div class="s-ecard__tela">
+                  <video src="/assets/secao-4/video/elvas-evento-camara-fria.mp4#t=0.1" preload="metadata" playsinline muted data-titulo="Câmara fria aberta acima do limite"></video>
+                  <button class="s-ecard__play" type="button" aria-label="Tocar o vídeo: Câmara fria aberta acima do limite"></button>
+                  <button class="s-ecard__ampliar" type="button" aria-label="Ampliar o vídeo: Câmara fria aberta acima do limite"><span class="ev-icon" aria-hidden="true">open_in_full</span></button>
+                </div>
+                <figcaption class="ev-player__caption">Vídeo do evento · apagado em 79 dias</figcaption>
+              </figure>
+              <p class="ev-section__title s-ecard__label">O que a IA indicou <span class="ev-icon" aria-hidden="true">info</span></p>
+              <p class="s-ecard__ia">Porta do fundo aberta 15 min, das 08:24 às 08:39. No dia: 398 min aberta, 1 vez por 15 min ou mais.</p>
+              <p class="s-ecard__conf">Indicação da IA · conferido pela Elvas em 13/11/2026, 07:53</p>
+              <p class="ev-section__title s-ecard__label">Dados</p>
+              <dl class="ev-facts"><div><dt>Loja</dt><dd>Boa Vista</dd></div><div><dt>Local</dt><dd>Açougue · Porta da câmara fria</dd></div></dl>
+            </article>
+            <article class="s-carousel__slide s-ecard" aria-label="2 de 3">
+              <header class="ev-detail__head">
+                <div class="s-ecard__titulo">
+                  <h3 class="ev-detail__title">Volume visto sem item correspondente no cupom</h3>
+                  <p class="s-ecard__meta">Boa Vista · PDV · PDV 302 · 02/11 07:56</p>
+                </div>
+                <div class="s-ecard__acoes">
+                  <span class="ev-pill ev-pill--warn">A classificar</span>
+                  <span class="ev-btn ev-btn--sm s-ecard__evid" aria-hidden="true"><span class="ev-icon">description</span>Evidência</span>
+                </div>
+              </header>
+              <figure class="ev-player s-ecard__player">
+                <div class="s-ecard__tela">
+                  <video src="/assets/secao-4/video/elvas-evento-pdv.mp4#t=0.1" preload="metadata" playsinline muted data-titulo="Volume visto sem item correspondente no cupom"></video>
+                  <button class="s-ecard__play" type="button" aria-label="Tocar o vídeo: Volume visto sem item correspondente no cupom"></button>
+                  <button class="s-ecard__ampliar" type="button" aria-label="Ampliar o vídeo: Volume visto sem item correspondente no cupom"><span class="ev-icon" aria-hidden="true">open_in_full</span></button>
+                </div>
+                <figcaption class="ev-player__caption">Vídeo do evento · 07:56 a 07:58 · apagado em 79 dias</figcaption>
+              </figure>
+              <p class="ev-section__title s-ecard__label">O que a IA indicou <span class="ev-icon" aria-hidden="true">info</span></p>
+              <p class="s-ecard__ia">Cupom 37757, PDV 302: 8 pacotes de pipoca passaram pelo caixa e o cupom tem 1 (R$ 0,59); 7 a mais, R$ 4,13.</p>
+              <p class="s-ecard__conf">Indicação da IA · conferido pela Elvas em 13/11/2026, 07:53</p>
+              <p class="ev-section__title s-ecard__label">Dados</p>
+              <dl class="ev-facts"><div><dt>Loja</dt><dd>Boa Vista</dd></div><div><dt>Local</dt><dd>PDV · PDV 302</dd></div><div><dt>Data</dt><dd>02/11/2026, 07:56</dd></div><div><dt>Cupom</dt><dd>37757 · 6 itens</dd></div><div><dt>Valor do cupom</dt><dd>R$ 30,74</dd></div><div><dt>Valor do evento</dt><dd>R$ 4,13</dd></div></dl>
+            </article>
+            <article class="s-carousel__slide s-ecard" aria-label="3 de 3">
+              <header class="ev-detail__head">
+                <div class="s-ecard__titulo">
+                  <h3 class="ev-detail__title">Possível produto esquecido no moedor</h3>
+                  <p class="s-ecard__meta">Boa Vista · Açougue · Moedor da desossa · 11/11 12:26</p>
+                </div>
+                <div class="s-ecard__acoes">
+                  <span class="ev-pill ev-pill--warn">A classificar</span>
+                  <span class="ev-btn ev-btn--sm s-ecard__evid" aria-hidden="true"><span class="ev-icon">description</span>Evidência</span>
+                </div>
+              </header>
+              <figure class="ev-player s-ecard__player">
+                <div class="s-ecard__tela">
+                  <video src="/assets/secao-4/video/elvas-evento-moedor.mp4#t=0.1" preload="metadata" playsinline muted data-titulo="Possível produto esquecido no moedor"></video>
+                  <button class="s-ecard__play" type="button" aria-label="Tocar o vídeo: Possível produto esquecido no moedor"></button>
+                  <button class="s-ecard__ampliar" type="button" aria-label="Ampliar o vídeo: Possível produto esquecido no moedor"><span class="ev-icon" aria-hidden="true">open_in_full</span></button>
+                </div>
+                <figcaption class="ev-player__caption">Vídeo do evento · apagado em 79 dias</figcaption>
+              </figure>
+              <p class="ev-section__title s-ecard__label">O que a IA indicou <span class="ev-icon" aria-hidden="true">info</span></p>
+              <p class="s-ecard__ia">Sem ninguém mexer de 12:26 a 13:08 (42 min). Carne no moedor de 09:50 a 13:11, mexida 34 vezes. Conferir no vídeo. Inclui 94 min sem gravação (câmera grava por movimento).</p>
+              <p class="s-ecard__conf">Indicação da IA · conferido pela Elvas em 16/11/2026, 19:29</p>
+              <p class="ev-section__title s-ecard__label">Dados</p>
+              <dl class="ev-facts"><div><dt>Loja</dt><dd>Boa Vista</dd></div><div><dt>Local</dt><dd>Açougue · Moedor da desossa</dd></div><div><dt>Data</dt><dd>11/11/2026, 12:26</dd></div></dl>
+            </article>
           </div>
           <div class="s-carousel__nav">
             <button class="ev-btn ev-btn--icon" type="button" data-dir="-1" aria-label="Tela anterior"><span class="ev-icon" aria-hidden="true">chevron_left</span></button>
@@ -440,6 +494,16 @@
   </footer>
 </div>
 
+<dialog class="s-vmodal" id="s-vmodal" aria-label="Vídeo ampliado">
+  <div class="s-vmodal__box">
+    <div class="s-vmodal__head">
+      <p class="s-vmodal__titulo" id="s-vmodal-titulo"></p>
+      <button class="s-vmodal__fechar" type="button" aria-label="Fechar vídeo"><span class="ev-icon" aria-hidden="true">close</span></button>
+    </div>
+    <video class="s-vmodal__video" controls playsinline></video>
+  </div>
+</dialog>
+
 <script>
   (function () {
     // Calculadora de perdas estimadas
@@ -463,8 +527,10 @@
       out.hidden = false;
     });
 
-    // Carrossel das telas de evento: gira sozinho para a direita, para 3 s em cada tela, sem fim.
-    // Uma cópia da 1ª tela no fim deixa a volta contínua; setas, bolinhas e arrastar também funcionam.
+    // Carrossel das telas de evento: gira sozinho para a direita, 3 s em cada tela, sem fim.
+    // Para de girar enquanto um vídeo toca ou a janela ampliada está aberta.
+    var modal = document.getElementById('s-vmodal');
+    var mVideo = modal.querySelector('video');
     document.querySelectorAll('.s-carousel').forEach(function (c) {
       var track = c.querySelector('.s-carousel__track');
       var slides = c.querySelectorAll('.s-carousel__slide');
@@ -472,30 +538,57 @@
       var n = slides.length, PAUSA = 3000, timer = null;
       var copia = slides[0].cloneNode(true);
       copia.setAttribute('aria-hidden', 'true'); copia.removeAttribute('aria-label');
+      copia.querySelectorAll('button').forEach(function (b) { b.tabIndex = -1; });
       track.appendChild(copia);
       function pos() { return Math.round(track.scrollLeft / track.clientWidth); }
       function salto(i) { track.scrollTo({ left: i * track.clientWidth, behavior: 'instant' }); }
+      function ocupado() { return modal.open || Array.prototype.some.call(track.querySelectorAll('video'), function (v) { return !v.paused; }); }
+      function pararVideos() { track.querySelectorAll('video').forEach(function (v) { if (!v.paused) v.pause(); }); }
       function ir(i) {
+        pararVideos();
         if (i < 0) { salto(n); i = n - 1; }
         track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
         agendar();
       }
       function marcar() {
-        var i = pos() % n; dots.forEach(function (d, j) { d.setAttribute('aria-selected', String(i === j)); });
-        track.querySelectorAll('video').forEach(function (v, j) { if (j === pos()) { if (v.paused) v.play().catch(function () {}); } else if (!v.paused) v.pause(); });
+        var p = pos(), i = p % n;
+        dots.forEach(function (d, j) { d.setAttribute('aria-selected', String(i === j)); });
+        track.querySelectorAll('.s-carousel__slide').forEach(function (sl, j) { if (j !== p) sl.querySelectorAll('video').forEach(function (v) { if (!v.paused) v.pause(); }); });
       }
       function voltaContinua() { if (pos() >= n) salto(0); }
-      function agendar() { clearTimeout(timer); timer = setTimeout(function () { voltaContinua(); ir(pos() + 1); }, PAUSA); }
+      function agendar() { clearTimeout(timer); timer = setTimeout(function () { if (ocupado()) { agendar(); return; } voltaContinua(); ir(pos() + 1); }, PAUSA); }
       c.querySelectorAll('[data-dir]').forEach(function (b) { b.addEventListener('click', function () { voltaContinua(); ir(pos() + Number(b.getAttribute('data-dir'))); }); });
       dots.forEach(function (d, i) { d.addEventListener('click', function () { voltaContinua(); ir(i); }); });
       track.addEventListener('scroll', marcar);
       if ('onscrollend' in window) track.addEventListener('scrollend', voltaContinua);
       track.addEventListener('pointerdown', agendar);
-      track.addEventListener('keydown', function (e) { if (e.key === 'ArrowRight') { voltaContinua(); ir(pos() + 1); } if (e.key === 'ArrowLeft') ir(pos() - 1); });
+      track.addEventListener('keydown', function (e) { if (e.target !== track) return; if (e.key === 'ArrowRight') { voltaContinua(); ir(pos() + 1); } if (e.key === 'ArrowLeft') ir(pos() - 1); });
       window.addEventListener('resize', function () { salto(pos() % n); });
-      marcar();
+
+      // Clique no play: toca ou pausa o vídeo dentro da caixa
+      track.addEventListener('click', function (e) {
+        var play = e.target.closest('.s-ecard__play'), amp = e.target.closest('.s-ecard__ampliar');
+        if (!play && !amp) return;
+        var tela = (play || amp).closest('.s-ecard__tela'); var v = tela.querySelector('video');
+        if (play) {
+          if (v.paused) { pararVideos(); v.play().catch(function () {}); } else v.pause();
+        } else {
+          var t = v.currentTime; v.pause();
+          mVideo.src = v.getAttribute('src').split('#')[0];
+          document.getElementById('s-vmodal-titulo').textContent = v.getAttribute('data-titulo');
+          modal.showModal();
+          mVideo.addEventListener('loadedmetadata', function f() { mVideo.removeEventListener('loadedmetadata', f); mVideo.currentTime = t; mVideo.play().catch(function () {}); });
+        }
+        agendar();
+      });
+      track.querySelectorAll('video').forEach(function (v) {
+        ['play', 'pause', 'ended'].forEach(function (ev) { v.addEventListener(ev, function () { v.parentNode.classList.toggle('is-tocando', !v.paused); }); });
+      });
+      modal.addEventListener('close', function () { mVideo.pause(); mVideo.removeAttribute('src'); mVideo.load(); agendar(); });
       agendar();
     });
+    modal.querySelector('.s-vmodal__fechar').addEventListener('click', function () { modal.close(); });
+    modal.addEventListener('click', function (e) { if (e.target === modal) modal.close(); });
 
     // Menu expansível: abre e fecha pelo botão; fecha com Esc, clique fora ou ao escolher uma seção
     var botao = document.querySelector('.site-header__menu');
