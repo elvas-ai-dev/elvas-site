@@ -96,12 +96,17 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 @media (max-width: 1023px) { .s-swoosh { display: none; } .s-pains { padding-bottom: 0; } }
 
 /* ---------- Para quem é ---------- */
-.s-quem__lead { margin-top: var(--space-6) !important; }
+.s-quem .s-split { align-items: stretch; }
+.s-quem__copy {
+  display: flex; flex-direction: column; justify-content: space-between;
+  align-self: stretch; min-height: 100%; box-sizing: border-box;
+}
+.s-quem__lead { margin-top: 0 !important; }
 .t-quote.s-quem__quote {
-  margin-top: var(--space-6) !important; margin-left: 0 !important; margin-right: 0 !important;
+  margin-top: 0 !important; margin-left: 0 !important; margin-right: 0 !important;
   text-align: left; max-width: none;
 }
-.s-checks { display: flex; flex-direction: column; gap: var(--space-3); }
+.s-checks { display: flex; flex-direction: column; gap: var(--space-3); height: 100%; }
 .s-checks li { display: flex; gap: var(--space-3); align-items: flex-start; font-size: 17px; line-height: 26px; padding: var(--space-4) var(--space-5); border-radius: var(--radius-md); background: var(--surface); border: 1px solid var(--line); }
 .s-checks .ev-icon { color: var(--success); margin-top: 3px; }
 .s-checks__last { background: var(--warning-bg) !important; border-color: transparent !important; color: var(--warning-ink); font-weight: 500; }
@@ -360,8 +365,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-pain__hook span { font-size: 14px; line-height: 20px; }
   .s-checks { gap: var(--space-2); }
   .s-checks li { font-size: 14px; line-height: 21px; padding: var(--space-3) var(--space-4); }
-  .s-quem__lead { margin-top: var(--space-4) !important; }
-  .t-quote.s-quem__quote { margin-top: var(--space-4) !important; }
+  .s-quem__copy { gap: var(--space-4); justify-content: flex-start; min-height: 0; }
+  .s-quem__lead { margin-top: 0 !important; }
+  .t-quote.s-quem__quote { margin-top: 0 !important; }
   .s-versus { grid-template-columns: 1fr; gap: var(--space-3); }
   .s-versus__item { gap: var(--space-3); }
   .s-versus__item p { font-size: clamp(15px, 3.8vw, 17px); line-height: 1.28; }
