@@ -97,7 +97,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 
 /* ---------- Para quem é ---------- */
 .s-quem__lead { margin-top: var(--space-6) !important; }
-.s-quem__quote {
+.t-quote.s-quem__quote {
   margin-top: var(--space-6) !important; margin-left: 0 !important; margin-right: 0 !important;
   text-align: left; max-width: none;
 }
@@ -361,7 +361,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-checks { gap: var(--space-2); }
   .s-checks li { font-size: 14px; line-height: 21px; padding: var(--space-3) var(--space-4); }
   .s-quem__lead { margin-top: var(--space-4) !important; }
-  .s-quem__quote { margin-top: var(--space-4) !important; }
+  .t-quote.s-quem__quote { margin-top: var(--space-4) !important; }
   .s-versus { grid-template-columns: 1fr; gap: var(--space-3); }
   .s-versus__item { gap: var(--space-3); }
   .s-versus__item p { font-size: clamp(15px, 3.8vw, 17px); line-height: 1.28; }
