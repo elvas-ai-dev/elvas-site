@@ -237,26 +237,34 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   html { scroll-padding-top: calc(var(--topbar-h) + var(--space-4)); }
   main section { padding: 64px 0; scroll-margin-top: var(--topbar-h); }
   .wrap { padding: 0 var(--space-4); }
-  .s-hero { padding: 38px 0 48px; overflow: visible; }
-  .s-hero__title { margin-bottom: var(--space-4); }
-  .s-hero__title .t-hero { font-size: clamp(22.68px, 3.276vw, 40.32px); text-align: center; }
-  .s-hero > .wrap + .wrap { margin-top: var(--space-4); }
-  .s-hero__grid { gap: var(--space-6); }
-  .s-hero__text { gap: var(--space-4); }
+  /* First-fold: H1+claim+CTAs+shot+4 cards no 1º viewport; header intacto */
+  .s-hero { padding: 20px 0 24px; overflow: visible; }
+  .s-hero__title { margin-bottom: var(--space-3); }
+  .s-hero__title .t-hero { font-size: clamp(18px, 4.6vw, 20.5px); line-height: 1.2; text-align: center; }
+  .s-hero > .wrap + .wrap { margin-top: var(--space-3); }
+  .s-hero__grid { gap: var(--space-3); }
+  .s-hero__text { gap: var(--space-3); }
   .s-hero__text .ev-section__title { display: none; }
-  .s-hero__ctas { margin-top: 0; }
-  .s-hero__ctas .ev-btn { flex: 1 1 100%; }
+  .s-hero .t-claim { font-size: 16px; line-height: 1.25; padding-left: var(--space-3); border-left-width: 2px; }
+  .s-hero__ctas { margin-top: 0; gap: var(--space-2); flex-wrap: nowrap; }
+  .s-hero__ctas .ev-btn,
+  .s-hero__ctas .ev-btn--lg {
+    flex: 1 1 0; min-width: 0; height: 40px; padding: 0 var(--space-3); font-size: 13px;
+  }
+  .s-hero__shot img {
+    max-height: 120px; width: 100%; object-fit: cover; object-position: top left;
+  }
   .s-hero__stats {
-    margin-top: var(--space-8) !important; margin-bottom: var(--space-5) !important;
+    margin-top: var(--space-3) !important; margin-bottom: var(--space-2) !important;
     align-items: stretch; grid-auto-rows: 1fr;
   }
   .s-hero__stats > div {
-    display: flex; flex-direction: column; gap: var(--space-2);
-    padding: var(--space-5) var(--space-4); min-height: 0; overflow: visible;
+    display: flex; flex-direction: column; gap: var(--space-1);
+    padding: var(--space-3) var(--space-3); min-height: 0; overflow: visible;
   }
-  .s-hero__stats dt { font-size: 10px; line-height: 14px; letter-spacing: .05em; flex: none; }
+  .s-hero__stats dt { font-size: 9px; line-height: 12px; letter-spacing: .05em; flex: none; }
   .s-hero__stats dd {
-    margin: 0; flex: none; font-size: 14px; line-height: 20px; font-weight: 600;
+    margin: 0; flex: none; font-size: 12.5px; line-height: 17px; font-weight: 600;
     overflow: visible; overflow-wrap: break-word; hyphens: manual;
   }
   .s-pain, .s-versus__item, .s-money__col, .s-calc { padding: var(--space-5); }
