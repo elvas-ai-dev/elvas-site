@@ -235,7 +235,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   html { scroll-padding-top: calc(var(--topbar-h) + var(--space-4)); }
   main section { padding: 64px 0; scroll-margin-top: var(--topbar-h); }
   .wrap { padding: 0 var(--space-4); }
-  .s-hero { padding: 0 0 40px; }
+  .s-hero { padding: 38px 0 40px; }
   .s-hero__title .t-hero { font-size: clamp(22.68px, 3.276vw, 40.32px); text-align: center; }
   .s-hero__ctas .ev-btn { flex: 1 1 100%; }
   .s-hero__stats > div { padding: var(--space-4) var(--space-3); }
