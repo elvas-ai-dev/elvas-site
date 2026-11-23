@@ -7,6 +7,8 @@ Baseado em: análise de concorrência (Veesion, Sesami/Gatecash, CISS) + benchma
 
 ## HERO
 
+*(Layout: título H1 em faixa full-width acima das duas colunas; coluna esquerda = eyebrow + claim + CTAs; coluna direita = painel.)*
+
 O varejo perde R$ 115 milhões por dia em furtos e perdas sem explicação.¹
 **O ELVAS IA acaba com isso.**
 
