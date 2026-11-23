@@ -58,11 +58,13 @@ Se você pensou “é exatamente o meu caso”, a ELVAS foi feita para você.
 
 ## SEÇÃO 4 — O QUE É A ELVAS
 
-**A ELVAS cruza o que sua câmera viu com o que seu sistema registrou.**
-Onde os dois não batem — tem prova. Com vídeo. Com hora. Com dado.
+O ELVAS cruza o que suas câmeras viram com o que seu sistema registrou.
+
+Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências. Com vídeo. Com hora. Com dados da operação.
 
 Não é câmera nova. Não é mais um software de gestão.
-É a conexão que nunca existiu entre os dois sistemas que você já tem.
+
+É a inteligência que conecta os sistemas que você já tem e revela o que antes passava despercebido.
 
 ---
 
