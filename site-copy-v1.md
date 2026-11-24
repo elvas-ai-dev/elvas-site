@@ -243,8 +243,6 @@ Quatro passos simples. Sem obras na loja.
 
 ### As perdas sem explicação são um grande incômodo.
 
-Por quanto tempo mais vai deixar sua operação perder dinheiro sem saber onde e por quê?
-
 **Fale com o ELVAS.**
 Agende o início do monitoramento e comece a transformar informações em resultados.
 
