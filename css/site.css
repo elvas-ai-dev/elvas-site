@@ -130,7 +130,13 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-nots .ev-icon { font-size: 18px; color: var(--critical); }
 
 /* O que é: duas colunas, texto + carrossel das telas de evento */
-.s-oque { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-12); align-items: start; }
+.s-oque { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-12); align-items: center; }
+.s-oque__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
 .s-oque .t-statement--sm { margin-top: var(--space-8) !important; }
 .s-carousel { position: sticky; top: calc(64px + var(--space-6)); display: flex; flex-direction: column; gap: var(--space-4); }
 .s-carousel__track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: var(--radius-lg); border: 1px solid var(--line); background: var(--surface-container); box-shadow: var(--shadow-modal); }
