@@ -243,6 +243,6 @@ Quatro passos simples. Sem obras na loja.
 
 ### As perdas sem explicação são um grande incômodo.
 
-Agende o início do monitoramento e comece a transformar informações em resultados.
-
 `[ QUERO REDUZIR MINHAS PERDAS AGORA! ]`
+
+Agende o início do monitoramento e comece a transformar informações em resultados.
