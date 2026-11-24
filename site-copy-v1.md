@@ -211,15 +211,15 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 ### Fundadores
 
-| Fundador | Cargo | Histórico |
-|----------|-------|----------|
-| **Felipe Vieira** | Sócio fundador da Scala | Ex-CEO da Networkme. Partner da WE Heart Impact. |
-| **Jadson Vieira** | Sócio fundador da Scala | Ex-diretor da Associação dos Lojistas do Recife e da Aloshop. |
-| **Bruno Vieira** | CEO da Naturalle Produtos | Empresário do varejo e da indústria alimentar. |
+| Fundador | Histórico |
+|----------|----------|
+| **Felipe Vieira** | Ex-CEO da Networkme. Partner da WE Heart Impact. |
+| **Jadson Vieira** | Ex-diretor da Associação dos Lojistas do Recife e da Aloshop. |
+| **Bruno Vieira** | Empresário do varejo e da indústria alimentar. |
 
 ---
 
-*[Fotos dos fundadores: assets/secao-11/felipe-vieira.jpg, jadson-vieira.jpg, bruno-vieira.jpg — cards com foto, nome e descrição]*
+*[Fotos dos fundadores: assets/secao-11/felipe-vieira.jpg, jadson-vieira.jpg, bruno-vieira.jpg — cards com foto, nome e descrição (sem linha de cargo)]*
 
 ---
 
