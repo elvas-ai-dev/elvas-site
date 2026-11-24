@@ -575,6 +575,8 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-oque .s-oque__sems li:last-child { display: none; }
   /* Frase «evidências para agir»: só desktop */
   .s-oque .t-statement--sm { display: none; }
+  /* Frase «dias, não meses»: só desktop */
+  #como-comecar .t-statement.s-center { display: none; }
   .s-oque .s-oque__sems li {
     flex: 1 1 0;
     min-width: 0;
