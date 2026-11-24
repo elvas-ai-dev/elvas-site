@@ -601,15 +601,15 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 /* =====================================================================
    REVISÃO DE DESIGN · COMPUTADOR (a partir de 1024px)
    Um só sistema de espaço, tipografia e alinhamento. Celular e tablet não mudam.
-   Espaço: seção 80px · rótulo→título 12 · título→apoio 16 · apoio→conteúdo 40 · conteúdo→fechamento 40
+   Espaço: seção 56px (−30% vs 80) · rótulo→título 12 · título→apoio 16 · apoio→conteúdo 28 · conteúdo→fechamento 28
    Tipo:   56 hero/CTA final · 40 título de seção · 28 fechamento/citação/subtítulo · 18 apoio · 15 corpo
    Alinhamento: tudo à esquerda na mesma margem; só o CTA final é centralizado.
    ===================================================================== */
 @media (min-width: 1024px) {
-  main section { padding-top: 80px; padding-bottom: 80px; }
-  main section > .wrap + .wrap { margin-top: 40px; }
-  .s-hero { padding-top: 64px; padding-bottom: 56px; }
-  .s-final { padding-top: 96px; padding-bottom: 96px; }
+  main section { padding-top: 56px; padding-bottom: 56px; }
+  main section > .wrap + .wrap { margin-top: 28px; }
+  .s-hero { padding-top: 45px; padding-bottom: 39px; }
+  .s-final { padding-top: 67px; padding-bottom: 67px; }
 
   /* Rótulo (sobretítulo) */
   main .ev-section__title { margin: 0 0 12px !important; }
@@ -624,7 +624,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
     font-size: 28px; line-height: 1.3; letter-spacing: -0.02em; font-weight: 600; max-width: 820px;
   }
   .t-statement--sm, #como-comecar .t-statement.s-center, .t-quote {
-    margin-top: 40px !important; margin-bottom: 0 !important; text-align: left !important; margin-left: 0 !important; margin-right: 0 !important;
+    margin-top: 28px !important; margin-bottom: 0 !important; text-align: left !important; margin-left: 0 !important; margin-right: 0 !important;
   }
   .t-statement.s-gallery__fecho {
     display: block;
@@ -644,13 +644,13 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .t-statement + .t-lead, .t-h2 + .t-lead { margin-top: 16px !important; }
   .t-body { font-size: 15px; line-height: 23px; }
 
-  /* Do título ao conteúdo: sempre 40 */
+  /* Do título ao conteúdo: 28 (−30% vs 40) */
   .t-statement + .s-pains, .t-statement + .s-steps, .t-statement + .ev-grid, .t-lead + .s-gallery,
-  .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 40px !important; }
-  .s-recebe__stats { margin-bottom: 40px !important; }
+  .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 28px !important; }
+  .s-recebe__stats { margin-bottom: 28px !important; }
   .s-recebe__stats dt { font-size: 24px; line-height: 1.25; }
-  .s-sems { width: 100%; margin: 32px 0 0 !important; justify-content: center; }
-  .s-sems + .t-lead { margin-top: 24px !important; }
+  .s-sems { width: 100%; margin: 22px 0 0 !important; justify-content: center; }
+  .s-sems + .t-lead { margin-top: 17px !important; }
 
   /* Destaques numéricos: mesma família */
   .s-pain__hook { font-size: 36px; }
@@ -662,11 +662,11 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   section:has(#t-imagine) #t-imagine { font-size: 40px; line-height: 1.15; letter-spacing: -0.028em; max-width: 880px; }
 
   /* Colunas lado a lado: alinhar pelo topo e com o mesmo respiro */
-  .s-split { gap: 64px; align-items: start; }
+  .s-split { gap: 45px; align-items: start; }
   .s-split .t-statement { max-width: none; }
 
   /* Quanto custa: calculadora e nota com o mesmo respiro */
-  .s-calc { margin-top: 40px !important; }
+  .s-calc { margin-top: 28px !important; }
   #quanto-custa .t-note { margin-top: 16px; }
 
   /* CTA final: título no mesmo tamanho da hero, centralizado */
@@ -675,5 +675,5 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-final__in { gap: 16px; }
 
   /* Rodapé */
-  .s-foot { padding: 32px 0; }
+  .s-foot { padding: 22px 0; }
 }
