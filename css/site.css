@@ -167,6 +167,13 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-sems { display: flex; width: 100%; justify-content: center; align-items: center; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-8) 0 var(--space-6) !important; }
 .s-sems li { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 15px; font-weight: 500; padding: var(--space-2) var(--space-4); border-radius: var(--radius-full); background: var(--success-bg); color: var(--success-ink); }
 .s-sems .ev-icon { font-size: 18px; }
+.t-statement.s-como__fecho {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 
 /* ---------- O que você recebe ---------- */
 .s-recebe__stats {
