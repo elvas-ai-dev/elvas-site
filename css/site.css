@@ -236,8 +236,13 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-oque .s-oque__sems .ev-icon { font-size: 15px; }
 
 /* ---------- O que você recebe ---------- */
-.s-feats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2) var(--space-6); }
-.s-feats li { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-4) 0; border-bottom: 1px solid var(--line); }
+.s-feats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); }
+.s-feats li {
+  display: flex; gap: var(--space-3); align-items: flex-start;
+  padding: var(--space-5) var(--space-4);
+  background: var(--surface-container); border: 1px solid var(--border-control); border-radius: var(--radius-md);
+  background-image: linear-gradient(var(--surface-sheen), transparent 55%);
+}
 .s-feats .ev-icon { color: var(--brand-text); font-size: 22px; margin-top: 1px; }
 
 /* ---------- Painel ---------- */
@@ -506,8 +511,8 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-steps li { padding: var(--space-4); gap: var(--space-2); }
   .s-steps__n { font-size: 24px; margin-bottom: var(--space-2); }
   .s-steps--4, .s-feats { grid-template-columns: 1fr; }
-  .s-feats { gap: var(--space-1) var(--space-4); }
-  .s-feats li { padding: var(--space-3) 0; gap: var(--space-2); }
+  .s-feats { gap: var(--space-3); }
+  .s-feats li { padding: var(--space-4) var(--space-3); gap: var(--space-2); }
   .s-feats .ev-icon { font-size: 18px; }
   .s-gallery { gap: var(--space-4); margin-top: var(--space-4) !important; }
   .s-gallery__cols { gap: var(--space-3); }
