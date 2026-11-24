@@ -64,9 +64,13 @@ Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
 O ELVAS cruza o que suas câmeras viram com o que seu sistema registrou.
 
-Quando as informações não batem, o ELVAS identifica a divergência e apresenta as evidências. Com vídeo. Com hora. Com dados da operação.
+**1. Suas câmeras registram o que aconteceu.**
 
-Não é câmera nova. Não é mais um software de gestão.
+**2. Seu sistema registra os dados da operação.**
+
+**3. O ELVAS cruza as informações de vídeo com o ERP.**
+
+Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
 
 É a inteligência que conecta os sistemas que você já tem e revela o que antes passava despercebido.
 
