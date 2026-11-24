@@ -558,7 +558,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 @media (max-width: 1023px) { .s-oque { grid-template-columns: minmax(0, 1fr); } }
 
 /* Cartões de evento no carrossel: mesmo desenho da tela de evento do app (ev-detail__head, ev-player, ev-facts) */
-.s-ecard { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-2); padding: var(--space-5); max-height: none; background: var(--surface); min-width: 0; width: 100%; box-sizing: border-box; }
+.s-ecard { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-2); padding: var(--space-4) var(--space-5); max-height: none; background: var(--surface); min-width: 0; width: 100%; box-sizing: border-box; }
 .s-ecard > * { min-width: 0; max-width: 100%; }
 .s-ecard .ev-detail__head { align-items: center; margin-bottom: 0; gap: var(--space-3); }
 .s-ecard .ev-detail__title { font-size: 20px; line-height: 27px; margin: 0; }
@@ -579,10 +579,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-ecard__ampliar { position: absolute; right: var(--space-2); bottom: var(--space-2); width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 0; border-radius: var(--radius-control); cursor: pointer;
   background: rgba(0, 0, 0, .55); color: #fff; }
 .s-ecard__ampliar:hover { background: rgba(0, 0, 0, .75); }
-.s-ecard__label { margin: var(--space-2) 0 0 !important; display: flex; align-items: center; gap: var(--space-2); }
+.s-ecard__label { margin: var(--space-1) 0 0 !important; display: flex; align-items: center; gap: var(--space-2); }
 .s-ecard__label .ev-icon { font-size: 18px; }
-.s-ecard__ia { font-size: 15px; line-height: 23px; }
-.s-ecard__conf { font-size: 13px; color: var(--ink-muted); }
+.s-ecard__ia { font-size: 15px; line-height: 22px; margin: 0; }
 @media (max-width: 767px) {
   .s-ecard { padding: var(--space-4); }
   .s-ecard .ev-detail__head { flex-direction: row; }
