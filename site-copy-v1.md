@@ -243,8 +243,6 @@ Quatro passos simples. Sem obras na loja.
 
 ### As perdas sem explicação são um grande incômodo.
 
-Agora você tem como identificar o que antes passava despercebido.
-
 Por quanto tempo mais vai deixar sua operação perder dinheiro sem saber onde e por quê?
 
 **Fale com o ELVAS.**
