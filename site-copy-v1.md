@@ -91,7 +91,7 @@ No balcão, no caixa, nas docas ou na câmara fria.
 **2. Seu sistema registra os dados da operação.**
 Peso, produto, valor e quantidade.
 
-**3. A ELVAS cruza as informações automaticamente.**
+**3. O ELVAS cruza as informações de vídeo com o ERP.**
 Quando identifica uma divergência, reúne vídeo, dados e horário para análise.
 
 Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
