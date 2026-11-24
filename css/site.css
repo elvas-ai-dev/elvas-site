@@ -168,9 +168,12 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-sems li { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 15px; font-weight: 500; padding: var(--space-2) var(--space-4); border-radius: var(--radius-full); background: var(--success-bg); color: var(--success-ink); }
 .s-sems .ev-icon { font-size: 18px; }
 .t-statement.s-como__fecho {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
   max-width: none;
   text-align: left;
+  text-wrap: wrap;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
@@ -230,13 +233,17 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-shot figcaption { display: flex; flex-direction: column; gap: var(--space-2); }
 .s-shot__n { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--brand); color: var(--on-brand); font-size: 12px; margin-right: var(--space-2); vertical-align: 2px; }
 .s-shot .ev-pill { vertical-align: 1px; }
+/* Fecho do painel: linha full-width abaixo das duas colunas (não dentro de uma coluna). */
 .t-statement.s-gallery__fecho {
+  display: block;
+  box-sizing: border-box;
   width: 100%;
   max-width: none;
+  grid-column: 1 / -1;
   text-align: left;
+  text-wrap: wrap;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  margin-top: 0 !important;
 }
 
 /* ---------- Diferenciais ---------- */
@@ -591,9 +598,13 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   }
   .t-statement.s-gallery__fecho,
   .t-statement.s-como__fecho {
+    display: block;
+    box-sizing: border-box;
     width: 100%;
     max-width: none;
+    grid-column: 1 / -1;
     text-align: left;
+    text-wrap: wrap;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
