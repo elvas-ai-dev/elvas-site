@@ -294,7 +294,12 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-money__col--gain .s-money__big { color: var(--success); }
 .s-money__arrow { display: grid; place-items: center; color: var(--outline); }
 .s-money__arrow .ev-icon { font-size: 32px; }
-.s-calc { margin-top: var(--space-12) !important; padding: var(--space-8); border-radius: var(--radius-lg); background: var(--bg); border: 1px solid var(--line); display: flex; flex-direction: column; gap: var(--space-6); }
+.s-calc {
+  margin-top: var(--space-12) !important; padding: var(--space-8); border-radius: var(--radius-lg);
+  background: var(--bg); border: 1px solid var(--line);
+  display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 3fr); gap: var(--space-6); align-items: stretch;
+}
+.s-calc__main { display: flex; flex-direction: column; gap: var(--space-6); min-width: 0; }
 .s-calc__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-3); align-items: end; }
 .s-calc .ev-input { height: var(--control-lg); font-size: 18px; font-family: var(--font-mono); }
 .s-calc__row .ev-btn { white-space: normal; }
@@ -304,6 +309,14 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-calc__out dt { font-family: var(--font-mono); font-size: 11px; line-height: 16px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-muted); }
 .s-calc__out dd { margin: var(--space-1) 0 0; font-size: 24px; line-height: 30px; font-weight: 600; color: var(--critical); font-variant-numeric: tabular-nums; }
 .s-calc__good dd { color: var(--success); }
+.s-calc__cta {
+  display: flex; flex-direction: column; justify-content: center; gap: var(--space-4);
+  padding: var(--space-5); border-radius: var(--radius-md);
+  background: var(--surface-container); border: 1px solid var(--line); min-width: 0;
+}
+.s-calc__cta-text { margin: 0; font-size: 17px; line-height: 26px; font-weight: 600; letter-spacing: -0.015em; color: var(--ink); text-wrap: balance; }
+.s-calc__cta .ev-btn { width: 100%; white-space: normal; text-align: center; }
+.s-calc__cta-aux { margin: 0; font-size: 13px; line-height: 20px; color: var(--ink-muted); }
 #quanto-custa .t-note { margin-top: var(--space-4); }
 
 /* ---------- Quem somos ---------- */
@@ -377,6 +390,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-shot--right { order: 2; }
   .s-money { grid-template-columns: 1fr; gap: var(--space-3); }
   .s-money__arrow .ev-icon { transform: rotate(90deg); }
+  .s-calc { grid-template-columns: 1fr; }
   .s-founder { padding: var(--space-4); gap: var(--space-3); }
   .s-founder__photo { width: 72px; height: 72px; }
 }
@@ -510,12 +524,15 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money__col { gap: var(--space-3); }
   .s-money__big { font-size: clamp(24px, 7vw, 34px); }
   .s-money__big--sm { font-size: clamp(18px, 5vw, 24px); }
-  .s-calc { gap: var(--space-4); margin-top: var(--space-6) !important; }
+  .s-calc { grid-template-columns: 1fr; gap: var(--space-4); margin-top: var(--space-6) !important; }
+  .s-calc__main { gap: var(--space-4); }
   .s-calc__row { grid-template-columns: 1fr; }
   .s-calc .ev-input { font-size: 16px; }
   .s-calc__out { grid-template-columns: 1fr; gap: var(--space-2); }
   .s-calc__out div { padding: var(--space-3); }
   .s-calc__out dd { font-size: 20px; line-height: 26px; }
+  .s-calc__cta { padding: var(--space-4); gap: var(--space-3); }
+  .s-calc__cta-text { font-size: 15px; line-height: 22px; }
   .s-cross { margin: var(--space-6) auto var(--space-4) !important; }
   .s-cross__node { width: 48px; height: 48px; }
   .s-cross__node--brand { width: 58px; height: 58px; }

@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://elvas-ai.com/assets/ELVAS_logo.jpg">
   <meta property="og:url" content="https://elvas-ai.com/">
   <link rel="icon" href="/ui/logos/elvas-simbolo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/ui/index.css?v=20261124-23">
-  <link rel="stylesheet" href="/css/site.css?v=20261124-23">
+  <link rel="stylesheet" href="/ui/index.css?v=20261124-24">
+  <link rel="stylesheet" href="/css/site.css?v=20261124-24">
 </head>
 <body class="ev">
 <div class="site-shell">
@@ -260,21 +260,28 @@
         </div>
 
         <form class="s-calc" id="calc" novalidate>
-          <h3 class="t-h2">E na sua loja, quanto as perdas podem estar custando?</h3>
-          <div class="s-calc__row">
-            <label class="ev-field">
-              <span class="ev-field__label">Faturamento mensal (R$)</span>
-              <input class="ev-input" id="fat" name="fat" inputmode="numeric" autocomplete="off" placeholder="Ex.: 3.000.000">
-              <span class="ev-field__error" id="fat-erro" hidden>Digite o faturamento mensal da loja.</span>
-            </label>
-            <button class="ev-btn ev-btn--primary ev-btn--lg" type="submit">Calcular minhas perdas estimadas</button>
+          <div class="s-calc__main">
+            <h3 class="t-h2">E na sua loja, quanto as perdas podem estar custando?</h3>
+            <div class="s-calc__row">
+              <label class="ev-field">
+                <span class="ev-field__label">Faturamento mensal (R$)</span>
+                <input class="ev-input" id="fat" name="fat" inputmode="numeric" autocomplete="off" placeholder="Ex.: 3.000.000">
+                <span class="ev-field__error" id="fat-erro" hidden>Digite o faturamento mensal da loja.</span>
+              </label>
+              <button class="ev-btn ev-btn--primary ev-btn--lg" type="submit">Calcular minhas perdas estimadas</button>
+            </div>
+            <dl class="s-calc__out" id="calc-out" hidden aria-live="polite">
+              <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
+              <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
+              <div class="s-calc__good"><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
+              <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
+            </dl>
           </div>
-          <dl class="s-calc__out" id="calc-out" hidden aria-live="polite">
-            <div><dt>Perda estimada por mês</dt><dd id="o-mes">—</dd></div>
-            <div><dt>Perda estimada por ano</dt><dd id="o-ano">—</dd></div>
-            <div class="s-calc__good"><dt>Reduzindo 25%, por mês</dt><dd id="o-red-mes">—</dd></div>
-            <div class="s-calc__good"><dt>Reduzindo 25%, por ano</dt><dd id="o-red-ano">—</dd></div>
-          </dl>
+          <aside class="s-calc__cta" aria-label="Agendar demonstração">
+            <p class="s-calc__cta-text">Descubra o que o ELVAS pode revelar na sua operação.</p>
+            <a class="ev-btn ev-btn--primary ev-btn--lg" href="https://wa.me/558140420494?text=Ol%C3%A1%21%20Quero%20reduzir%20minhas%20perdas%20com%20o%20ELVAS." target="_blank" rel="noopener">Agende demonstração</a>
+            <p class="s-calc__cta-aux">Identifique perdas. Tenha evidências para agir.</p>
+          </aside>
         </form>
         <p class="t-note">¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.</p>
       </div>

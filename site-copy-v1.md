@@ -158,6 +158,8 @@ E na sua loja, quanto as perdas podem estar custando?
 
 `[ Calcular minhas perdas estimadas ]`
 
+**Painel CTA (coluna direita):** Descubra o que o ELVAS pode revelar na sua operação. · `[ Agende demonstração ]` · Identifique perdas. Tenha evidências para agir.
+
 *¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.*
 
 ---
