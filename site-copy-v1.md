@@ -134,7 +134,7 @@ Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba
 
 <!-- assets/secao-8/painel-saude-lojas.jpg — tabela de saúde por loja: Verde/Amarelo/Vermelho por setor (PDVs, açougue, recebimento, ERP, balanças) -->
 
-*Cada loja recebe uma classificação em tempo real: Verde (tudo OK), Amarelo (1–4 alertas) ou Vermelho (5 ou mais). Setores monitorados: Classificação em dia, Eventos suspeitos, Eficiência dos PDVs, Açougue, PDV/Caixas, Recebimento, ERP e Balanças.*
+*Cada loja recebe uma classificação em tempo real.*
 
 ---
 
