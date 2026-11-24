@@ -565,6 +565,51 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-oque .s-oque__sems .ev-icon { font-size: 14px; }
   .s-foot { padding: var(--space-5) 0; }
   .s-foot__in { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+
+  /* Contraste suave entre seções e elementos (só celular).
+     Soft bg shift + hairline nas faixas + leve lift nos cards — sem faixas fortes nem blocos coloridos. */
+  .s-band {
+    background: color-mix(in srgb, var(--surface) 55%, var(--surface-container));
+    border-top-color: color-mix(in srgb, var(--border-control) 55%, var(--line));
+    border-bottom-color: color-mix(in srgb, var(--border-control) 55%, var(--line));
+  }
+  .s-band--glow {
+    background:
+      radial-gradient(ellipse 70% 60% at 50% 0%, color-mix(in srgb, var(--brand) 8%, transparent), transparent 70%),
+      color-mix(in srgb, var(--surface) 55%, var(--surface-container));
+  }
+  .s-pain,
+  .s-steps li,
+  .s-checks li:not(.s-checks__last),
+  .s-feats li,
+  .s-money__col,
+  .s-calc,
+  .s-hero__stats,
+  .s-proofs li {
+    border-color: color-mix(in srgb, var(--border-control) 70%, var(--line));
+    box-shadow: var(--shadow-xs);
+  }
+  .s-feats li,
+  .s-hero__stats {
+    background: var(--surface-container);
+    background-image: linear-gradient(var(--surface-sheen), transparent 55%);
+  }
+  .s-pain,
+  .s-steps li {
+    background: color-mix(in srgb, var(--bg) 40%, var(--surface));
+  }
+  .s-checks li:not(.s-checks__last) {
+    background: var(--surface-container);
+  }
+  .s-carousel__track {
+    border-color: color-mix(in srgb, var(--border-control) 70%, var(--line));
+  }
+  .s-shot img {
+    border-color: color-mix(in srgb, var(--border-control) 65%, var(--line));
+  }
+  .s-foot {
+    border-top-color: color-mix(in srgb, var(--border-control) 55%, var(--line));
+  }
 }
 
 /* Celular estreito: logo menor; abaixo de 360px, símbolo no lugar do logo completo */
