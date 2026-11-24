@@ -208,6 +208,6 @@ Quatro passos simples. Sem obras na loja.
 
 ### Você não consegue controlar uma perda cuja origem desconhece.
 
-`[ QUERO REDUZIR MINHAS PERDAS AGORA! ]`
+`[ Nossa equipe pode te ajudar e resolver ]`
 
 Agende o início do monitoramento e comece a transformar informações em resultados.
