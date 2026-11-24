@@ -174,20 +174,6 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 ---
 
-### Fundadores
-
-| Fundador | Histórico |
-|----------|----------|
-| **Bruno Vieira** | Empresário do varejo e da indústria alimentar. |
-| **Felipe Vieira** | Empresário e empreendedor de Tecnologia B2B |
-| **Jadson Vieira** | Empresário do setor varejista alimentar e não alimentar. |
-
----
-
-*[Fotos dos fundadores: assets/secao-11/bruno-vieira.jpg, felipe-vieira.jpg, jadson-vieira.jpg — cards com foto, nome e descrição (sem linha de cargo)]*
-
----
-
 ## SEÇÃO 13 — COMO COMEÇAR
 
 Quatro passos simples. Sem obras na loja.

@@ -343,25 +343,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-calc__cta-aux { margin: 0; font-size: 13px; line-height: 20px; color: var(--ink-muted); }
 #quanto-custa .t-note { margin-top: var(--space-4); }
 
-/* ---------- Quem somos ---------- */
-.s-somos { display: flex; flex-direction: column; gap: var(--space-12); }
-.s-founders { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); }
-.s-founder {
-  display: flex; align-items: center; gap: var(--space-4);
-  padding: var(--space-5); border-radius: var(--radius-lg);
-  background: var(--surface-container); border: 1px solid var(--line);
-  background-image: linear-gradient(var(--surface-sheen), transparent 55%);
-  min-width: 0;
-}
-.s-founder__photo {
-  flex: none; width: 88px; height: 88px; object-fit: cover;
-  border-radius: 50%; border: 1px solid var(--border-control); background: var(--frame);
-}
-.s-founder__body { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
-.s-founder__body .t-h3 { margin: 0; }
-.s-founder__role { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; color: var(--brand-text); }
-.s-founder__body .t-body { margin: 0; }
-
 /* ---------- Como começar ---------- */
 #como-comecar .t-statement.s-center { margin-top: var(--space-12) !important; }
 
@@ -383,7 +364,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-steps--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .s-feats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .s-calc__out { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .s-founders { grid-template-columns: 1fr; }
 }
 
 /* ---------- Tablet ---------- */
@@ -412,8 +392,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money { grid-template-columns: 1fr; gap: var(--space-3); }
   .s-money__arrow .ev-icon { transform: rotate(90deg); }
   .s-calc { grid-template-columns: 1fr; }
-  .s-founder { padding: var(--space-4); gap: var(--space-3); }
-  .s-founder__photo { width: 72px; height: 72px; }
 }
 
 /* ---------- Celular ---------- */
