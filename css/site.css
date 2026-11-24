@@ -527,6 +527,25 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-nots li { font-size: 13px; }
   .s-sems { gap: var(--space-2); margin: var(--space-4) 0 var(--space-4) !important; }
   .s-sems li { font-size: 13px; padding: var(--space-1) var(--space-3); }
+  /* O que é: no celular só 2 checks, na largura da tela */
+  .s-oque .s-oque__sems {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: var(--space-2);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .s-oque .s-oque__sems li:last-child { display: none; }
+  .s-oque .s-oque__sems li {
+    flex: 1 1 0;
+    min-width: 0;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 11px;
+    padding: var(--space-1) var(--space-2);
+  }
+  .s-oque .s-oque__sems .ev-icon { font-size: 14px; }
   .s-foot { padding: var(--space-5) 0; }
   .s-foot__in { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
 }
