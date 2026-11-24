@@ -76,12 +76,11 @@ Agora você sabe onde estão as perdas, como aconteceram e tem as evidências pa
 
 ---
 
-## SEÇÃO 5 — IMAGINE A SUA OPERAÇÃO ASSIM
+## SEÇÃO 5 — CONTRASTE (dois cards)
 
-Você abre o painel. Cada ocorrência está documentada — com vídeo, horário e dados da operação.
+**Sem evidência** — Perda que você não consegue provar, não consegue recuperar.
 
-**Perda que você não consegue provar, não consegue recuperar.**
-Perda documentada — você decide o que fazer com ela.
+**Com a ELVAS** — Perda documentada — você decide o que fazer com ela.
 
 ---
 

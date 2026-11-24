@@ -676,10 +676,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money__big { font-size: 40px; }
   .s-money__big--sm { font-size: 28px; }
 
-  /* Seção "Imagine": título largo em coluna única */
-  section:has(#t-imagine) .s-split { grid-template-columns: 1fr; gap: 16px; }
-  section:has(#t-imagine) #t-imagine { font-size: 40px; line-height: 1.15; letter-spacing: -0.028em; max-width: 880px; }
-
   /* Colunas lado a lado: alinhar pelo topo e com o mesmo respiro */
   .s-split { gap: 45px; align-items: start; }
   .s-split .t-statement { max-width: none; }
