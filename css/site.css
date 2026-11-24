@@ -579,8 +579,8 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-oque .t-statement--sm { display: none; }
   /* Frase «dias, não meses»: só desktop */
   #como-comecar .t-statement.s-center { display: none; }
-  /* Frase «O prejuízo se acumula…»: só desktop */
-  .s-pains > .s-pain:nth-child(3) > .t-body { display: none; }
+  /* Fragmento «O prejuízo se acumula, a margem de lucro»: só desktop */
+  .s-pains > .s-pain:nth-child(3) .s-pain__prejuizo { display: none; }
   .s-oque .s-oque__sems li {
     flex: 1 1 0;
     min-width: 0;
