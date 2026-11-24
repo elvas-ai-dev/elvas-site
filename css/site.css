@@ -613,6 +613,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   /* «As informações chegam até você» e « e receba informações para agir.»: só desktop */
   #painel .s-painel__eyebrow,
   #painel .s-painel__agir { display: none; }
+  /* «, setores e alertas.» e «Cada loja recebe uma classificação em tempo real.»: só desktop */
+  #painel .s-painel__setores,
+  #painel .s-painel__classificacao { display: none; }
   .s-oque .s-oque__sems li {
     flex: 1 1 0;
     min-width: 0;
