@@ -125,7 +125,7 @@ Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba
 
 **2. Eficiência dos PDVs** — Comparação de produtividade e desempenho.
 
-<!-- assets/secao-8/painel-eficiencia-pdv-dashboard.png — gráfico itens/min + tabela Detalhe por PDV (único; sem faixa duplicada acima) -->
+<!-- assets/secao-8/painel-eficiencia-pdv-dashboard.png — só o gráfico ITENS POR MINUTO POR PDV (sem tabela/detalhe abaixo) -->
 
 *Veja quais caixas estão dentro da meta e quais puxam a média para baixo.*
 
