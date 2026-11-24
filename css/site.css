@@ -219,16 +219,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   padding: var(--space-1) var(--space-3);
 }
 .s-oque .s-oque__sems .ev-icon { font-size: 15px; }
-.t-statement.s-como__fecho {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: none;
-  text-align: left;
-  text-wrap: wrap;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
 
 /* ---------- O que você recebe ---------- */
 .s-recebe__stats {
@@ -643,8 +633,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .t-statement--sm, #como-comecar .t-statement.s-center, .t-quote {
     margin-top: 40px !important; margin-bottom: 0 !important; text-align: left !important; margin-left: 0 !important; margin-right: 0 !important;
   }
-  .t-statement.s-gallery__fecho,
-  .t-statement.s-como__fecho {
+  .t-statement.s-gallery__fecho {
     display: block;
     box-sizing: border-box;
     width: 100%;

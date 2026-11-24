@@ -85,23 +85,7 @@ Perda documentada — você decide o que fazer com ela.
 
 ---
 
-## SEÇÃO 6 — COMO O ELVAS FUNCIONA
-
-Três movimentos. Sem mistério.
-
-**1. Suas câmeras registram o que aconteceu.**
-
-**2. Seu sistema registra os dados da operação.**
-
-**3. O ELVAS cruza as informações de vídeo com o ERP.**
-
-Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
-
-A ELVAS conecta o que você já tem — e faz o cruzamento que nunca foi feito.
-
----
-
-## SEÇÃO 7 — O QUE VOCÊ RECEBE
+## SEÇÃO 6 — O QUE VOCÊ RECEBE
 
 Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Acompanhamento para prevenir.
 
@@ -121,7 +105,7 @@ Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Aco
 
 ---
 
-## SEÇÃO 8 — AS INFORMAÇÕES CHEGAM ATÉ VOCÊ
+## SEÇÃO 7 — AS INFORMAÇÕES CHEGAM ATÉ VOCÊ
 
 Dados precisos para decidir. Controle da operação de onde você estiver.
 
