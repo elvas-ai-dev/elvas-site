@@ -10,7 +10,7 @@ Baseado em: análise de concorrência (Veesion, Sesami/Gatecash, CISS) + benchma
 *(Layout: título H1 em faixa full-width acima das duas colunas; coluna esquerda = eyebrow + claim + CTAs; coluna direita = painel.)*
 
 O varejo perde R$ 59 milhões por dia em furtos e perdas sem explicação.
-**O ELVAS IA acaba com isso.**
+**A ELVAS identifica essas perdas.**
 
 *Faturamento do varejo alimentar de R$ 1,14 trilhão em 2025 (Ranking ABRAS 2026) × índice de perdas de 1,89% (25ª Pesquisa de Eficiência Operacional da ABRAS, divulgada em 2025).*
 
