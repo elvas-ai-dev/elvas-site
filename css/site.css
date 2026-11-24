@@ -241,13 +241,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 
 /* ---------- Painel ---------- */
 .s-gallery { display: flex; flex-direction: column; gap: var(--space-6); margin-top: var(--space-8) !important; }
-.s-gallery__band {
-  display: flex; flex-direction: column; gap: var(--space-3); width: 100%;
-}
-.s-gallery__band img {
-  display: block; width: 100%; height: auto;
-  border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--frame);
-}
 .s-gallery__cols {
   display: grid;
   grid-template-columns: 8fr 4fr;
@@ -509,7 +502,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-feats li { padding: var(--space-3) 0; gap: var(--space-2); }
   .s-feats .ev-icon { font-size: 18px; }
   .s-gallery { gap: var(--space-4); margin-top: var(--space-4) !important; }
-  .s-gallery__band, .s-gallery__cols { gap: var(--space-3); }
+  .s-gallery__cols { gap: var(--space-3); }
   .s-shot { gap: var(--space-3); }
   .s-shot--left { order: 1; }
   .s-shot--right { order: 2; }
