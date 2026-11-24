@@ -86,13 +86,10 @@ Perda documentada — você decide o que fazer com ela.
 Três movimentos. Sem mistério.
 
 **1. Suas câmeras registram o que aconteceu.**
-No balcão, no caixa, nas docas ou na câmara fria.
 
 **2. Seu sistema registra os dados da operação.**
-Peso, produto, valor e quantidade.
 
 **3. O ELVAS cruza as informações de vídeo com o ERP.**
-Quando identifica uma divergência, reúne vídeo, dados e horário para análise.
 
 Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
 
