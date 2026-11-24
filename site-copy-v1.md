@@ -181,7 +181,7 @@ A ELVAS aproveita a estrutura que você já possui para transformar imagens e da
 
 Todo mês que passa sem identificar suas perdas tem um preço.
 
-Um supermercado que fatura R$ 3 milhões por mês pode apresentar perdas estimadas, considerando o índice de 1,89% da ABRAS.¹
+Um supermercado que fatura R$ 3 milhões por mês em média apresenta perdas estimadas de:
 
 **R$ 56.700 mensais.**
 **R$ 680 mil por ano.**
