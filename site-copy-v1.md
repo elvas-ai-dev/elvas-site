@@ -143,15 +143,13 @@ Acompanhe a saúde de cada loja, identifique operações abaixo da meta e receba
 <!-- assets/secao-8/painel-eficiencia-caixas-grafico.jpg — gráfico de barras itens/min por PDV -->
 <!-- assets/secao-8/painel-eficiencia-caixas-tabela.jpg — tabela detalhe por PDV -->
 
-*Veja quais caixas estão dentro da meta e quais puxam a média para baixo — sem esperar o relatório de segunda-feira.*
+*Veja quais caixas estão dentro da meta e quais puxam a média para baixo.*
 
 ---
 
 **3. Detalhamento por PDV** — Indicadores individuais e evolução semanal.
 
 <!-- assets/secao-8/painel-eficiencia-pdv-detalhe.jpg — card detalhe PDV 03 -->
-
-*Do consolidado ao individual: evolução semanal, pico de movimento e performance por operador.*
 
 ---
 
