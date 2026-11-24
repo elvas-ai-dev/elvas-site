@@ -229,7 +229,7 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 Nestlé · Unilever · Philips · iFood · Super Bock Group
 
-*[Imagem: assets/secao-11/quem-somos-equipe.jpg]*
+*[Fotos dos fundadores: assets/secao-11/felipe-vieira.jpg, jadson-vieira.jpg, bruno-vieira.jpg — cards com foto, nome e descrição]*
 
 ---
 
