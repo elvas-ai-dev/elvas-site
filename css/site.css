@@ -164,7 +164,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-steps li { position: relative; display: flex; flex-direction: column; gap: var(--space-2); padding: var(--space-6); border-radius: var(--radius-lg); background: var(--bg); border: 1px solid var(--line); }
 .s-steps__n { font-family: var(--font-mono); font-size: 32px; line-height: 1; font-weight: 500; color: var(--outline); margin-bottom: var(--space-3); }
 .s-steps__n--brand { color: var(--brand-text); }
-.s-sems { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-8) 0 var(--space-6) !important; }
+.s-sems { display: flex; width: 100%; justify-content: center; align-items: center; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-8) 0 var(--space-6) !important; }
 .s-sems li { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 15px; font-weight: 500; padding: var(--space-2) var(--space-4); border-radius: var(--radius-full); background: var(--success-bg); color: var(--success-ink); }
 .s-sems .ev-icon { font-size: 18px; }
 
@@ -592,7 +592,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .t-lead + .ev-table-wrap, .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 40px !important; }
   .s-recebe__stats { margin-bottom: 40px !important; }
   .s-recebe__stats dt { font-size: 24px; line-height: 1.25; }
-  .s-sems { margin: 32px 0 0 !important; justify-content: flex-start; }
+  .s-sems { width: 100%; margin: 32px 0 0 !important; justify-content: center; }
   .s-sems + .t-lead { margin-top: 24px !important; }
 
   /* Destaques numéricos: mesma família */
