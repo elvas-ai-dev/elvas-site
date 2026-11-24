@@ -584,11 +584,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money__big { font-size: 40px; }
   .s-money__big--sm { font-size: 28px; }
 
-  /* Seção "Imagine": título largo em cima, apoio em duas colunas embaixo */
+  /* Seção "Imagine": título largo em coluna única */
   section:has(#t-imagine) .s-split { grid-template-columns: 1fr; gap: 16px; }
   section:has(#t-imagine) #t-imagine { font-size: 40px; line-height: 1.15; letter-spacing: -0.028em; max-width: 880px; }
-  section:has(#t-imagine) .s-split > .s-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: none; }
-  section:has(#t-imagine) .s-split > .s-stack .t-lead { max-width: none; }
 
   /* Colunas lado a lado: alinhar pelo topo e com o mesmo respiro */
   .s-split { gap: 64px; align-items: start; }

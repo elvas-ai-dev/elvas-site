@@ -76,10 +76,6 @@ Não é câmera nova. Não é mais um software de gestão.
 
 Você abre o painel. Cada ocorrência está documentada — com vídeo, horário e dados da operação.
 
-Sem "acho que foi o fulano". Sem depender da palavra de alguém para entender o que aconteceu.
-
-Uma perda que você não identifica pode continuar acontecendo. Uma perda documentada permite agir para evitar que se repita.
-
 **Perda que você não consegue provar, não consegue recuperar.**
 Perda documentada — você decide o que fazer com ela.
 
