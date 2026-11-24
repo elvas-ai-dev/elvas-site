@@ -233,8 +233,10 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .t-statement.s-gallery__fecho {
   width: 100%;
   max-width: none;
-  margin-top: 0 !important;
   text-align: left;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* ---------- Diferenciais ---------- */
@@ -586,6 +588,14 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   }
   .t-statement--sm, #como-comecar .t-statement.s-center, .t-quote {
     margin-top: 40px !important; margin-bottom: 0 !important; text-align: left !important; margin-left: 0 !important; margin-right: 0 !important;
+  }
+  .t-statement.s-gallery__fecho,
+  .t-statement.s-como__fecho {
+    width: 100%;
+    max-width: none;
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   main section:not(.s-final) .s-center { text-align: left !important; margin-left: 0 !important; margin-right: 0 !important; }
 
