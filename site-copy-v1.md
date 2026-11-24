@@ -190,8 +190,6 @@ Agora imagine reduzir 25% dessas perdas com mais controle, evidências e eficiê
 **R$ 14.175 por mês.**
 **R$ 170.100 por ano.**
 
-Dinheiro que pode deixar de sair da sua operação.
-
 E na sua loja, quanto as perdas podem estar custando?
 
 `[ Calcular minhas perdas estimadas ]`
