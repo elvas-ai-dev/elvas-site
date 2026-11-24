@@ -246,10 +246,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   margin-right: 0 !important;
 }
 
-/* ---------- Diferenciais ---------- */
-.s-table td:first-child { color: var(--ink-muted); width: 42%; }
-.s-table td:last-child { font-weight: 600; }
-
 /* ---------- Quanto custa ---------- */
 .s-money { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--space-8); align-items: stretch; margin-top: var(--space-8) !important; }
 .s-money__col { display: flex; flex-direction: column; gap: var(--space-4); padding: var(--space-8); border-radius: var(--radius-lg); }
@@ -617,7 +613,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 
   /* Do título ao conteúdo: sempre 40 */
   .t-statement + .s-pains, .t-statement + .s-steps, .t-statement + .ev-grid, .t-lead + .s-gallery,
-  .t-lead + .ev-table-wrap, .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 40px !important; }
+  .t-lead + .s-money, .s-recebe__stats, .t-statement + .s-cross { margin-top: 40px !important; }
   .s-recebe__stats { margin-bottom: 40px !important; }
   .s-recebe__stats dt { font-size: 24px; line-height: 1.25; }
   .s-sems { width: 100%; margin: 32px 0 0 !important; justify-content: center; }

@@ -154,24 +154,6 @@ Não espere pelo relatório de segunda-feira. Identifique problemas sem depender
 
 ---
 
-## SEÇÃO 9 — POR QUE A ELVAS É DIFERENTE
-
-Mais inteligência. Menos complexidade.
-
-A ELVAS aproveita a estrutura que você já possui para transformar imagens e dados em informações para agir.
-
-| Diferenciais | ELVAS |
-|---|---|
-| Novas câmeras | Não exige* |
-| Servidor local | Não necessita |
-| Monitoramento | 24 horas, 7 dias por semana |
-| Inteligência artificial | Vigilância contínua, sem distrações |
-| Revisão humana | Nossa equipe valida as ocorrências |
-| Indicadores de eficiência | A saúde da operação em tempo real |
-| Gestão integrada | PDV, açougue, recebimento e administrativo de todas as lojas em um só lugar |
-
----
-
 ## SEÇÃO 10 — QUANTO CUSTA NÃO TER A ELVAS?
 
 Todo mês que passa sem identificar suas perdas tem um preço.
