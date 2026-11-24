@@ -514,7 +514,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-pain__list { gap: var(--space-1); }
   .s-pain__list li { font-size: 14px; }
   .s-pain__hook { font-size: 28px; }
-  .s-pain__hook span { font-size: 14px; line-height: 20px; }
+  .s-pain__hook span {
+    display: inline; font-size: 14px; line-height: 20px; margin-top: 0;
+  }
   .s-checks { gap: var(--space-2); }
   .s-checks li { font-size: 14px; line-height: 21px; padding: var(--space-3) var(--space-4); }
   .s-quem__copy { gap: var(--space-4); justify-content: flex-start; min-height: 0; order: 1; }
