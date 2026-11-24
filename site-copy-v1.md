@@ -36,8 +36,6 @@ R$ 80 de diferença por quilo. O prejuízo se acumula, a margem de lucro diminui
 
 **O que acontece nas docas, fica nas docas.**
 
-Sabe exatamente o que acontece nas docas?
-
 A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente deu o aceite. Sem evidências, como identificar onde aconteceu a perda?
 
 ---
