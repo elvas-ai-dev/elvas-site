@@ -214,7 +214,7 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 | Fundador | Histórico |
 |----------|----------|
 | **Felipe Vieira** | Empresário e empreendedor de Tecnologia B2B |
-| **Jadson Vieira** | Ex-diretor da Associação dos Lojistas do Recife e da Aloshop. |
+| **Jadson Vieira** | Empresário do setor varejista alimentar e não alimentar. |
 | **Bruno Vieira** | Empresário do varejo e da indústria alimentar. |
 
 ---
