@@ -558,14 +558,14 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 @media (max-width: 1023px) { .s-oque { grid-template-columns: minmax(0, 1fr); } }
 
 /* Cartões de evento no carrossel: mesmo desenho da tela de evento do app (ev-detail__head, ev-player, ev-facts) */
-.s-ecard { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-3); padding: var(--space-6); max-height: none; background: var(--surface); min-width: 0; width: 100%; box-sizing: border-box; }
+.s-ecard { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-2); padding: var(--space-5); max-height: none; background: var(--surface); min-width: 0; width: 100%; box-sizing: border-box; }
 .s-ecard > * { min-width: 0; max-width: 100%; }
-.s-ecard .ev-detail__title { font-size: 20px; line-height: 27px; }
+.s-ecard .ev-detail__head { align-items: center; margin-bottom: 0; gap: var(--space-3); }
+.s-ecard .ev-detail__title { font-size: 20px; line-height: 27px; margin: 0; }
 .s-ecard__titulo { min-width: 0; flex: 1; }
-.s-ecard__meta { font-size: 13px; line-height: 18px; color: var(--ink-muted); margin-top: var(--space-1) !important; }
-.s-ecard__acoes { display: flex; flex-direction: column; align-items: flex-end; gap: var(--space-2); flex: none; }
+.s-ecard__acoes { display: flex; flex-direction: row; align-items: center; gap: var(--space-2); flex: none; }
 .s-ecard__evid { pointer-events: none; }
-.s-ecard__player { margin: var(--space-2) 0 0; }
+.s-ecard__player { margin: 0; }
 .s-ecard__tela { position: relative; background: #000; }
 .s-ecard__tela video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
 .s-ecard__play { position: absolute; top: 50%; left: 50%; width: 64px; height: 64px; margin: -32px 0 0 -32px; padding: 0; border: 0; border-radius: 50%; cursor: pointer;
