@@ -86,8 +86,6 @@ Agora você sabe onde estão as perdas, como aconteceram e tem as evidências pa
 
 ## SEÇÃO 6 — O QUE VOCÊ RECEBE
 
-Apoio para solucionar. Visibilidade para identificar. Evidências para agir. Acompanhamento para prevenir.
-
 ✔ **Balcão e açougue** — Divergências de produtos e pesagens.
 
 ✔ **Alertas operacionais** — Câmara fria aberta, câmeras desligadas e falhas no ERP.
