@@ -277,24 +277,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-founder__body .t-h3 { margin: 0; }
 .s-founder__role { margin: 0; font-size: 14px; line-height: 20px; font-weight: 600; color: var(--brand-text); }
 .s-founder__body .t-body { margin: 0; }
-.s-creds { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--space-8); align-items: start; }
-.s-creds__block { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
-.s-creds__block .ev-section__title { margin-bottom: 0 !important; }
-.s-creds__stats {
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-  background: var(--surface-container); border: 1px solid var(--border-control); border-radius: var(--radius-md);
-  background-image: linear-gradient(var(--surface-sheen), transparent 55%);
-}
-.s-creds__stats > div { padding: var(--space-4); border-left: 1px solid var(--border-control); }
-.s-creds__stats > div:first-child { border-left: 0; }
-.s-creds__stats dt { font-family: var(--font-mono); font-size: 11px; line-height: 16px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-muted); }
-.s-creds__stats dd { margin: var(--space-1) 0 0; font-size: 18px; line-height: 24px; font-weight: 600; }
-.s-creds__logos { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-.s-creds__logos li {
-  display: inline-flex; align-items: center; padding: var(--space-2) var(--space-4);
-  border-radius: var(--radius-md); background: var(--inverse-surface); color: var(--inverse-ink);
-  font-size: 13px; line-height: 18px; font-weight: 600;
-}
 
 /* ---------- Como começar ---------- */
 #como-comecar .t-statement.s-center { margin-top: var(--space-12) !important; }
@@ -318,7 +300,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-feats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .s-calc__out { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .s-founders { grid-template-columns: 1fr; }
-  .s-creds { grid-template-columns: 1fr; gap: var(--space-6); }
 }
 
 /* ---------- Tablet ---------- */
@@ -351,9 +332,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money__arrow .ev-icon { transform: rotate(90deg); }
   .s-founder { padding: var(--space-4); gap: var(--space-3); }
   .s-founder__photo { width: 72px; height: 72px; }
-  .s-creds__stats { grid-template-columns: 1fr; }
-  .s-creds__stats > div { border-left: 0; border-top: 1px solid var(--border-control); }
-  .s-creds__stats > div:first-child { border-top: 0; }
 }
 
 /* ---------- Celular ---------- */

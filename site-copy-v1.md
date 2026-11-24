@@ -219,16 +219,6 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 ---
 
-### Experiência em tecnologia
-
-- **+1.000.000 €** em desenvolvimento
-- **+1.600** empresas usam nossos softwares
-- **3** países
-
-### Nossos profissionais já trabalharam com
-
-Nestlé · Unilever · Philips · iFood · Super Bock Group
-
 *[Fotos dos fundadores: assets/secao-11/felipe-vieira.jpg, jadson-vieira.jpg, bruno-vieira.jpg — cards com foto, nome e descrição]*
 
 ---
