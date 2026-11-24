@@ -451,14 +451,17 @@
       out.hidden = false;
     });
 
-    // Hero CTA «Ver como funciona»: mantém href="#o-que-e", mas centra a seção na viewport.
+    // Hero CTA «Ver como funciona»: mantém href="#o-que-e", mas centra a seção na viewport
+    // (scrollIntoView+scroll-margin-top alinhava ~ao topo; cálculo manual evita o desvio).
     (function () {
       var link = document.querySelector('.s-hero__ctas a[href="#o-que-e"]');
       var alvo = document.getElementById('o-que-e');
       if (!link || !alvo) return;
       link.addEventListener('click', function (e) {
         e.preventDefault();
-        alvo.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        var r = alvo.getBoundingClientRect();
+        var top = window.scrollY + r.top - (window.innerHeight - r.height) / 2;
+        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
         if (history.replaceState) history.replaceState(null, '', '#o-que-e');
         else location.hash = 'o-que-e';
       });
