@@ -131,36 +131,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 
 /* O que é: duas colunas, texto + carrossel das telas de evento */
 .s-oque { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-12); align-items: start; }
-.s-oque__steps {
-  grid-template-columns: 1fr;
-  gap: var(--space-2);
-  margin-top: var(--space-8);
-  max-width: 440px;
-}
-.s-oque__steps li {
-  padding: var(--space-3) var(--space-4);
-  flex-direction: row;
-  align-items: center;
-  gap: var(--space-3);
-}
-.s-oque__steps .s-steps__n {
-  font-size: 22px;
-  margin-bottom: 0;
-  flex: none;
-}
-.s-oque__steps .t-h3 {
-  font-size: 15px;
-  line-height: 1.35;
-  margin: 0;
-  font-weight: 600;
-}
-.s-oque__sems {
-  justify-content: flex-start;
-  margin: var(--space-5) 0 0 !important;
-  max-width: 440px;
-}
-.s-oque__sems li { font-size: 13px; padding: var(--space-1) var(--space-3); }
-.s-oque__sems .ev-icon { font-size: 16px; }
 .s-oque .t-statement--sm { margin-top: var(--space-8) !important; }
 .s-carousel { position: sticky; top: calc(64px + var(--space-6)); display: flex; flex-direction: column; gap: var(--space-4); }
 .s-carousel__track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: var(--radius-lg); border: 1px solid var(--line); background: var(--surface-container); box-shadow: var(--shadow-modal); }
@@ -195,6 +165,38 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 .s-sems { display: flex; width: 100%; justify-content: center; align-items: center; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-8) 0 var(--space-6) !important; }
 .s-sems li { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 15px; font-weight: 500; padding: var(--space-2) var(--space-4); border-radius: var(--radius-full); background: var(--success-bg); color: var(--success-ink); }
 .s-sems .ev-icon { font-size: 18px; }
+
+/* O que é: passos compactos na coluna esquerda (depois de .s-steps/.s-sems) */
+.s-oque .s-oque__steps {
+  grid-template-columns: 1fr;
+  gap: var(--space-2);
+  margin-top: var(--space-8);
+  max-width: 440px;
+}
+.s-oque .s-oque__steps li {
+  padding: var(--space-3) var(--space-4);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-3);
+}
+.s-oque .s-oque__steps .s-steps__n {
+  font-size: 22px;
+  margin-bottom: 0;
+  flex: none;
+}
+.s-oque .s-oque__steps .t-h3 {
+  font-size: 15px;
+  line-height: 1.35;
+  margin: 0;
+  font-weight: 600;
+}
+.s-oque .s-oque__sems {
+  justify-content: flex-start;
+  margin: var(--space-5) 0 0 !important;
+  max-width: 440px;
+}
+.s-oque .s-oque__sems li { font-size: 13px; padding: var(--space-1) var(--space-3); }
+.s-oque .s-oque__sems .ev-icon { font-size: 16px; }
 .t-statement.s-como__fecho {
   display: block;
   box-sizing: border-box;
