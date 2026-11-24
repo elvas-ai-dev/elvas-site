@@ -10,7 +10,7 @@ Baseado em: análise de concorrência (Veesion, Sesami/Gatecash, CISS) + benchma
 *(Layout: título H1 em faixa full-width acima das duas colunas; coluna esquerda = eyebrow + claim + CTAs; coluna direita = painel.)*
 
 O varejo perde R$ 59 milhões por dia em furtos e perdas sem explicação.
-**A ELVAS identifica essas perdas.**
+**O ELVAS identifica essas perdas.**
 
 *Faturamento do varejo alimentar de R$ 1,14 trilhão em 2025 (Ranking ABRAS 2026) × índice de perdas de 1,89% (25ª Pesquisa de Eficiência Operacional da ABRAS, divulgada em 2025).*
 
@@ -46,7 +46,7 @@ A nota registra 100 caixas. Apenas 94 chegaram. E as outras 6? Seu conferente de
 
 ### Para quem é o ELVAS
 
-A ELVAS foi criada por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.
+O ELVAS foi criado por quem já viveu esses problemas e para quem ainda os enfrenta todos os dias.
 
 Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
@@ -60,7 +60,7 @@ Se este é exatamente o seu caso, o ELVAS foi feito para você.
 
 ---
 
-## SEÇÃO 4 — O QUE É A ELVAS
+## SEÇÃO 4 — O QUE É O ELVAS
 
 O ELVAS cruza o que suas câmeras viram com o que seu sistema registrou.
 
@@ -80,7 +80,7 @@ Agora você sabe onde estão as perdas, como aconteceram e tem as evidências pa
 
 **Sem evidência** — Perda que você não consegue provar, não consegue recuperar.
 
-**Com a ELVAS** — Perda documentada — você decide o que fazer com ela.
+**Com o ELVAS** — Perda documentada — você decide o que fazer com ela.
 
 ---
 
@@ -138,7 +138,7 @@ Não espere pelo relatório de segunda-feira. Identifique problemas sem depender
 
 ---
 
-## SEÇÃO 10 — QUANTO CUSTA NÃO TER A ELVAS?
+## SEÇÃO 10 — QUANTO CUSTA NÃO TER O ELVAS?
 
 Todo mês que passa sem identificar suas perdas tem um preço.
 
@@ -158,15 +158,15 @@ E na sua loja, quanto as perdas podem estar custando?
 
 **Painel CTA (coluna direita):** Descubra o que o ELVAS pode revelar na sua operação. · `[ Agende demonstração ]` · Identifique perdas. Tenha evidências para agir.
 
-*¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pela ELVAS.*
+*¹ Fonte: ABRAS — 25ª Pesquisa de Eficiência Operacional (divulgada em 2025), índice de perdas de 1,89% sobre o faturamento. Simulação ilustrativa. A redução de 25% é uma hipótese, não um resultado comprovado ou garantido pelo ELVAS.*
 
 ---
 
 ## SEÇÃO 11 — QUEM SOMOS
 
-### Construída dentro do varejo. Não em laboratório.
+### Construído dentro do varejo. Não em laboratório.
 
-A ELVAS nasceu da experiência de quem conhece a frustração de saber que existem perdas na operação, mas não ter ferramentas capazes de identificar onde e como acontecem.
+O ELVAS nasceu da experiência de quem conhece a frustração de saber que existem perdas na operação, mas não ter ferramentas capazes de identificar onde e como acontecem.
 
 Não somos mais uma empresa de tecnologia que descobriu o varejo.
 
@@ -178,9 +178,9 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 Quatro passos simples. Sem obras na loja.
 
-**1. Reunião inicial** — Uma breve conversa para conhecer sua operação e alinhar o início do acompanhamento pela ELVAS.
+**1. Reunião inicial** — Uma breve conversa para conhecer sua operação e alinhar o início do acompanhamento pelo ELVAS.
 
-**2. Integração** — Conectamos seu ERP e suas câmeras à ELVAS. Sem investimento inicial em equipamentos.
+**2. Integração** — Conectamos seu ERP e suas câmeras ao ELVAS. Sem investimento inicial em equipamentos.
 
 **3. Calibração** — Ajustamos a solução à sua operação. Começamos pelo PDV e evoluímos módulo a módulo.
 
