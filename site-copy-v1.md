@@ -198,7 +198,7 @@ Quatro passos simples. Sem obras na loja.
 
 **3. Calibração** — Ajustamos a solução à sua operação. Começamos pelo PDV e evoluímos módulo a módulo.
 
-**4. Monitoramento ativo** — Em até uma semana, seus indicadores e alertas começam a funcionar.
+**4. Monitoramento ativo** — Em poucos dias ou seus indicadores e alertas começam a funcionar.
 
 **Da primeira conversa aos primeiros alertas: dias, não meses.**
 
