@@ -451,6 +451,19 @@
       out.hidden = false;
     });
 
+    // Hero CTA «Ver como funciona»: mantém href="#o-que-e", mas centra a seção na viewport.
+    (function () {
+      var link = document.querySelector('.s-hero__ctas a[href="#o-que-e"]');
+      var alvo = document.getElementById('o-que-e');
+      if (!link || !alvo) return;
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        alvo.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        if (history.replaceState) history.replaceState(null, '', '#o-que-e');
+        else location.hash = 'o-que-e';
+      });
+    })();
+
     // Seta curva sobre os cards da dor (só no computador): sai do card 1, passa sob o texto do card 2
     // e termina, fina, abaixo do card 3. Recalcula pela posição real dos textos.
     (function () {
