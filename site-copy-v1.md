@@ -206,7 +206,7 @@ Quatro passos simples. Sem obras na loja.
 
 ## SEÇÃO 14 — CTA FINAL
 
-### As perdas sem explicação são um grande incômodo.
+### Você não consegue controlar uma perda cuja origem desconhece.
 
 `[ QUERO REDUZIR MINHAS PERDAS AGORA! ]`
 
