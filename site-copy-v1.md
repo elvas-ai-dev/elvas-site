@@ -213,7 +213,7 @@ Somos empresários que conhecem o varejo e a indústria alimentar, unidos à exp
 
 | Fundador | Histórico |
 |----------|----------|
-| **Felipe Vieira** | Ex-CEO da Networkme. Partner da WE Heart Impact. |
+| **Felipe Vieira** | Empresário e empreendedor de Tecnologia B2B |
 | **Jadson Vieira** | Ex-diretor da Associação dos Lojistas do Recife e da Aloshop. |
 | **Bruno Vieira** | Empresário do varejo e da indústria alimentar. |
 
