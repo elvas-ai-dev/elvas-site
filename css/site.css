@@ -610,6 +610,9 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-pains > .s-pain:nth-child(3) .s-pain__prejuizo { display: none; }
   /* Fragmento «mais controle, »: só desktop */
   .s-money__controle { display: none; }
+  /* «As informações chegam até você» e « e receba informações para agir.»: só desktop */
+  #painel .s-painel__eyebrow,
+  #painel .s-painel__agir { display: none; }
   .s-oque .s-oque__sems li {
     flex: 1 1 0;
     min-width: 0;
