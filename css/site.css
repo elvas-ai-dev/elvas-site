@@ -508,7 +508,7 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-final__ctas { margin-top: var(--space-3); gap: var(--space-2); }
   .s-final__ctas, .s-final__ctas .ev-btn { width: 100%; }
 
-  .s-pain, .s-versus__item, .s-money__col, .s-calc { padding: var(--space-4); }
+  .s-pain, .s-versus__item, .s-money__col { padding: var(--space-4); }
   .s-pain { gap: var(--space-2); }
   .s-pain__icon { font-size: 22px; }
   .s-pain__list { gap: var(--space-1); }
@@ -545,14 +545,41 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-money__col { gap: var(--space-3); }
   .s-money__big { font-size: clamp(24px, 7vw, 34px); }
   .s-money__big--sm { font-size: clamp(18px, 5vw, 24px); }
-  .s-calc { grid-template-columns: 1fr; gap: var(--space-4); margin-top: var(--space-6) !important; }
-  .s-calc__main { gap: var(--space-4); }
+  /* Calculadora: dois containers 100% empilhados (calc | CTA) — só mobile */
+  .s-calc {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6) !important;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .s-calc__main {
+    gap: var(--space-4);
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    background: var(--bg);
+    border: 1px solid color-mix(in srgb, var(--border-control) 70%, var(--line));
+    box-shadow: var(--shadow-xs);
+  }
   .s-calc__row { grid-template-columns: 1fr; }
   .s-calc .ev-input { font-size: 16px; }
   .s-calc__out { grid-template-columns: 1fr; gap: var(--space-2); }
   .s-calc__out div { padding: var(--space-3); }
   .s-calc__out dd { font-size: 20px; line-height: 26px; }
-  .s-calc__cta { padding: var(--space-4); gap: var(--space-3); }
+  .s-calc__cta {
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--space-4);
+    gap: var(--space-3);
+    border-radius: var(--radius-lg);
+    border-color: color-mix(in srgb, var(--border-control) 70%, var(--line));
+    box-shadow: var(--shadow-xs);
+  }
   .s-calc__cta-text { font-size: 15px; line-height: 22px; }
   .s-cross { margin: var(--space-6) auto var(--space-4) !important; }
   .s-cross__node { width: 48px; height: 48px; }
@@ -612,7 +639,6 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
   .s-checks li:not(.s-checks__last),
   .s-feats li,
   .s-money__col,
-  .s-calc,
   .s-hero__stats,
   .s-proofs li {
     border-color: color-mix(in srgb, var(--border-control) 70%, var(--line));
