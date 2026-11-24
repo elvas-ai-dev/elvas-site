@@ -72,7 +72,7 @@ O ELVAS cruza o que suas câmeras viram com o que seu sistema registrou.
 
 Sem trocar suas câmeras. Sem instalar novos servidores. Sem complicar sua operação.
 
-É a inteligência que conecta os sistemas que você já tem e revela o que antes passava despercebido.
+Agora você sabe onde estão as perdas, como aconteceram e tem as evidências para agir.
 
 ---
 
