@@ -826,19 +826,39 @@ main section > .wrap + .wrap { margin-top: var(--space-12); }
 html, body { background: var(--bg); }
 .s-fundo { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none;
   background: radial-gradient(ellipse 120% 90% at 50% 0%, var(--surface) 0%, var(--bg) 62%); }
-.s-fundo__mancha { position: absolute; border-radius: 50%; filter: blur(90px); mix-blend-mode: screen; will-change: transform; }
-.s-fundo__mancha--1 { width: 52vmax; height: 52vmax; top: -18vmax; right: -14vmax; opacity: .7;
+.s-fundo__mancha { position: absolute; left: 0; border-radius: 50%; filter: blur(90px); mix-blend-mode: screen; will-change: transform; }
+/* Onda lenta da esquerda para a direita (sentido da leitura): cada mancha nasce fora da tela à esquerda,
+   atravessa subindo e descendo e sai pela direita; recomeça fora de vista. Ciclos e alturas diferentes. */
+.s-fundo__mancha--1 { width: 50vmax; height: 50vmax; top: -14vmax; opacity: .7;
   background: radial-gradient(circle, color-mix(in srgb, var(--brand) 42%, transparent) 0%, transparent 68%);
-  animation: s-fundo-a 31s ease-in-out infinite alternate; }
-.s-fundo__mancha--2 { width: 48vmax; height: 48vmax; bottom: -20vmax; left: -16vmax; opacity: .8;
+  animation: s-fundo-onda-1 34s ease-in-out infinite; animation-delay: -6s; }
+.s-fundo__mancha--2 { width: 48vmax; height: 48vmax; top: 34vh; opacity: .8;
   background: radial-gradient(circle, var(--selected) 0%, transparent 70%);
-  animation: s-fundo-b 38s ease-in-out infinite alternate; }
-.s-fundo__mancha--3 { width: 42vmax; height: 42vmax; top: 38%; left: 34%; opacity: .6;
-  background: radial-gradient(circle, color-mix(in srgb, var(--brand-text) 26%, transparent) 0%, transparent 66%);
-  animation: s-fundo-c 26s ease-in-out infinite alternate; }
-@keyframes s-fundo-a { 0% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-12vmax, 10vmax) scale(1.12); } 100% { transform: translate(-4vmax, 22vmax) scale(.94); } }
-@keyframes s-fundo-b { 0% { transform: translate(0, 0) scale(1); } 50% { transform: translate(14vmax, -8vmax) scale(1.08); } 100% { transform: translate(22vmax, -18vmax) scale(1.15); } }
-@keyframes s-fundo-c { 0% { transform: translate(0, 0) scale(.9); } 50% { transform: translate(-16vmax, -10vmax) scale(1.1); } 100% { transform: translate(10vmax, 8vmax) scale(1); } }
+  animation: s-fundo-onda-2 40s ease-in-out infinite; animation-delay: -27s; }
+.s-fundo__mancha--3 { width: 44vmax; height: 44vmax; top: 12vh; opacity: .6;
+  background: radial-gradient(circle, color-mix(in srgb, var(--brand-text) 30%, transparent) 0%, transparent 66%);
+  animation: s-fundo-onda-3 28s ease-in-out infinite; animation-delay: -16s; }
+@keyframes s-fundo-onda-1 {
+  0%   { transform: translate(-55vmax, 0) scale(.95); }
+  25%  { transform: translate(calc(25vw - 25vmax), 10vh) scale(1.05); }
+  50%  { transform: translate(calc(50vw - 25vmax), 0) scale(1.1); }
+  75%  { transform: translate(calc(75vw - 25vmax), 10vh) scale(1); }
+  100% { transform: translate(calc(100vw + 5vmax), 0) scale(.95); }
+}
+@keyframes s-fundo-onda-2 {
+  0%   { transform: translate(-55vmax, 6vh) scale(1); }
+  25%  { transform: translate(calc(25vw - 24vmax), -8vh) scale(1.08); }
+  50%  { transform: translate(calc(50vw - 24vmax), 8vh) scale(.96); }
+  75%  { transform: translate(calc(75vw - 24vmax), -8vh) scale(1.06); }
+  100% { transform: translate(calc(100vw + 5vmax), 6vh) scale(1); }
+}
+@keyframes s-fundo-onda-3 {
+  0%   { transform: translate(-50vmax, 18vh) scale(.9); }
+  25%  { transform: translate(calc(25vw - 22vmax), 4vh) scale(1.05); }
+  50%  { transform: translate(calc(50vw - 22vmax), 22vh) scale(1.1); }
+  75%  { transform: translate(calc(75vw - 22vmax), 6vh) scale(1); }
+  100% { transform: translate(calc(100vw + 5vmax), 18vh) scale(.9); }
+}
 .s-fundo__grao { position: absolute; inset: -50%; opacity: .12; mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
   animation: s-fundo-grao 1.2s steps(6) infinite; }
@@ -849,3 +869,5 @@ html, body { background: var(--bg); }
 @media (prefers-reduced-motion: reduce) {
   .s-fundo__mancha, .s-fundo__grao { animation: none; }
 }
+
+.s-hero::before { opacity: .45; }
